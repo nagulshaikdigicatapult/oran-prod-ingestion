@@ -1,0 +1,202 @@
+{
+  "generated_at": "2026-02-27T11:13:39.244203Z",
+  "source_manifest": "manifests/processed/normalized_manifest.json",
+  "count": 10,
+  "items": [
+    {
+      "id": "1025",
+      "download_url": "https://specifications.o-ran.org/download?id=1025",
+      "title_hint": "O-RAN Study on Impact of Decoupled SMO on Non-RT RIC Architecture and Interfaces 2.0 O-RAN.WG2.TR.DECSMO-Impact-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1025",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "258907",
+        "content_disposition": "attachment; filename=O-RAN.WG2.TR.DECSMO-Impact-R005-v02.00.pdf; filename*=UTF-8''O-RAN.WG2.TR.DECSMO-Impact-R005-v02.00.pdf",
+        "pdf_magic": true
+      },
+      "file": {
+        "path": "downloads/o-ran_1025.pdf",
+        "bytes": 258907,
+        "sha256": "12eae0143aca7fe7a08788a35efc695a0094215b065f62c01895cd66c4915785",
+        "pages": 11
+      }
+    },
+    {
+      "id": "929",
+      "download_url": "https://specifications.o-ran.org/download?id=929",
+      "title_hint": "O-RAN Resiliency 1.0 O-RAN.WG1.TR.O-RES.0-R004-v01.00 October 2025 Technical Report R004 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=929",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "1914707",
+        "content_disposition": "attachment; filename=O-RAN.WG1.TR.O-RES.0-R004-v01.00.pdf; filename*=UTF-8''O-RAN.WG1.TR.O-RES.0-R004-v01.00.pdf",
+        "pdf_magic": true
+      },
+      "file": {
+        "path": "downloads/o-ran_929.pdf",
+        "bytes": 1914707,
+        "sha256": "e8c96f1f85d11c62a845755cd27370e7bc88f4f1c265e6d7e0218da571182a56",
+        "pages": 67
+      }
+    },
+    {
+      "id": "592",
+      "download_url": "https://specifications.o-ran.org/download?id=592",
+      "title_hint": "O-RAN O1 Interface specification for O-DU 9.0 O-RAN.WG5.O-DU-O1.0-R003-v09.00 February 2024 Technical Specification R003 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=592",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "3031709",
+        "content_disposition": "attachment; filename=O-RAN.WG5.O-DU-O1.0-R003-v09.00.pdf; filename*=UTF-8''O-RAN.WG5.O-DU-O1.0-R003-v09.00.pdf",
+        "pdf_magic": true
+      },
+      "file": {
+        "path": "downloads/o-ran_592.pdf",
+        "bytes": 3031709,
+        "sha256": "ab8fffc95cc878329133f5eea4a00520fe7b643327f33add5aae4fba62bd49ed",
+        "pages": 164
+      }
+    },
+    {
+      "id": "367",
+      "download_url": "https://specifications.o-ran.org/download?id=367",
+      "title_hint": "O-RAN Cooperative Transport Interface Transport Management Procedures Specification - YANG Models 3.0 O-RAN.WG4.CTI-TMP-YANG-v03.00 October 2022 DOWNLOAD",
+      "enabled": true,
+      "status": "http_not_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=367",
+        "status_code": 200,
+        "content_type": "application/x-zip-compressed",
+        "content_length": "16545",
+        "content_disposition": "attachment; filename=O-RAN.WG4.CTI-TMP-YANG-v03.00.zip; filename*=UTF-8''O-RAN.WG4.CTI-TMP-YANG-v03.00.zip",
+        "pdf_magic": false
+      },
+      "file": {}
+    },
+    {
+      "id": "1035",
+      "download_url": "https://specifications.o-ran.org/download?id=1035",
+      "title_hint": "O-RAN Management Plane Specification 20.0 O-RAN.WG4.TS.MP-YANGs-R005-v20.00 February 2026 YANG Models R005 DOWNLOAD",
+      "enabled": true,
+      "status": "http_not_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1035",
+        "status_code": 200,
+        "content_type": "application/x-zip-compressed",
+        "content_length": "246328",
+        "content_disposition": "attachment; filename=O-RAN.WG4.TS.MP-YANGs-R005-v20.00.zip; filename*=UTF-8''O-RAN.WG4.TS.MP-YANGs-R005-v20.00.zip",
+        "pdf_magic": false
+      },
+      "file": {}
+    },
+    {
+      "id": "158",
+      "download_url": "https://specifications.o-ran.org/download?id=158",
+      "title_hint": "O-RAN AI/ML workflow description and requirements 1.03 O-RAN.WG2.AIML-v01.03 October 2021 Technical Report DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=158",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "3692403",
+        "content_disposition": "attachment; filename=O-RAN.WG2.AIML-v01.03.pdf; filename*=UTF-8''O-RAN.WG2.AIML-v01.03.pdf",
+        "pdf_magic": true
+      },
+      "file": {
+        "path": "downloads/o-ran_158.pdf",
+        "bytes": 3692403,
+        "sha256": "afd260f0360d91e64516f637c17bdd25f24ec5594fe67429a48b5ffd69e4611c",
+        "pages": 59
+      }
+    },
+    {
+      "id": "1023",
+      "download_url": "https://specifications.o-ran.org/download?id=1023",
+      "title_hint": "O-RAN A1 interface: Test Specification 5.0 O-RAN.WG2.TS.A1TS-R005-v05.00 February 2026 Technical Specification R005 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1023",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "750249",
+        "content_disposition": "attachment; filename=O-RAN.WG2.TS.A1TS-R005-v05.00.pdf; filename*=UTF-8''O-RAN.WG2.TS.A1TS-R005-v05.00.pdf",
+        "pdf_magic": true
+      },
+      "file": {
+        "path": "downloads/o-ran_1023.pdf",
+        "bytes": 750249,
+        "sha256": "5229d718929c0095ba179aeb8066041b517b295bf100f5de2db8f60cc226eabf",
+        "pages": 82
+      }
+    },
+    {
+      "id": "31",
+      "download_url": "https://specifications.o-ran.org/download?id=31",
+      "title_hint": "O-RAN End-to-End System Testing Framework Specification 1.0 O-RAN.TIFG.E2ETSTFWK.0-v01.00 October 2020 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=31",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "2058285",
+        "content_disposition": "attachment; filename=O-RAN.TIFG.E2ETSTFWK.0-v01.00.pdf; filename*=UTF-8''O-RAN.TIFG.E2ETSTFWK.0-v01.00.pdf",
+        "pdf_magic": true
+      },
+      "file": {
+        "path": "downloads/o-ran_31.pdf",
+        "bytes": 2058285,
+        "sha256": "bffc70106a976b4a09d432772a122b18362f2a03cf0c50ef8f4cae5acfae7bbf",
+        "pages": 69
+      }
+    },
+    {
+      "id": "1019",
+      "download_url": "https://specifications.o-ran.org/download?id=1019",
+      "title_hint": "O-RAN R1 interface: Test Specification 5.0 O-RAN.WG2.TS.R1TS-R005-v05.00 February 2026 Technical Specification R005 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1019",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "1059817",
+        "content_disposition": "attachment; filename=O-RAN.WG2.TS.R1TS-R005-v05.00.pdf; filename*=UTF-8''O-RAN.WG2.TS.R1TS-R005-v05.00.pdf",
+        "pdf_magic": true
+      },
+      "file": {
+        "path": "downloads/o-ran_1019.pdf",
+        "bytes": 1059817,
+        "sha256": "53264b2ca1f3ee270eb345178f91fe3f98338ed9d37204fb5dcd97e7371312e1",
+        "pages": 120
+      }
+    },
+    {
+      "id": "1002",
+      "download_url": "https://specifications.o-ran.org/download?id=1002",
+      "title_hint": "O-RAN OAuth 2.0 Security 6.0 O-RAN.WG11.TR.OAuth2.0-Security.0-R004-v06.00 October 2025 Technical Report R004 DOWNLOAD",
+      "enabled": true,
+      "status": "http_not_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1002",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "631824",
+        "content_disposition": "attachment; filename=O-RAN.WG11.TR.OAuth2.0-Security.0-R004-v06.00.docx; filename*=UTF-8''O-RAN.WG11.TR.OAuth2.0-Security.0-R004-v06.00.docx",
+        "pdf_magic": false
+      },
+      "file": {}
+    }
+  ]
+}
