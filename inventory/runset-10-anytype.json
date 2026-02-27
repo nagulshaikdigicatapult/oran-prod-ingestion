@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-02-27T11:13:39.244203Z",
+  "source_manifest": "manifests/processed/normalized_manifest.json",
+  "count": 10,
+  "items": [
+    {
+      "id": "757",
+      "download_url": "https://specifications.o-ran.org/download?id=757",
+      "title_hint": "O-RAN Indoor Picocell Hardware Architecture and Requirement (FR1 Only) Specification 3.0 O-RAN.WG7.IPC-HAR.0-v03.00 October 2024 Technical Specification R004 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=757",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "2012433",
+        "inferred_type": "application/pdf"
+      },
+      "file": {
+        "path": "downloads/o-ran_757.pdf",
+        "bytes": 2012433,
+        "sha256": "841ea58c835dc1a20e3fda2598987a149d535f2a6fa3b094902a25d763370248",
+        "type": "application/pdf",
+        "pages": 50
+      }
+    },
+    {
+      "id": "231",
+      "download_url": "https://specifications.o-ran.org/download?id=231",
+      "title_hint": "O-RAN O2 General Aspects and Principles 1.02 O-RAN.WG6.O2-GAnP-v01.02 March 2022 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=231",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "2961036",
+        "inferred_type": "application/pdf"
+      },
+      "file": {
+        "path": "downloads/o-ran_231.pdf",
+        "bytes": 2961036,
+        "sha256": "713f3370a2b05ec2b0ac7c665672095ef594596888e7c186b402fb0b0e4f480c",
+        "type": "application/pdf",
+        "pages": 42
+      }
+    },
+    {
+      "id": "737",
+      "download_url": "https://specifications.o-ran.org/download?id=737",
+      "title_hint": "O-RAN Conflict Mitigation 1.0 O-RAN.WG3.TR.ConMit-R004-v01.00 October 2024 Technical Report R004 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_ok",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=737",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "1207834",
+        "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "file": {
+        "error": "[Errno 2] No such file or directory: 'unzip'",
+        "path": "downloads/o-ran_737.docx",
+        "bytes": 1207834,
+        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "unzip_test_rc": 0,
+        "unzip_test_ok": true,
+        "file_magic": "Microsoft Word 2007+"
+      }
+    },
+    {
+      "id": "1004",
+      "download_url": "https://specifications.o-ran.org/download?id=1004",
+      "title_hint": "O-RAN Study on Security for Service Management and Orchestration (SMO) 7.0 O-RAN.WG11.TR.SMO-Security-Analysis.0-R004-v07.00 October 2025 Technical Report R004 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_ok",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1004",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "671760",
+        "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "file": {
+        "error": "[Errno 2] No such file or directory: 'unzip'",
+        "path": "downloads/o-ran_1004.docx",
+        "bytes": 671760,
+        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "unzip_test_rc": 0,
+        "unzip_test_ok": true,
+        "file_magic": "Microsoft Word 2007+"
+      }
+    },
+    {
+      "id": "949",
+      "download_url": "https://specifications.o-ran.org/download?id=949",
+      "title_hint": "O-RAN E2 Service Model (E2SM) KPM 7.0 O-RAN.WG3.TS.E2SM-KPM-R004-v07.00 October 2025 Technical Specification R004 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_ok",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=949",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "239900",
+        "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "file": {
+        "error": "[Errno 2] No such file or directory: 'unzip'",
+        "path": "downloads/o-ran_949.docx",
+        "bytes": 239900,
+        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "unzip_test_rc": 0,
+        "unzip_test_ok": true,
+        "file_magic": "Microsoft Word 2007+"
+      }
+    },
+    {
+      "id": "1036",
+      "download_url": "https://specifications.o-ran.org/download?id=1036",
+      "title_hint": "O-RAN Fronthaul Interoperability Test Specification (IOT) 15.0 O-RAN.WG4.TS.IOT.0-R005-v15.00 February 2026 Technical Specification R005 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_ok",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1036",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "1154501",
+        "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "file": {
+        "error": "[Errno 2] No such file or directory: 'unzip'",
+        "path": "downloads/o-ran_1036.docx",
+        "bytes": 1154501,
+        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "unzip_test_rc": 0,
+        "unzip_test_ok": true,
+        "file_magic": "Microsoft Word 2007+"
+      }
+    },
+    {
+      "id": "1038",
+      "download_url": "https://specifications.o-ran.org/download?id=1038",
+      "title_hint": "O-RAN NR C-plane profile 17.0 O-RAN.WG5.TS.C.1-R005-v17.00 February 2026 Technical Specification R005 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_ok",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1038",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "71764315",
+        "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "file": {
+        "error": "[Errno 2] No such file or directory: 'unzip'",
+        "path": "downloads/o-ran_1038.docx",
+        "bytes": 71764315,
+        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "unzip_test_rc": 0,
+        "unzip_test_ok": true,
+        "file_magic": "Microsoft Word 2007+"
+      }
+    },
+    {
+      "id": "878",
+      "download_url": "https://specifications.o-ran.org/download?id=878",
+      "title_hint": "O-RAN Non-RT RIC: Architecture 7.0 O-RAN.WG2.TS.Non-RT-RIC-ARCH-R004-v07.00 June 2025 Technical Specification R004 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_ok",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=878",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "3412629",
+        "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "file": {
+        "error": "[Errno 2] No such file or directory: 'unzip'",
+        "path": "downloads/o-ran_878.docx",
+        "bytes": 3412629,
+        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "unzip_test_rc": 0,
+        "unzip_test_ok": true,
+        "file_magic": "Microsoft Word 2007+"
+      }
+    },
+    {
+      "id": "1019",
+      "download_url": "https://specifications.o-ran.org/download?id=1019",
+      "title_hint": "O-RAN R1 interface: Test Specification 5.0 O-RAN.WG2.TS.R1TS-R005-v05.00 February 2026 Technical Specification R005 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_pdf",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1019",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "content_length": "1059817",
+        "inferred_type": "application/pdf"
+      },
+      "file": {
+        "path": "downloads/o-ran_1019.pdf",
+        "bytes": 1059817,
+        "sha256": "53264b2ca1f3ee270eb345178f91fe3f98338ed9d37204fb5dcd97e7371312e1",
+        "type": "application/pdf",
+        "pages": 120
+      }
+    },
+    {
+      "id": "1039",
+      "download_url": "https://specifications.o-ran.org/download?id=1039",
+      "title_hint": "O-RAN Interoperability Test Specification (IOT) 15.0 O-RAN.WG5.TS.IOT.0-R005-v15.00 February 2026 Technical Specification R005 DOWNLOAD",
+      "enabled": true,
+      "status": "downloaded_ok",
+      "http": {
+        "final_url": "https://specifications.o-ran.org/download?id=1039",
+        "status_code": 200,
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "content_length": "1096885",
+        "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      },
+      "file": {
+        "error": "[Errno 2] No such file or directory: 'unzip'",
+        "path": "downloads/o-ran_1039.docx",
+        "bytes": 1096885,
+        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "unzip_test_rc": 0,
+        "unzip_test_ok": true,
+        "file_magic": "Microsoft Word 2007+"
+      }
+    }
+  ]
+}
