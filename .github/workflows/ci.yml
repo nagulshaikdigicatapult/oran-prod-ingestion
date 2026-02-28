@@ -53,7 +53,7 @@ jobs:
 
       - name: Security static analysis (bandit)
         run: |
-          bandit -q -r scripts
+          bandit -q -r scripts -ll
 
       - name: Dependency vulnerability scan (pip-audit)
         run: |
