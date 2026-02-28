@@ -10,7 +10,6 @@ This avoids breaking idempotency and avoids title-based rename churn.
 """
 
 import json
-import os
 import re
 from pathlib import Path
 
@@ -41,12 +40,12 @@ def sanitize_title(s: str) -> str:
 
     # Remove obvious portal noise words (case-insensitive, whole words)
     noise_words = [
-    "download",          # portal button text
-    "technical report",  # sometimes redundant
-    "recommendation",    # sometimes redundant
-    "working group",
-    "work group",
-]
+        "download",  # portal button text
+        "technical report",  # sometimes redundant
+        "recommendation",  # sometimes redundant
+        "working group",
+        "work group",
+    ]
     for w in noise_words:
         s = re.sub(rf"\b{re.escape(w)}\b", "", s, flags=re.IGNORECASE).strip()
         s = re.sub(r"\s+", " ", s).strip()
@@ -55,7 +54,9 @@ def sanitize_title(s: str) -> str:
     # Examples:
     #   O-RAN.WG1.TR.Use-Cases-Analysis-Report-R005-v19.00
     #   O-RAN-WG6.AppLCM-Deployment-R003-v02.00
-    s = re.sub(r"\bO-RAN[.\-][A-Za-z0-9.\-_/]+?R\d{3}[-_]v\d{1,3}\.\d{1,3}\b", "", s, flags=re.IGNORECASE).strip()
+    s = re.sub(
+        r"\bO-RAN[.\-][A-Za-z0-9.\-_/]+?R\d{3}[-_]v\d{1,3}\.\d{1,3}\b", "", s, flags=re.IGNORECASE
+    ).strip()
     s = re.sub(r"\bO-RAN[.\-]WG\d{1,2}[.\-][A-Za-z0-9.\-_/]+\b", "", s, flags=re.IGNORECASE).strip()
     s = re.sub(r"\bR\d{3}[-_]?v\d{1,3}\.\d{1,3}\b", "", s, flags=re.IGNORECASE).strip()
 
