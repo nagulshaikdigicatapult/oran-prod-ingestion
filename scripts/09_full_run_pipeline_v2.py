@@ -3,10 +3,9 @@ import json
 import os
 import re
 import time
-import zipfile
 from collections import defaultdict
 from pathlib import Path
-from typing import Tuple, Dict, Any, Optional
+from typing import Any, Dict, Optional, Tuple
 
 import requests
 from requests.exceptions import RequestException

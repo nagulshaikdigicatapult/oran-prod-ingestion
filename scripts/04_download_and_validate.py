@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-import json
 import hashlib
+import json
 import subprocess
 from pathlib import Path
+
 import requests
 
 INV_PATH = Path("inventory/download_inventory.json")

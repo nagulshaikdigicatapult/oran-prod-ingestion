@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import unquote
+
 import requests
 
 DL_DIR = Path("downloads")

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 import json
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
+
 import requests
 
 SRC = Path("inventory/download_inventory.full.json")
