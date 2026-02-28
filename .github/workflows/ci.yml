@@ -1,0 +1,85 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python-ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fail if downloads/ contains files (prevent committing artifacts)
+        run: |
+          if [ -d downloads ] && [ "$(find downloads -type f | wc -l)" -gt 0 ]; then
+            echo "ERROR: downloads/ contains files. Do not commit artifacts to git."
+            echo "Please remove downloads/ contents from commits (keep on server only)."
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+          # CI tooling
+          pip install ruff bandit pip-audit
+
+      - name: Python syntax check (py_compile)
+        run: |
+          python -m compileall -q scripts
+
+      - name: Lint (ruff)
+        run: |
+          ruff --version
+          ruff check .
+
+      - name: Security static analysis (bandit)
+        run: |
+          bandit -q -r scripts
+
+      - name: Dependency vulnerability scan (pip-audit)
+        run: |
+          # Audits installed packages based on environment
+          pip-audit || (echo "pip-audit reported vulnerabilities" && exit 1)
+
+      - name: Basic data sanity checks (no network)
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          # If present, validate that normalized manifest has expected fields
+          nm = Path("manifests/processed/normalized_manifest.json")
+          if nm.exists():
+              data = json.loads(nm.read_text())
+              assert isinstance(data, list) and len(data) > 0
+              required = {"id","download_url","row_text","display_title","doc_code","month_year","doc_kind","release"}
+              assert required.issubset(set(data[0].keys())), data[0].keys()
+
+          # If present, validate inventory schema basics
+          inv = Path("inventory/download_inventory.full.json")
+          if inv.exists():
+              obj = json.loads(inv.read_text())
+              assert "items" in obj and isinstance(obj["items"], list)
+              assert "count" in obj and obj["count"] == len(obj["items"])
+
+          print("Sanity checks OK")
+          PY
