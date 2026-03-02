@@ -31,8 +31,8 @@
     },
     {
       "id": "33",
-      "filename": "O-RAN.WG1.OAM-Architecture-v04.00 .pdf",
-      "relpath": "downloads/O-RAN.WG1.OAM-Architecture-v04.00 .pdf",
+      "filename": "O-RAN.WG1.OAM-Architecture-v04.00.pdf",
+      "relpath": "downloads/O-RAN.WG1.OAM-Architecture-v04.00.pdf",
       "display_title": "O-RAN Operations and Maintenance Architecture 4.0",
       "doc_code": "O-RAN.WG1.OAM-Architecture-v04.00",
       "doc_kind": null,
@@ -475,8 +475,8 @@
     },
     {
       "id": "737",
-      "filename": "O-RAN.WG3.TR.ConMit-R004-v01.00 .docx",
-      "relpath": "downloads/O-RAN.WG3.TR.ConMit-R004-v01.00 .docx",
+      "filename": "O-RAN.WG3.TR.ConMit-R004-v01.00.docx",
+      "relpath": "downloads/O-RAN.WG3.TR.ConMit-R004-v01.00.docx",
       "display_title": "O-RAN Conflict Mitigation 1.0",
       "doc_code": "O-RAN.WG3.TR.ConMit-R004-v01.00",
       "doc_kind": "Technical Report",
@@ -1411,8 +1411,8 @@
     },
     {
       "id": "1007",
-      "filename": "O-RAN.TIFG.TS.Cert-Badge.6-R004-v12.00.ZIP",
-      "relpath": "downloads/O-RAN.TIFG.TS.Cert-Badge.6-R004-v12.00.ZIP",
+      "filename": "O-RAN.TIFG.TS.Cert-Badge.6-R004-v12.00.zip",
+      "relpath": "downloads/O-RAN.TIFG.TS.Cert-Badge.6-R004-v12.00.zip",
       "display_title": "O-RAN Certification and Badging Processes and Procedures 12.0",
       "doc_code": "O-RAN.TIFG.TS.Cert-Badge.6-R004-v12.00",
       "doc_kind": null,
