@@ -1,11 +1,10 @@
-```markdown
 # O-RAN Production Ingestion Pipeline – Operational Runbook
 
 This document describes how to operate, validate, and troubleshoot the ingestion pipeline.
 
 ---
 
-# 1. Purpose
+## 1. Purpose
 
 This runbook explains:
 
@@ -17,7 +16,7 @@ This runbook explains:
 
 ---
 
-# 2. Execution Flow
+## 2. Execution Flow
 
 
 Portal
@@ -39,26 +38,27 @@ Create Title View
 
 ---
 
-# 3. Environment Setup
+## 3. Environment Setup
 
-## System Dependencies
+### Install System Dependencies
 
 ```bash
+sudo apt update
 sudo apt install -y poppler-utils unzip
 
 Required for:
 
-pdfinfo
+pdfinfo (PDF validation)
 
-unzip -t
+unzip -t (ZIP/DOCX/XLSX validation)
 
-Activate Environment
+Activate Python Environment
 source .venv/bin/activate
 4. Step-by-Step Execution
 Step 1 – Normalize Manifest
 python scripts/01_normalize_manifest.py
 
-Verify:
+Verify output:
 
 jq '.[0]' manifests/processed/normalized_manifest.json
 Step 2 – Build Inventory
@@ -68,7 +68,7 @@ Verify:
 
 jq '.items | length' inventory/download_inventory.full.json
 
-Expected:
+Expected output:
 
 162
 Step 3 – Execute Download Pipeline
@@ -104,7 +104,7 @@ xargs -0 -I{} pdfinfo "{}" > /dev/null
 
 Expected: no errors
 
-Validate ZIP/DOCX/XLSX
+Validate ZIP / DOCX / XLSX Containers
 find downloads \( -name "*.docx" -o -name "*.xlsx" -o -name "*.zip" \) -print0 | \
 xargs -0 -I{} unzip -t "{}" > /dev/null
 
@@ -133,9 +133,9 @@ Verify symlink:
 readlink downloads_by_title/<file>
 8. Recovery Procedure
 
-If corruption detected:
+If corruption is detected:
 
-Delete corrupted file
+Delete corrupted file from downloads/
 
 Re-run:
 
@@ -164,7 +164,11 @@ CI passes
 10. Data Classification
 
 Source: O-RAN public portal
+
 Formats: PDF, DOCX, XLSX, ZIP
+
 Integrity: SHA256 verified
+
 Reproducible: Yes
+
 CI Guarded: Yes

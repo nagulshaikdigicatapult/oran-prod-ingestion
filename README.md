@@ -25,49 +25,43 @@ The system performs:
 
 ## Architecture
 
-
-Portal Listing
-↓
-manifests/raw/manifest.json
-↓
-01_normalize_manifest.py
-↓
-manifests/processed/normalized_manifest.json
-↓
-02_build_inventory.py
-↓
-inventory/download_inventory.full.json
-↓
-09_full_run_pipeline_v2.py
-↓
-downloads/
-↓
-ZIP extraction
-↓
-extracted_flat/ + extracted_docs/
-↓
-10_generate_catalog_from_inventory.py
-↓
-inventory/catalog.latest.json + .csv
-↓
-12_create_title_view.py
-↓
-downloads_by_title/
-
-
----
-
-## Repository Structure
-
 ```text
+Portal Listing
+  ↓
+manifests/raw/manifest.json
+  ↓
+01_normalize_manifest.py
+  ↓
+manifests/processed/normalized_manifest.json
+  ↓
+02_build_inventory.py
+  ↓
+inventory/download_inventory.full.json
+  ↓
+09_full_run_pipeline_v2.py
+  ↓
+downloads/
+  ↓
+ZIP extraction
+  ↓
+extracted_flat/ + extracted_docs/
+  ↓
+10_generate_catalog_from_inventory.py
+  ↓
+inventory/catalog.latest.json + .csv
+  ↓
+12_create_title_view.py
+  ↓
+downloads_by_title/
+Repository Structure
 manifests/
 ├── raw/                 # Browser-extracted manifest
 └── processed/           # Normalized structured metadata
 
 inventory/
-├── id_filename_map.json # Deterministic lockfile (ID → filename)
+├── id_filename_map.json       # Deterministic lockfile (ID → filename)
 ├── download_inventory.full.json (generated)
-└── catalog.latest.json/.csv (generated)
+└── catalog.latest.json/.csv   (generated)
 
 downloads/               # Canonical artifacts (source of truth)
 extracted_flat/          # Full ZIP extraction view
@@ -109,6 +103,13 @@ Fresh Setup (New VM)
 1. Install system dependencies
 sudo apt update
 sudo apt install -y python3 python3-venv python3-pip git poppler-utils unzip
+
+Required for:
+
+pdfinfo
+
+unzip -t
+
 2. Setup virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
@@ -128,13 +129,9 @@ python scripts/09_full_run_pipeline_v2.py
 Already downloaded files are skipped.
 
 Validation
-
-Check summary:
-
+Check Summary
 jq '.summary' reports/full_run_report.json
-
-Basic health checks:
-
+Basic Health Checks
 find downloads -type f | wc -l
 find downloads -type f -name "*.part"
 find extracted_flat -type f -name "*.zip"
