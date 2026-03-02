@@ -9,6 +9,7 @@ OUT = Path("manifests/processed/normalized_manifest.json")
 
 MONTHS = r"(January|February|March|April|May|June|July|August|September|October|November|December)"
 
+
 def parse_row_text(row_text: str) -> dict:
     """
     Parse portal row_text into structured metadata.
@@ -79,6 +80,7 @@ def parse_row_text(row_text: str) -> dict:
         "release": release,
     }
 
+
 def main():
     data = json.loads(RAW.read_text())
     if not isinstance(data, list):
@@ -94,19 +96,22 @@ def main():
 
         meta = parse_row_text(row_text)
 
-        out.append({
-            "id": id_,
-            "download_url": url,
-            "row_text": row_text,
-            **meta,
-            "ingested_at": ingested_at,
-        })
+        out.append(
+            {
+                "id": id_,
+                "download_url": url,
+                "row_text": row_text,
+                **meta,
+                "ingested_at": ingested_at,
+            }
+        )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, indent=2))
 
     print(f"Normalized manifest written to {OUT}")
     print(f"Total entries: {len(out)}")
+
 
 if __name__ == "__main__":
     main()

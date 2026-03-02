@@ -6,6 +6,7 @@ from pathlib import Path
 IN_MANIFEST = Path("manifests/processed/normalized_manifest.json")
 OUT_FULL = Path("inventory/download_inventory.full.json")
 
+
 def main():
     data = json.loads(IN_MANIFEST.read_text())
     if not isinstance(data, list):
@@ -18,11 +19,9 @@ def main():
         item = {
             "id": str(rec.get("id", "")).strip(),
             "download_url": str(rec.get("download_url", "")).strip(),
-
             # control flags
             "status": "planned",
             "enabled": True,
-
             # provenance + portal metadata (human-friendly)
             "row_text": rec.get("row_text"),
             "display_title": rec.get("display_title"),
@@ -43,6 +42,7 @@ def main():
     OUT_FULL.parent.mkdir(parents=True, exist_ok=True)
     OUT_FULL.write_text(json.dumps(out, indent=2))
     print(f"Wrote inventory: {OUT_FULL} (items={len(items)})")
+
 
 if __name__ == "__main__":
     main()

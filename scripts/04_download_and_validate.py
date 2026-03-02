@@ -11,12 +11,14 @@ INV_PATH = Path("inventory/download_inventory.json")
 DL_DIR = Path("downloads")
 DL_DIR.mkdir(parents=True, exist_ok=True)
 
+
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
     return h.hexdigest()
+
 
 def pdf_pages(path: Path) -> int:
     # pdfinfo output contains: Pages: <n>
@@ -25,6 +27,7 @@ def pdf_pages(path: Path) -> int:
         if line.startswith("Pages:"):
             return int(line.split(":", 1)[1].strip())
     raise RuntimeError("Could not parse Pages from pdfinfo output")
+
 
 def main():
     inv = json.loads(INV_PATH.read_text())
@@ -75,6 +78,7 @@ def main():
 
     INV_PATH.write_text(json.dumps(inv, indent=2))
     print("Download+validate completed")
+
 
 if __name__ == "__main__":
     main()

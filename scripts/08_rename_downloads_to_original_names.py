@@ -14,6 +14,7 @@ OUT.parent.mkdir(parents=True, exist_ok=True)
 # Acceptable safe filename chars
 SAFE_RE = re.compile(r"[^A-Za-z0-9._()\- ]+")
 
+
 def sanitize(name: str) -> str:
     name = name.strip().replace("\n", " ")
     name = name.replace("/", "_").replace("\\", "_")
@@ -21,6 +22,7 @@ def sanitize(name: str) -> str:
     # collapse spaces/underscores a bit
     name = re.sub(r"[ _]{2,}", "_", name)
     return name[:180] if len(name) > 180 else name
+
 
 def parse_content_disposition(cd: str | None) -> str | None:
     if not cd:
@@ -37,12 +39,17 @@ def parse_content_disposition(cd: str | None) -> str | None:
 
     return None
 
+
 def main():
     s = requests.Session()
     s.headers.update({"User-Agent": "oran-prod-ingestion/1.0"})
 
     renamed = []
-    existing = [p for p in DL_DIR.iterdir() if p.is_file() and not p.name.startswith(".") and not p.name.endswith(".part")]
+    existing = [
+        p
+        for p in DL_DIR.iterdir()
+        if p.is_file() and not p.name.startswith(".") and not p.name.endswith(".part")
+    ]
 
     for p in sorted(existing):
         # Expecting our current naming: o-ran_<id>.<ext>
@@ -54,12 +61,16 @@ def main():
 
         try:
             # Range GET to force Content-Disposition without downloading file
-            r = s.get(url, stream=True, timeout=30, headers={"Range": "bytes=0-0"}, allow_redirects=True)
+            r = s.get(
+                url, stream=True, timeout=30, headers={"Range": "bytes=0-0"}, allow_redirects=True
+            )
             cd = r.headers.get("Content-Disposition")
             orig = parse_content_disposition(cd)
 
             if not orig:
-                renamed.append({"id": id_, "old": p.name, "new": None, "note": "no_content_disposition"})
+                renamed.append(
+                    {"id": id_, "old": p.name, "new": None, "note": "no_content_disposition"}
+                )
                 continue
 
             new_name = sanitize(orig)
@@ -72,13 +83,16 @@ def main():
                 target = DL_DIR / f"{stem}__id-{id_}{suffix}"
 
             p.rename(target)
-            renamed.append({"id": id_, "old": p.name, "new": target.name, "content_disposition": cd})
+            renamed.append(
+                {"id": id_, "old": p.name, "new": target.name, "content_disposition": cd}
+            )
 
         except Exception as e:
             renamed.append({"id": id_, "old": p.name, "new": None, "error": str(e)})
 
     OUT.write_text(json.dumps(renamed, indent=2))
     print(f"done: renamed={sum(1 for x in renamed if x.get('new'))}, report={OUT}")
+
 
 if __name__ == "__main__":
     main()

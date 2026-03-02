@@ -10,8 +10,10 @@ SRC = Path("inventory/download_inventory.full.json")
 OUT = Path("reports/size_estimate_162.json")
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
+
 def is_pdf_magic(b: bytes) -> bool:
     return b.startswith(b"%PDF-")
+
 
 def main():
     inv = json.loads(SRC.read_text())
@@ -54,10 +56,12 @@ def main():
                     by_type[inferred]["bytes_known"] += clen_int
 
         except Exception as e:
-            items_out.append({
-                "id": item["id"],
-                "error": str(e),
-            })
+            items_out.append(
+                {
+                    "id": item["id"],
+                    "error": str(e),
+                }
+            )
             by_type["errors"]["count"] += 1
 
     report = {
@@ -72,6 +76,7 @@ def main():
 
     OUT.write_text(json.dumps(report, indent=2))
     print(f"Wrote report: {OUT}")
+
 
 if __name__ == "__main__":
     main()

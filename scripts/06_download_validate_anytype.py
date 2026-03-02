@@ -19,6 +19,7 @@ EXT_MAP = {
     "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": "xlsx",
 }
 
+
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as f:
@@ -26,12 +27,14 @@ def sha256_file(path: Path) -> str:
             h.update(chunk)
     return h.hexdigest()
 
+
 def run_cmd(cmd: list[str]) -> tuple[int, str]:
     try:
         out = subprocess.check_output(cmd, text=True, stderr=subprocess.STDOUT)
         return 0, out
     except subprocess.CalledProcessError as e:
         return e.returncode, e.output
+
 
 def pdf_pages(path: Path) -> int:
     rc, out = run_cmd(["pdfinfo", str(path)])
@@ -41,6 +44,7 @@ def pdf_pages(path: Path) -> int:
         if line.startswith("Pages:"):
             return int(line.split(":", 1)[1].strip())
     raise RuntimeError("Pages not found in pdfinfo output")
+
 
 def main():
     inv = json.loads(INV_PATH.read_text())
@@ -81,11 +85,13 @@ def main():
             elif ext in ("zip", "docx", "xlsx"):
                 rc, out = run_cmd(["unzip", "-t", str(final_path)])
                 meta["unzip_test_rc"] = rc
-                meta["unzip_test_ok"] = (rc == 0)
+                meta["unzip_test_ok"] = rc == 0
                 # "file" is useful for quick sanity
                 _, fout = run_cmd(["file", "-b", str(final_path)])
                 meta["file_magic"] = fout.strip()
-                item["status"] = "downloaded_ok" if rc == 0 else "downloaded_but_invalid_zipcontainer"
+                item["status"] = (
+                    "downloaded_ok" if rc == 0 else "downloaded_but_invalid_zipcontainer"
+                )
             else:
                 _, fout = run_cmd(["file", "-b", str(final_path)])
                 meta["file_magic"] = fout.strip()
@@ -101,6 +107,7 @@ def main():
 
     INV_PATH.write_text(json.dumps(inv, indent=2))
     print("anytype download+validate done")
+
 
 if __name__ == "__main__":
     main()

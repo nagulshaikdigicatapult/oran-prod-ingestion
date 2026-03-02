@@ -7,16 +7,16 @@ import requests
 
 INV_PATH = Path("inventory/download_inventory.json")
 
+
 def is_pdf_magic(b: bytes) -> bool:
     return b.startswith(b"%PDF-")
+
 
 def main():
     inv = json.loads(INV_PATH.read_text())
 
     session = requests.Session()
-    session.headers.update({
-        "User-Agent": "oran-prod-ingestion/1.0"
-    })
+    session.headers.update({"User-Agent": "oran-prod-ingestion/1.0"})
 
     for item in inv["items"]:
         if not item.get("enabled", False):
@@ -26,7 +26,9 @@ def main():
             pass
 
         try:
-            with session.get(item["download_url"], allow_redirects=True, timeout=30, stream=True) as r:
+            with session.get(
+                item["download_url"], allow_redirects=True, timeout=30, stream=True
+            ) as r:
                 first = r.raw.read(4096)  # sniff only, do NOT download whole file
 
                 item["http"] = {
@@ -49,6 +51,7 @@ def main():
 
     INV_PATH.write_text(json.dumps(inv, indent=2))
     print("HTTP preflight (GET+sniff) completed")
+
 
 if __name__ == "__main__":
     main()
