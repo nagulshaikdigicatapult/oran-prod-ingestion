@@ -1,51 +1,24 @@
 # O-RAN Production Ingestion Pipeline – Operational Runbook
 
-This document describes how to operate, validate, and troubleshoot the ingestion pipeline.
+This runbook describes how to set up, execute, validate, and recover the ingestion pipeline in a reproducible and secure manner.
 
 ---
 
-## 1. Purpose
+# 1. Fresh VM Setup
 
-This runbook explains:
+## 1.1 Install System Dependencies
 
-- How to execute the pipeline
-- How to validate artifacts
-- How to verify integrity
-- How to regenerate catalogs
-- How to recover from corruption
-
----
-
-## 2. Execution Flow
-
-```text
-Portal
-  ↓
-Raw Manifest
-  ↓
-Normalize
-  ↓
-Inventory
-  ↓
-Download + Validate
-  ↓
-Extract ZIPs
-  ↓
-Generate Catalog
-  ↓
-Create Title View
-3. Environment Setup (Fresh VM)
-3.1 Install System Dependencies
+```bash
 sudo apt update
 sudo apt install -y python3 python3-venv python3-pip git poppler-utils unzip
 
-Required for:
+Required tools:
 
-pdfinfo (PDF validation)
+pdfinfo → PDF validation
 
-unzip -t (ZIP/DOCX/XLSX validation)
+unzip -t → ZIP/DOCX/XLSX validation
 
-3.2 Create Virtual Environment
+1.2 Create Virtual Environment
 python3 -m venv .venv
 source .venv/bin/activate
 
@@ -53,50 +26,38 @@ Verify environment:
 
 python -V
 pip -V
-3.3 Install Minimal Python Dependencies (Pin-Friendly)
-
-We start lean:
-
-requests → HTTP downloads
-
-python-dateutil → timestamp handling
-
-rich → readable CLI logs
-
+1.3 Install Minimal Python Dependencies
 pip install --upgrade pip
 pip install requests python-dateutil rich
 
 Verify installed versions:
 
 pip freeze | egrep '^(pip|requests|python-dateutil|rich)=' || true
-3.4 Lock Dependencies for Reproducible Builds
+1.4 Lock Dependencies (Reproducible Build)
 pip freeze > requirements.txt
 wc -l requirements.txt
 head -n 20 requirements.txt
-
-This ensures reproducible installations on other systems.
-
-4. Step-by-Step Execution
-Step 1 – Normalize Manifest
+2. Execute Pipeline
+2.1 Normalize Manifest
 python scripts/01_normalize_manifest.py
 
 Verify:
 
 jq '.[0]' manifests/processed/normalized_manifest.json
-Step 2 – Build Inventory
+2.2 Build Inventory
 python scripts/02_build_inventory.py
 
 Verify:
 
 jq '.items | length' inventory/download_inventory.full.json
 
-Expected:
+Expected output:
 
 162
-Step 3 – Execute Download Pipeline
+2.3 Download, Validate, and Extract
 python scripts/09_full_run_pipeline_v2.py
 
-Check result:
+Check summary:
 
 jq '.summary' reports/full_run_report.json
 
@@ -108,36 +69,36 @@ failed: 0
 
 downloaded_but_invalid: 0
 
-5. Validation Checks
-Total Files
+3. Validation Checks
+3.1 Verify Total File Count
 find downloads -type f | wc -l
 
 Expected:
 
 162
-No Partial Files
+3.2 Ensure No Partial Files
 find downloads -type f -name "*.part"
 
 Expected: no output
 
-Validate PDFs
+3.3 Validate All PDFs
 find downloads -name "*.pdf" -print0 | \
 xargs -0 -I{} pdfinfo "{}" > /dev/null
 
 Expected: no errors
 
-Validate ZIP / DOCX / XLSX Containers
+3.4 Validate ZIP / DOCX / XLSX Containers
 find downloads \( -name "*.docx" -o -name "*.xlsx" -o -name "*.zip" \) -print0 | \
 xargs -0 -I{} unzip -t "{}" > /dev/null
 
 Expected: no errors
 
-Ensure No Nested ZIPs Remain
+3.5 Ensure No Nested ZIPs Remain
 find extracted_flat -name "*.zip"
 
 Expected: no output
 
-6. Generate Catalog
+4. Generate Catalog
 python scripts/10_generate_catalog_from_inventory.py
 
 Verify:
@@ -147,17 +108,17 @@ jq '.count' inventory/catalog.latest.json
 Expected:
 
 162
-7. Create Title View
+5. Create Human-Readable Title View
 python scripts/12_create_title_view.py
 
 Verify symlink:
 
 readlink downloads_by_title/<file>
-8. Recovery Procedure
+6. Recovery Procedure
 
-If corruption is detected:
+If a file is corrupted:
 
-Delete corrupted file from downloads/
+Delete the corrupted file from downloads/
 
 Re-run:
 
@@ -165,7 +126,7 @@ python scripts/09_full_run_pipeline_v2.py
 
 Only missing files will re-download.
 
-9. Health Checklist
+7. Health Checklist
 
 System is healthy if:
 
@@ -181,9 +142,9 @@ All ZIP container checks pass
 
 Catalog count = 162
 
-CI passes
+CI pipeline passes
 
-10. Data Classification
+8. Data Classification
 
 Source: O-RAN public portal
 
