@@ -2,28 +2,34 @@
 
 Production-grade ingestion system for downloading, validating, extracting, and cataloging O-RAN specifications from the official portal.
 
-This pipeline is deterministic, idempotent, and integrity-verified.
+This system is:
+
+- Deterministic
+- Idempotent
+- Integrity-verified
+- Lockfile-enforced
+- Reproducible from control plane only
 
 ---
 
-## Overview
+# 1. Design Goals
 
-The system performs:
+This pipeline was engineered to guarantee:
 
-- Portal manifest ingestion
-- Metadata normalization (title, doc_code, release, date, type)
-- Controlled idempotent downloads
-- PDF validation (`pdfinfo`)
-- ZIP/DOCX/XLSX validation (`unzip -t`)
-- Recursive ZIP extraction (zip-slip protected)
-- SHA256 checksum generation
-- Deterministic ID → filename lockfile enforcement
-- JSON + CSV catalog generation
-- Title-based symlink view creation
+- Deterministic artifact naming
+- Reproducible rebuilds
+- Zero filename drift
+- Safe recursive ZIP extraction
+- Full integrity validation
+- Control-plane / data-plane separation
+- Idempotent re-runs
+- Audit-ready reporting
+
+The data plane can always be rebuilt from the control plane.
 
 ---
 
-## Architecture
+# 2. High-Level Architecture
 
 ```text
 Portal Listing
@@ -53,21 +59,27 @@ inventory/catalog.latest.json + .csv
 12_create_title_view.py
   ↓
 downloads_by_title/
-Repository Structure
+```
+
+---
+
+# 3. Repository Structure
+
+```
 manifests/
-├── raw/                 # Browser-extracted manifest
-└── processed/           # Normalized structured metadata
+├── raw/                 # Browser-extracted manifest (control plane)
+└── processed/           # Normalized structured metadata (generated)
 
 inventory/
-├── id_filename_map.json       # Deterministic lockfile (ID → filename)
-├── download_inventory.full.json (generated)
-└── catalog.latest.json/.csv   (generated)
+├── id_filename_map.json         # Deterministic lockfile (ID → filename)
+├── download_inventory.full.json # Generated
+└── catalog.latest.json/.csv     # Generated
 
 downloads/               # Canonical artifacts (source of truth)
 extracted_flat/          # Full ZIP extraction view
 extracted_docs/          # Docs-only extracted view
 downloads_by_title/      # Human-readable symlink view
-reports/                 # Execution reports
+reports/                 # Execution reports + summaries
 
 scripts/
 ├── 01_normalize_manifest.py
@@ -75,121 +87,265 @@ scripts/
 ├── 09_full_run_pipeline_v2.py
 ├── 10_generate_catalog_from_inventory.py
 ├── 12_create_title_view.py
-└── tools/               # Helper / utility scripts
-Control Plane vs Data Plane
-Control Plane (Committed)
+└── tools/               # Utility helpers
+```
 
-Raw manifest
+---
 
-ID → filename lockfile
+# 4. Control Plane vs Data Plane
 
-Pipeline scripts
+## Control Plane (Committed to Git)
 
-Documentation
+- Raw manifest
+- Deterministic lockfile (`id_filename_map.json`)
+- Pipeline scripts
+- Documentation
+- Requirements
 
-Data Plane (Generated)
+## Data Plane (Generated Artifacts)
 
-downloads/
+- `downloads/`
+- `extracted_*` views
+- `reports/`
+- `catalog.latest.*`
 
-extracted views
+The data plane can always be regenerated from the control plane.
 
-reports/
+This separation prevents drift and ensures reproducibility.
 
-catalog snapshots
+---
 
-The system can fully rebuild the data plane from the control plane.
+# 5. Fresh Setup (New VM)
 
-Fresh Setup (New VM)
-1. Install system dependencies
+## 5.1 Install System Dependencies
+
+```bash
 sudo apt update
-sudo apt install -y python3 python3-venv python3-pip git poppler-utils unzip
+sudo apt install -y python3 python3-venv python3-pip git poppler-utils unzip jq ripgrep
+```
 
 Required for:
 
-pdfinfo
+- `pdfinfo` validation
+- `unzip -t` validation
+- JSON verification
+- Fast debugging
 
-unzip -t
+---
 
-2. Setup virtual environment
+## 5.2 Clone Repository
+
+```bash
+git clone git@github.com:CDECatapult/oran-prod-ingestion.git
+cd oran-prod-ingestion
+```
+
+---
+
+## 5.3 Setup Python Environment
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
-Run Full Pipeline
+```
+
+---
+
+# 6. Run Full Pipeline
+
+```bash
 python scripts/01_normalize_manifest.py
 python scripts/02_build_inventory.py
 python scripts/09_full_run_pipeline_v2.py
 python scripts/10_generate_catalog_from_inventory.py
 python scripts/12_create_title_view.py
-Idempotency
+```
 
-Safe to re-run anytime:
+---
 
+# 7. Idempotency Model
+
+Safe to re-run at any time:
+
+```bash
 python scripts/09_full_run_pipeline_v2.py
+```
 
-Already downloaded files are skipped.
+Behavior:
 
-Validation
-Check Summary
+- Existing valid files are skipped
+- Corrupted files are re-downloaded
+- Partial `.part` files are cleaned
+- Lockfile ensures stable filenames
+
+---
+
+# 8. Validation & Health Checks
+
+## 8.1 Execution Summary
+
+```bash
 jq '.summary' reports/full_run_report.json
-Basic Health Checks
+```
+
+Healthy state:
+
+- downloaded_ok: 162
+- failed: 0
+- downloaded_but_invalid: 0
+- remaining_nested_zips_in_extracted_flat: 0
+
+---
+
+## 8.2 Data Plane Checks
+
+```bash
 find downloads -type f | wc -l
-find downloads -type f -name "*.part"
-find extracted_flat -type f -name "*.zip"
+find downloads -type f -name "*.part" | wc -l
+find extracted_flat -type f -name "*.zip" | wc -l
+```
 
 Expected:
 
-162 files
+```
+162
+0
+0
+```
 
-0 partial files
+---
 
-0 nested ZIPs
+# 9. Lockfile Model
 
-Lockfile Explanation
+File:
 
+```
 inventory/id_filename_map.json
+```
 
-Maps:
+Purpose:
 
-portal_id → official_filename
+- Maps `portal_id → official_filename`
+- Derived from HTTP `Content-Disposition`
+- Prevents filename drift
+- Prevents whitespace changes
+- Prevents extension case drift
+- Ensures catalog stability
 
-Generated from HTTP Content-Disposition headers.
+All major pipeline steps depend on this lockfile.
 
-Ensures:
+---
 
-Deterministic filenames
+# 10. Security Characteristics
 
-No whitespace drift
+The system implements:
 
-No extension case drift
+- Atomic downloads (`.part → rename`)
+- Retry with exponential backoff
+- Zip-slip protection
+- Compression ratio limits
+- Maximum file size guardrails
+- Recursive extraction safety
+- SHA256 integrity hashing
+- Deterministic filename enforcement
 
-Stable catalog generation
+This prevents:
 
-Security Characteristics
+- Path traversal attacks
+- Zip bombs
+- Partial file corruption
+- Filename drift
+- Silent corruption
 
-Atomic downloads (.part → rename)
+---
 
-Retry with exponential backoff
+# 11. Drift Protection Model
 
-Zip-slip protection
+Drift risks mitigated:
 
-Compression ratio limits
+| Drift Type | Mitigation |
+|------------|------------|
+| Filename drift | Lockfile enforcement |
+| Extension case drift | Canonical rename |
+| Partial downloads | Atomic rename |
+| Nested zip recursion | Controlled recursive extraction |
+| Catalog mismatch | Regenerated from inventory |
+| Missing artifact | Idempotent re-run |
 
-Max file size limits
+---
 
-SHA256 integrity hashing
+# 12. Operational Guarantees
 
-Version
+- Reproducible on fresh VM
+- Fully rebuildable from Git
+- Zero manual renaming
+- Zero manual catalog editing
+- Deterministic outputs
+- Safe to run in CI
 
-Tagged version: v1.0
+---
+
+# 13. CI/CD Integration (Recommended)
+
+In CI:
+
+```bash
+python scripts/01_normalize_manifest.py
+python scripts/02_build_inventory.py
+python scripts/09_full_run_pipeline_v2.py
+jq '.summary.failed == 0' reports/full_run_report.json
+```
+
+Fail pipeline if:
+
+- Any failed downloads
+- Any invalid artifacts
+- Nested ZIP remains
+
+---
+
+# 14. Recovery Model
+
+If corruption is detected:
+
+1. Delete corrupted file from `downloads/`
+2. Re-run:
+
+```bash
+python scripts/09_full_run_pipeline_v2.py
+```
+
+Idempotency ensures only missing/invalid files are fetched.
+
+---
+
+# 15. Version
+
+Current version: `v1.0`
 
 Includes:
 
-162 validated artifacts
+- 162 validated artifacts
+- Deterministic lockfile
+- Recursive extraction
+- SHA256 catalog
+- Idempotent pipeline model
+- Security hardened extraction
 
-Deterministic lockfile
+---
 
-Recursive extraction
+# 16. Engineering Standard
 
-SHA256 catalog
+This repository follows:
 
-CI validation
+- Deterministic artifact management
+- Control-plane / data-plane separation
+- Infrastructure-style reproducibility
+- Git-driven rebuild model
+- Production-grade validation standards
+
+---
+
+
