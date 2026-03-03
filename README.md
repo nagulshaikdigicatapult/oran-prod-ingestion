@@ -287,7 +287,7 @@ Drift risks mitigated:
 
 ---
 
-# 13. CI/CD Integration (Recommended)
+# 13. CI
 
 In CI:
 
@@ -336,9 +336,7 @@ Includes:
 
 ---
 
-# 16. Engineering Standard
-
-This repository follows:
+# 16. This repository follows:
 
 - Deterministic artifact management
 - Control-plane / data-plane separation
