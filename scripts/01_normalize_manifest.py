@@ -3,7 +3,9 @@ import json
 import re
 from pathlib import Path
 
-RAW = Path("manifests/raw/manifest.latest.json")
+RAW_LIVE = Path("manifests/raw/manifest.live.json")
+RAW_LATEST = Path("manifests/raw/manifest.latest.json")
+RAW = RAW_LIVE if RAW_LIVE.exists() else RAW_LATEST
 OUT = Path("manifests/processed/normalized_manifest.json")
 
 MONTHS = r"(January|February|March|April|May|June|July|August|September|October|November|December)"

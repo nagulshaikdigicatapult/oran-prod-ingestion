@@ -27,6 +27,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install ruff bandit pip-audit
 
+      - name: Install Playwright browsers
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
       - name: Lint + security
         run: |
           ruff --version
@@ -37,8 +42,9 @@ jobs:
         env:
           ORAN_SKIP_CATALOG: "1"
         run: |
-          python scripts/01_normalize_manifest.py
-          python scripts/update_from_portal.py manifests/raw/manifest.latest.json
+          python scripts/browser/fetch_manifest_live.py
+python scripts/01_normalize_manifest.py
+python scripts/update_from_portal.py manifests/raw/manifest.live.json
 
       - name: Upload reports
         uses: actions/upload-artifact@v4
