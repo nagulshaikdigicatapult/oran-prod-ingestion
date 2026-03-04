@@ -2,7 +2,6 @@ name: Portal monitor (daily, no PR)
 
 on:
   schedule:
-    # Daily at 02:15 UTC
     - cron: "15 2 * * *"
   workflow_dispatch: {}
 
@@ -12,7 +11,6 @@ permissions:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,20 +37,7 @@ jobs:
           python scripts/01_normalize_manifest.py
           ORAN_SKIP_CATALOG=1 python scripts/update_from_portal.py manifests/raw/manifest.latest.json
 
-      - name: Detect changes
-        id: changes
-        run: |
-          if git diff --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes detected."
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Changes detected:"
-            git status --porcelain
-          fi
-
-      - name: Upload artifacts (when changed)
-        if: steps.changes.outputs.changed == 'true'
+      - name: Upload artifacts (always)
         uses: actions/upload-artifact@v4
         with:
           name: portal-monitor-artifacts
@@ -65,16 +50,16 @@ jobs:
       - name: Summary
         run: |
           echo "=== Portal monitor summary ==="
-          if [ -f reports/portal_diff.latest.json ]; then
-            python - <<'PY'
+          python - <<'PY'
 import json
 from pathlib import Path
-d=json.loads(Path("reports/portal_diff.latest.json").read_text())
-print("portal_count=", d.get("portal_count"))
-print("inventory_count=", d.get("inventory_count"))
-print("new_ids_count=", d.get("new_ids_count"))
-print("missing_ids_count=", d.get("missing_ids_count"))
+p=Path("reports/portal_diff.latest.json")
+if p.exists():
+    d=json.loads(p.read_text())
+    print("portal_count=", d.get("portal_count"))
+    print("inventory_count=", d.get("inventory_count"))
+    print("new_ids_count=", d.get("new_ids_count"))
+    print("missing_ids_count=", d.get("missing_ids_count"))
+else:
+    print("No portal_diff.latest.json found")
 PY
-          else
-            echo "No portal diff report found (unexpected)."
-          fi
