@@ -23,14 +23,12 @@ from __future__ import annotations
 
 import csv
 import json
-import os
 import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Set
-
+from typing import List, Set
 
 REPO_ROOT = Path(".")
 MANIFESTS_DIR = REPO_ROOT / "manifests"
