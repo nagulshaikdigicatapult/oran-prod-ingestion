@@ -49,6 +49,9 @@ jobs:
       - name: Lint (ruff)
         run: |
           ruff --version
+          # Auto-fix simple issues like unused imports
+          ruff check . --fix
+          # Fail if anything still remains
           ruff check .
 
       - name: Security static analysis (bandit)

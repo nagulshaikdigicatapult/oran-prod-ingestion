@@ -2,6 +2,7 @@
 """
 Update pipeline from latest portal snapshot (Option A: track present_on_portal).
 
+
 Usage:
   python scripts/update_from_portal.py manifest_links_all.json
 
@@ -23,12 +24,15 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Set
+
+SKIP_CATALOG = os.getenv("ORAN_SKIP_CATALOG", "0") == "1"
 
 REPO_ROOT = Path(".")
 MANIFESTS_DIR = REPO_ROOT / "manifests"
@@ -122,6 +126,10 @@ def write_portal_status(all_ids: Set[str], portal_ids: Set[str]) -> dict:
 
 
 def inject_present_on_portal_to_catalog(portal_ids: Set[str]) -> None:
+    if SKIP_CATALOG:
+        print("Skipping catalog regeneration/injection (ORAN_SKIP_CATALOG=1)")
+        return 0
+
     """
     Adds present_on_portal boolean to catalog.latest.json + catalog.latest.csv.
 
@@ -262,7 +270,9 @@ def main() -> int:
     print(f"  delta_inventory_items={len(delta.get('items', []))}")
 
     if len(new_ids) == 0:
-        print("No new IDs to ingest. Catalog present_on_portal will still be updated after catalog generation.")
+        print("No new IDs to ingest.")
+    if SKIP_CATALOG:
+        print("Skipping catalog regeneration/injection (ORAN_SKIP_CATALOG=1)")
         # Still regenerate catalog and inject portal status
         run([sys.executable, "scripts/10_generate_catalog_from_inventory.py"])
         inject_present_on_portal_to_catalog(portal_ids)
