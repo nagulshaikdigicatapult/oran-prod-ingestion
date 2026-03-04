@@ -1,706 +1,1058 @@
 [
   {
     "id": "1009",
-    "download_url": "https://specifications.o-ran.org/download?id=1009"
+    "download_url": "https://specifications.o-ran.org/download?id=1009",
+    "row_text": "O-RAN Use Cases Analysis Report 19.0 O-RAN.WG1.TR.Use-Cases-Analysis-Report-R005-v19.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1010",
-    "download_url": "https://specifications.o-ran.org/download?id=1010"
+    "download_url": "https://specifications.o-ran.org/download?id=1010",
+    "row_text": "O-RAN Use Cases Detailed Specification 19.0 O-RAN.WG1.TS.Use-Cases-Detailed-Specification-R005-v19.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1011",
-    "download_url": "https://specifications.o-ran.org/download?id=1011"
+    "download_url": "https://specifications.o-ran.org/download?id=1011",
+    "row_text": "O-RAN Communication and Computing Integrated Networks 2.0 O-RAN.WG1.TR.CCIN-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1012",
-    "download_url": "https://specifications.o-ran.org/download?id=1012"
+    "download_url": "https://specifications.o-ran.org/download?id=1012",
+    "row_text": "O-RAN RIC Enabling NTN Deployments 2.0 O-RAN.WG1.TR.RIC4NTN-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1013",
-    "download_url": "https://specifications.o-ran.org/download?id=1013"
+    "download_url": "https://specifications.o-ran.org/download?id=1013",
+    "row_text": "O-RAN Architecture Description 16.0 O-RAN.WG1.TS.OAD-R005-v16.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1014",
-    "download_url": "https://specifications.o-ran.org/download?id=1014"
+    "download_url": "https://specifications.o-ran.org/download?id=1014",
+    "row_text": "O-RAN SMO Architecture 2.0 O-RAN.WG1.TS.SMO-ARCH-R005-v02.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "929",
-    "download_url": "https://specifications.o-ran.org/download?id=929"
+    "download_url": "https://specifications.o-ran.org/download?id=929",
+    "row_text": "O-RAN Resiliency 1.0 O-RAN.WG1.TR.O-RES.0-R004-v01.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "931",
-    "download_url": "https://specifications.o-ran.org/download?id=931"
+    "download_url": "https://specifications.o-ran.org/download?id=931",
+    "row_text": "O-RAN Filtered Measurements 1.0 O-RAN.WG1.TR.FILM.R004-v01.00.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "934",
-    "download_url": "https://specifications.o-ran.org/download?id=934"
+    "download_url": "https://specifications.o-ran.org/download?id=934",
+    "row_text": "O-RAN SMO Intents-driven Management 6.0 O-RAN.WG1.TR.SMO-INT-R004-v06.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "863",
-    "download_url": "https://specifications.o-ran.org/download?id=863"
+    "download_url": "https://specifications.o-ran.org/download?id=863",
+    "row_text": "O-RAN Slicing Architecture 14.01 O-RAN.WG1.TS.Slicing-Architecture-R004-v14.01 June 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "715",
-    "download_url": "https://specifications.o-ran.org/download?id=715"
+    "download_url": "https://specifications.o-ran.org/download?id=715",
+    "row_text": "O-RAN Spectrum Aggregation for Multi-Vendor Deployments 3.0 O-RAN.WG1.TR.SA-MVD-R004-v03.00 October 2024 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "716",
-    "download_url": "https://specifications.o-ran.org/download?id=716"
+    "download_url": "https://specifications.o-ran.org/download?id=716",
+    "row_text": "O-RAN Decoupled SMO Architecture 3.0 O-RAN.WG1.TR.Decoupled-SMO-Architecture-R004-v03.00 October 2024 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "442",
-    "download_url": "https://specifications.o-ran.org/download?id=442"
+    "download_url": "https://specifications.o-ran.org/download?id=442",
+    "row_text": "O-RAN Network Energy Saving Use Cases Technical Report 2.0 O-RAN.WG1.Network-Energy-Savings-Technical-Report-R003-v02.00 June 2023 R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "267",
-    "download_url": "https://specifications.o-ran.org/download?id=267"
+    "download_url": "https://specifications.o-ran.org/download?id=267",
+    "row_text": "O-RAN Massive MIMO Use Cases Technical Report 1.0 O-RAN.WG1.mMIMO-Use-Cases-TR-v01.00 July 2022 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "32",
-    "download_url": "https://specifications.o-ran.org/download?id=32"
+    "download_url": "https://specifications.o-ran.org/download?id=32",
+    "row_text": "O-RAN Operations and Maintenance Interface 4.0 O-RAN.WG1.O1-Interface.0-v04.00 February 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "33",
-    "download_url": "https://specifications.o-ran.org/download?id=33"
+    "download_url": "https://specifications.o-ran.org/download?id=33",
+    "row_text": "O-RAN Operations and Maintenance Architecture 4.0 O-RAN.WG1.OAM-Architecture-v04.00 February 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "38",
-    "download_url": "https://specifications.o-ran.org/download?id=38"
+    "download_url": "https://specifications.o-ran.org/download?id=38",
+    "row_text": "O-RAN Information Model and Data Models 1.0 O-RAN.WG1.Information Model and Data Models-v01.00 February 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "104",
-    "download_url": "https://specifications.o-ran.org/download?id=104"
+    "download_url": "https://specifications.o-ran.org/download?id=104",
+    "row_text": "O-RAN Study on O-RAN Slicing 2.0 O-RAN.WG1.Study-on-O-RAN-Slicing-v02.00 April 2020 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1015",
-    "download_url": "https://specifications.o-ran.org/download?id=1015"
+    "download_url": "https://specifications.o-ran.org/download?id=1015",
+    "row_text": "O-RAN R1 interface: General Aspects and Principles 13.0 O-RAN.WG2.TS.R1GAP-R005-v13.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1016",
-    "download_url": "https://specifications.o-ran.org/download?id=1016"
+    "download_url": "https://specifications.o-ran.org/download?id=1016",
+    "row_text": "O-RAN R1 interface: Use Cases and Requirements 12.0 O-RAN.WG2.TS.R1UCR-R005-v12.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1017",
-    "download_url": "https://specifications.o-ran.org/download?id=1017"
+    "download_url": "https://specifications.o-ran.org/download?id=1017",
+    "row_text": "O-RAN R1 interface: Application Protocols for R1 Services 10.0 O-RAN.WG2.TS.R1AP-R005-v10.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1018",
-    "download_url": "https://specifications.o-ran.org/download?id=1018"
+    "download_url": "https://specifications.o-ran.org/download?id=1018",
+    "row_text": "O-RAN Type Definitions for R1 Services 4.02 O-RAN.WG2.TS.R1TD-R005-v04.02 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1019",
-    "download_url": "https://specifications.o-ran.org/download?id=1019"
+    "download_url": "https://specifications.o-ran.org/download?id=1019",
+    "row_text": "O-RAN R1 interface: Test Specification 5.0 O-RAN.WG2.TS.R1TS-R005-v05.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1020",
-    "download_url": "https://specifications.o-ran.org/download?id=1020"
+    "download_url": "https://specifications.o-ran.org/download?id=1020",
+    "row_text": "O-RAN A1 interface: General Aspects and Principles 5.03 O-RAN.WG2.TS.A1GAP-R005-v05.03 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1021",
-    "download_url": "https://specifications.o-ran.org/download?id=1021"
+    "download_url": "https://specifications.o-ran.org/download?id=1021",
+    "row_text": "O-RAN A1 interface: Application Protocol 6.0 O-RAN.WG2.TS.A1AP-R005-v06.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1022",
-    "download_url": "https://specifications.o-ran.org/download?id=1022"
+    "download_url": "https://specifications.o-ran.org/download?id=1022",
+    "row_text": "O-RAN A1 interface: Type Definitions 11.01 O-RAN.WG2.TS.A1TD-R005-v11.01 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1023",
-    "download_url": "https://specifications.o-ran.org/download?id=1023"
+    "download_url": "https://specifications.o-ran.org/download?id=1023",
+    "row_text": "O-RAN A1 interface: Test Specification 5.0 O-RAN.WG2.TS.A1TS-R005-v05.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1024",
-    "download_url": "https://specifications.o-ran.org/download?id=1024"
+    "download_url": "https://specifications.o-ran.org/download?id=1024",
+    "row_text": "O-RAN A1 interface: Use Cases and Requirements 5.0 O-RAN.WG2.TS.A1UCR-R005-v05.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1025",
-    "download_url": "https://specifications.o-ran.org/download?id=1025"
+    "download_url": "https://specifications.o-ran.org/download?id=1025",
+    "row_text": "O-RAN Study on Impact of Decoupled SMO on Non-RT RIC Architecture and Interfaces 2.0 O-RAN.WG2.TR.DECSMO-Impact-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1026",
-    "download_url": "https://specifications.o-ran.org/download?id=1026"
+    "download_url": "https://specifications.o-ran.org/download?id=1026",
+    "row_text": "O-RAN Non-RT RIC & A1/R1 interface: Use Cases and Requirements 11.0 O-RAN.WG2.TS.Use-Case-Requirements-R005-v11.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "943",
-    "download_url": "https://specifications.o-ran.org/download?id=943"
+    "download_url": "https://specifications.o-ran.org/download?id=943",
+    "row_text": "O-RAN A1 interface: Transport Protocol 3.05 O-RAN.WG2.TS.A1TP-R004-v03.05 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "871",
-    "download_url": "https://specifications.o-ran.org/download?id=871"
+    "download_url": "https://specifications.o-ran.org/download?id=871",
+    "row_text": "O-RAN Transport Protocols for R1 Services 4.03 O-RAN.WG2.TS.R1TP-R004-v04.03 June 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "875",
-    "download_url": "https://specifications.o-ran.org/download?id=875"
+    "download_url": "https://specifications.o-ran.org/download?id=875",
+    "row_text": "O-RAN Study on A1 policy conflict mitigation 1.0 O-RAN.WG2.TR.PlcCnfMtgt-R004-v01.00 June 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "877",
-    "download_url": "https://specifications.o-ran.org/download?id=877"
+    "download_url": "https://specifications.o-ran.org/download?id=877",
+    "row_text": "O-RAN Study on partial enforcement of A1 1.0 O-RAN.WG2.TR.A1PENF-R004-v01.00 June 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "878",
-    "download_url": "https://specifications.o-ran.org/download?id=878"
+    "download_url": "https://specifications.o-ran.org/download?id=878",
+    "row_text": "O-RAN Non-RT RIC: Architecture 7.0 O-RAN.WG2.TS.Non-RT-RIC-ARCH-R004-v07.00 June 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "158",
-    "download_url": "https://specifications.o-ran.org/download?id=158"
+    "download_url": "https://specifications.o-ran.org/download?id=158",
+    "row_text": "O-RAN AI/ML workflow description and requirements 1.03 O-RAN.WG2.AIML-v01.03 October 2021 Technical Report DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "74",
-    "download_url": "https://specifications.o-ran.org/download?id=74"
+    "download_url": "https://specifications.o-ran.org/download?id=74",
+    "row_text": "O-RAN Non-RT RIC: Functional Architecture 1.01 O-RAN.WG2.Non-RT-RIC-ARCH-TR-v01.01 June 2021 Technical Report DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1027",
-    "download_url": "https://specifications.o-ran.org/download?id=1027"
+    "download_url": "https://specifications.o-ran.org/download?id=1027",
+    "row_text": "O-RAN Use Cases and Requirements 10.0 O-RAN.WG3.TS.UCR-R005-v10.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1028",
-    "download_url": "https://specifications.o-ran.org/download?id=1028"
+    "download_url": "https://specifications.o-ran.org/download?id=1028",
+    "row_text": "O-RAN Y1 interface: General Aspects and Principles 1.02 O-RAN.WG3.TS.Y1GAP-R005-v01.02 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1029",
-    "download_url": "https://specifications.o-ran.org/download?id=1029"
+    "download_url": "https://specifications.o-ran.org/download?id=1029",
+    "row_text": "O-RAN Y1 interface: Application Protocol 1.02 O-RAN.WG3.TS.Y1AP-R005-v01.02 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1030",
-    "download_url": "https://specifications.o-ran.org/download?id=1030"
+    "download_url": "https://specifications.o-ran.org/download?id=1030",
+    "row_text": "O-RAN Y1 interface: Type Definitions 3.0 O-RAN.WG3.TS.Y1TD-R005-v03.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1031",
-    "download_url": "https://specifications.o-ran.org/download?id=1031"
+    "download_url": "https://specifications.o-ran.org/download?id=1031",
+    "row_text": "O-RAN Near-RT RIC Architecture 8.0 O-RAN.WG3.TS.RICARCH-R005-v08.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1032",
-    "download_url": "https://specifications.o-ran.org/download?id=1032"
+    "download_url": "https://specifications.o-ran.org/download?id=1032",
+    "row_text": "O-RAN Near-RT RIC APIs 3.0 O-RAN.WG3.TS.RICAPI-R005-v03.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "947",
-    "download_url": "https://specifications.o-ran.org/download?id=947"
+    "download_url": "https://specifications.o-ran.org/download?id=947",
+    "row_text": "O-RAN E2 General Aspects and Principles (E2GAP) 8.0 O-RAN.WG3.TS.E2GAP-R004-v08.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "948",
-    "download_url": "https://specifications.o-ran.org/download?id=948"
+    "download_url": "https://specifications.o-ran.org/download?id=948",
+    "row_text": "O-RAN E2 Application Protocol (E2AP) 8.0 O-RAN.WG3.TS.E2AP-R004-v08.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "949",
-    "download_url": "https://specifications.o-ran.org/download?id=949"
+    "download_url": "https://specifications.o-ran.org/download?id=949",
+    "row_text": "O-RAN E2 Service Model (E2SM) KPM 7.0 O-RAN.WG3.TS.E2SM-KPM-R004-v07.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "950",
-    "download_url": "https://specifications.o-ran.org/download?id=950"
+    "download_url": "https://specifications.o-ran.org/download?id=950",
+    "row_text": "O-RAN E2 Service Model (E2SM), RAN Control 9.0 O-RAN.WG3.TS.E2SM-RC-R004-v09.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "880",
-    "download_url": "https://specifications.o-ran.org/download?id=880"
+    "download_url": "https://specifications.o-ran.org/download?id=880",
+    "row_text": "O-RAN E2 Service Model (E2SM) Cell Configuration and Control 6.0 O-RAN.WG3.TS.E2SM-CCC-R004-v06.00 June 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "808",
-    "download_url": "https://specifications.o-ran.org/download?id=808"
+    "download_url": "https://specifications.o-ran.org/download?id=808",
+    "row_text": "O-RAN E2 Service Model (E2SM) 7.0 O-RAN.WG3.TS.E2SM-R004-v07.00 February 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "809",
-    "download_url": "https://specifications.o-ran.org/download?id=809"
+    "download_url": "https://specifications.o-ran.org/download?id=809",
+    "row_text": "O-RAN E2 Service Model (E2SM), Lower Layers Control 1.0 O-RAN.WG3.TS.E2SM-LLC-R004-v01.00 February 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "814",
-    "download_url": "https://specifications.o-ran.org/download?id=814"
+    "download_url": "https://specifications.o-ran.org/download?id=814",
+    "row_text": "O-RAN Use Cases and Requirements 8.0 O-RAN.WG3.TS.UCR-R004-v08.00 February 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "737",
-    "download_url": "https://specifications.o-ran.org/download?id=737"
+    "download_url": "https://specifications.o-ran.org/download?id=737",
+    "row_text": "O-RAN Conflict Mitigation 1.0 O-RAN.WG3.TR.ConMit-R004-v01.00 October 2024 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "395",
-    "download_url": "https://specifications.o-ran.org/download?id=395"
+    "download_url": "https://specifications.o-ran.org/download?id=395",
+    "row_text": "O-RAN O1 Interface Specification for Near Real Time RAN Intelligent Controller 1.0 O-RAN.WG3.O1-Interface-for-Near-RT-RIC-R003-v01.00 March 2023 R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "396",
-    "download_url": "https://specifications.o-ran.org/download?id=396"
+    "download_url": "https://specifications.o-ran.org/download?id=396",
+    "row_text": "O-RAN E2 Interface Test Specification 2.0 O-RAN.WG3.E2TS-R003-v02.00 March 2023 Technical Specification R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "123",
-    "download_url": "https://specifications.o-ran.org/download?id=123"
+    "download_url": "https://specifications.o-ran.org/download?id=123",
+    "row_text": "O-RAN Near-Real-time RAN Intelligent Controller E2 Service Model (E2SM), RAN Function Network Interface (NI) 1.0 ORAN-WG3.E2SM-NI-v01.00 February 2020 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1033",
-    "download_url": "https://specifications.o-ran.org/download?id=1033"
+    "download_url": "https://specifications.o-ran.org/download?id=1033",
+    "row_text": "O-RAN Control, User and Synchronization Plane Specification 20.0 O-RAN.WG4.TS.CUS.0-R005-v20.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1034",
-    "download_url": "https://specifications.o-ran.org/download?id=1034"
+    "download_url": "https://specifications.o-ran.org/download?id=1034",
+    "row_text": "O-RAN Management Plane Specification 20.0 O-RAN.WG4.TS.MP.0-R005-v20.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1035",
-    "download_url": "https://specifications.o-ran.org/download?id=1035"
+    "download_url": "https://specifications.o-ran.org/download?id=1035",
+    "row_text": "O-RAN Management Plane Specification 20.0 O-RAN.WG4.TS.MP-YANGs-R005-v20.00 February 2026 YANG Models R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1036",
-    "download_url": "https://specifications.o-ran.org/download?id=1036"
+    "download_url": "https://specifications.o-ran.org/download?id=1036",
+    "row_text": "O-RAN Fronthaul Interoperability Test Specification (IOT) 15.0 O-RAN.WG4.TS.IOT.0-R005-v15.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1037",
-    "download_url": "https://specifications.o-ran.org/download?id=1037"
+    "download_url": "https://specifications.o-ran.org/download?id=1037",
+    "row_text": "O-RAN Conformance Test Specification 15.0 O-RAN.WG4.TS.CONF.0-R005-v15.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "458",
-    "download_url": "https://specifications.o-ran.org/download?id=458"
+    "download_url": "https://specifications.o-ran.org/download?id=458",
+    "row_text": "O-RAN Cooperative Transport Interface Transport Control Plane Specification 4.0 O-RAN.WG4.CTI-TCP.0-R003-v04.00 June 2023 Technical Specification R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "459",
-    "download_url": "https://specifications.o-ran.org/download?id=459"
+    "download_url": "https://specifications.o-ran.org/download?id=459",
+    "row_text": "O-RAN Cooperative Transport Interface Transport Management Procedures Specification 4.0 O-RAN.WG4.CTI-TMP.0-R003-v04.00 June 2023 Technical Specification R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "367",
-    "download_url": "https://specifications.o-ran.org/download?id=367"
+    "download_url": "https://specifications.o-ran.org/download?id=367",
+    "row_text": "O-RAN Cooperative Transport Interface Transport Management Procedures Specification - YANG Models 3.0 O-RAN.WG4.CTI-TMP-YANG-v03.00 October 2022 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1038",
-    "download_url": "https://specifications.o-ran.org/download?id=1038"
+    "download_url": "https://specifications.o-ran.org/download?id=1038",
+    "row_text": "O-RAN NR C-plane profile 17.0 O-RAN.WG5.TS.C.1-R005-v17.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1039",
-    "download_url": "https://specifications.o-ran.org/download?id=1039"
+    "download_url": "https://specifications.o-ran.org/download?id=1039",
+    "row_text": "O-RAN Interoperability Test Specification (IOT) 15.0 O-RAN.WG5.TS.IOT.0-R005-v15.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1040",
-    "download_url": "https://specifications.o-ran.org/download?id=1040"
+    "download_url": "https://specifications.o-ran.org/download?id=1040",
+    "row_text": "O-RAN D2 Interface: General Aspects and Principles 3.0 O-RAN.WG5.TS.D2GAP.0-R005-v03.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1041",
-    "download_url": "https://specifications.o-ran.org/download?id=1041"
+    "download_url": "https://specifications.o-ran.org/download?id=1041",
+    "row_text": "O-RAN D2 Interface: O&M Requirements 1.0 O-RAN.WG5.TS-D2-O&MRequirements-R005_v01.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1042",
-    "download_url": "https://specifications.o-ran.org/download?id=1042"
+    "download_url": "https://specifications.o-ran.org/download?id=1042",
+    "row_text": "O-RAN D2 Application Protocol (D2AP) 1.0 O-RAN.WG5.TS.D2AP-0.R005-v01.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1043",
-    "download_url": "https://specifications.o-ran.org/download?id=1043"
+    "download_url": "https://specifications.o-ran.org/download?id=1043",
+    "row_text": "O-RAN D2 Application Protocol (D2AP) 1.0 O-RAN.WG5.TS.D2AP-R005-v01.00-ERR01-v01.00 February 2026 Errata document R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "666",
-    "download_url": "https://specifications.o-ran.org/download?id=666"
+    "download_url": "https://specifications.o-ran.org/download?id=666",
+    "row_text": "O-RAN NR U-plane profile 7.0 O-RAN.WG5.U.0-R003-v07.00 June 2024 Technical Specification R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "592",
-    "download_url": "https://specifications.o-ran.org/download?id=592"
+    "download_url": "https://specifications.o-ran.org/download?id=592",
+    "row_text": "O-RAN O1 Interface specification for O-DU 9.0 O-RAN.WG5.O-DU-O1.0-R003-v09.00 February 2024 Technical Specification R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "593",
-    "download_url": "https://specifications.o-ran.org/download?id=593"
+    "download_url": "https://specifications.o-ran.org/download?id=593",
+    "row_text": "O-RAN O1 Interface specification for O-DU - YANG Models 9.0 O-RAN.WG5.O-DU-O1.1-R003-v09.00 February 2024 YANG Models R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "594",
-    "download_url": "https://specifications.o-ran.org/download?id=594"
+    "download_url": "https://specifications.o-ran.org/download?id=594",
+    "row_text": "O-RAN O1 Interface specification for O-DU - Configuration Tables 9.0 O-RAN.WG5.O-DU-O1.2-R003-v09.00 February 2024 Configuration Tables R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "595",
-    "download_url": "https://specifications.o-ran.org/download?id=595"
+    "download_url": "https://specifications.o-ran.org/download?id=595",
+    "row_text": "O-RAN O1 Interface specification for O-CU-UP and O-CU-CP 7.0 O-RAN.WG5.O-CU-O1.0-R003-v07.00 February 2024 Technical Specification R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "596",
-    "download_url": "https://specifications.o-ran.org/download?id=596"
+    "download_url": "https://specifications.o-ran.org/download?id=596",
+    "row_text": "O-RAN O1 Interface specification for O-CU-UP and O-CU-CP - YANG Models 7.0 O-RAN.WG5.O-CU-O1.1-R003-v07.00 February 2024 YANG Models R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "139",
-    "download_url": "https://specifications.o-ran.org/download?id=139"
+    "download_url": "https://specifications.o-ran.org/download?id=139",
+    "row_text": "O-RAN Transport specification 1.0 O-RAN.WG5.Transport.0-v01.00 April 2020 Technical Specification DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1044",
-    "download_url": "https://specifications.o-ran.org/download?id=1044"
+    "download_url": "https://specifications.o-ran.org/download?id=1044",
+    "row_text": "O-RAN O2dms Interface Specification: Profile based on ETSI NFV 10.0 O-RAN.WG6.TS.O2DMS-INTERFACE-ETSI-NFV-PROFILE-R005-v10.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1045",
-    "download_url": "https://specifications.o-ran.org/download?id=1045"
+    "download_url": "https://specifications.o-ran.org/download?id=1045",
+    "row_text": "O-RAN O2 Interface General Aspects and Principles 10.0 O-RAN.WG6.TS.O2-GA&P-R005-v10.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1046",
-    "download_url": "https://specifications.o-ran.org/download?id=1046"
+    "download_url": "https://specifications.o-ran.org/download?id=1046",
+    "row_text": "O-RAN O2dms Interface Specification: Kubernetes Native API Profile for Containerized NFs 7.0 O-RAN.WG6.O2DMS-INTERFACE-K8S-PROFILE-R005-v07.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1047",
-    "download_url": "https://specifications.o-ran.org/download?id=1047"
+    "download_url": "https://specifications.o-ran.org/download?id=1047",
+    "row_text": "O-RAN Report on FOCOM and NFO SMOSs Northbound Interfaces 2.0 O-RAN.WG6.TR.FOCOM-NFO-SMOS-NBI-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1048",
-    "download_url": "https://specifications.o-ran.org/download?id=1048"
+    "download_url": "https://specifications.o-ran.org/download?id=1048",
+    "row_text": "O-RAN O-Cloud Information Model 6.0 O-RAN.WG6.TS.O-Cloud-IM-R005-v06.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1049",
-    "download_url": "https://specifications.o-ran.org/download?id=1049"
+    "download_url": "https://specifications.o-ran.org/download?id=1049",
+    "row_text": "O-RAN O-Cloud Interoperability Test (IOT) Specification 2.03 O-RAN.WG6.O-CLOUD-IOT-R005-v02.03 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1050",
-    "download_url": "https://specifications.o-ran.org/download?id=1050"
+    "download_url": "https://specifications.o-ran.org/download?id=1050",
+    "row_text": "O-RAN O2ims Interface Specification 11.0 O-RAN.WG6.TS.O2IMS-INTERFACE-R005-v11.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1051",
-    "download_url": "https://specifications.o-ran.org/download?id=1051"
+    "download_url": "https://specifications.o-ran.org/download?id=1051",
+    "row_text": "O-RAN Cloudification and Orchestration Use Cases and Requirements for O-RAN Virtualized RAN 15.0 O-RAN.WG6.ORCH-USE-CASES-R005-v15.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "960",
-    "download_url": "https://specifications.o-ran.org/download?id=960"
+    "download_url": "https://specifications.o-ran.org/download?id=960",
+    "row_text": "O-RAN O-Cloud Interface Conformance Test Specification 4.03 O-RAN.WG6.TS.O-CLOUD-INTF-CONF-R004-v04.03 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "961",
-    "download_url": "https://specifications.o-ran.org/download?id=961"
+    "download_url": "https://specifications.o-ran.org/download?id=961",
+    "row_text": "O-RAN Study on O-Cloud Energy Savings 3.0 O-RAN.WG6.TR.O-CLOUD-ES-R004-v03.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "968",
-    "download_url": "https://specifications.o-ran.org/download?id=968"
+    "download_url": "https://specifications.o-ran.org/download?id=968",
+    "row_text": "O-RAN Acceleration Abstraction Layer Common API 10.0 O-RAN.WG6.AAL-Common-API-R004-v10.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "969",
-    "download_url": "https://specifications.o-ran.org/download?id=969"
+    "download_url": "https://specifications.o-ran.org/download?id=969",
+    "row_text": "O-RAN Acceleration Abstraction Layer General Aspects and Principles 13.0 O-RAN.WG6.AAL-GAnP-R004-v13.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "889",
-    "download_url": "https://specifications.o-ran.org/download?id=889"
+    "download_url": "https://specifications.o-ran.org/download?id=889",
+    "row_text": "O-RAN Application Service Descriptor specification 2.0 O-RAN.WG6.ASD-R004-v02.00 June 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "898",
-    "download_url": "https://specifications.o-ran.org/download?id=898"
+    "download_url": "https://specifications.o-ran.org/download?id=898",
+    "row_text": "O-RAN Acceleration Abstraction Layer High-PHY Profiles 8.0 O-RAN.WG6.TS.AAL-HI_PHY-R004-v08.00 June 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1008",
-    "download_url": "https://specifications.o-ran.org/download?id=1008"
+    "download_url": "https://specifications.o-ran.org/download?id=1008",
+    "row_text": "O-RAN O2ims Interface Specification 8.0 WG6.TS.O2IMS-INTERFACE-R004-v08.00-ERR01-v01.00 April 2025 Errata document R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "817",
-    "download_url": "https://specifications.o-ran.org/download?id=817"
+    "download_url": "https://specifications.o-ran.org/download?id=817",
+    "row_text": "O-RAN Cloud Architecture and Deployment Scenarios for O-RAN Virtualized RAN 8.01 O-RAN.WG6.CADS-v08.01 February 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "755",
-    "download_url": "https://specifications.o-ran.org/download?id=755"
+    "download_url": "https://specifications.o-ran.org/download?id=755",
+    "row_text": "O-RAN Acceleration Abstraction Layer MUMIMO Precoder/BeamFormer Calculation Profile 1.01 O-RAN.WG6.AAL-MUMIMO-BF-Calc-Profile-R004-v01.01 October 2024 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "756",
-    "download_url": "https://specifications.o-ran.org/download?id=756"
+    "download_url": "https://specifications.o-ran.org/download?id=756",
+    "row_text": "O-RAN Acceleration Abstract Layer FEC Profiles 4.0 O-RAN.WG6.AAL FEC.R004-v04.00 October 2024 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "670",
-    "download_url": "https://specifications.o-ran.org/download?id=670"
+    "download_url": "https://specifications.o-ran.org/download?id=670",
+    "row_text": "O-RAN O-Cloud Notification API Specification for Event Consumers 4.0 O-RAN.WG6.O-Cloud Notification API-v04.00 June 2024 Technical Specification R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "607",
-    "download_url": "https://specifications.o-ran.org/download?id=607"
+    "download_url": "https://specifications.o-ran.org/download?id=607",
+    "row_text": "O-RAN O2 IMS K8s Technical Report 1.0 O-RAN.WG6.O2-IMS-K8s-R003-v01.00 February 2024 Technical Report R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "539",
-    "download_url": "https://specifications.o-ran.org/download?id=539"
+    "download_url": "https://specifications.o-ran.org/download?id=539",
+    "row_text": "O-RAN Application Life Cycle Management (LCM) for Deployment Technical Recommendation 2.0 O-RAN-WG6.AppLCM-Deployment-R003-v02.00 October 2023 R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "231",
-    "download_url": "https://specifications.o-ran.org/download?id=231"
+    "download_url": "https://specifications.o-ran.org/download?id=231",
+    "row_text": "O-RAN O2 General Aspects and Principles 1.02 O-RAN.WG6.O2-GAnP-v01.02 March 2022 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "55",
-    "download_url": "https://specifications.o-ran.org/download?id=55"
+    "download_url": "https://specifications.o-ran.org/download?id=55",
+    "row_text": "O-RAN Cloud Platform Reference Designs 2.0 O-RAN.WG6.CLOUD-REF-v02.00 February 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1052",
-    "download_url": "https://specifications.o-ran.org/download?id=1052"
+    "download_url": "https://specifications.o-ran.org/download?id=1052",
+    "row_text": "O-RAN Hardware Reference Design Specification for Outdoor Micro Cell with Split Architecture Option 7.2 5.01 O-RAN.WG7.TS.OMC-HRD-Opt7-2-R005-v05.01 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "970",
-    "download_url": "https://specifications.o-ran.org/download?id=970"
+    "download_url": "https://specifications.o-ran.org/download?id=970",
+    "row_text": "O-RAN Hardware Reference Design Specification for Outdoor Macrocell with Split Architecture Option 7.2 4.0 O-RAN.WG7.OMAC-HRD.0-R004-v04.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "971",
-    "download_url": "https://specifications.o-ran.org/download?id=971"
+    "download_url": "https://specifications.o-ran.org/download?id=971",
+    "row_text": "O-RAN Network Energy Savings Procedures and Performance Metrics 3.0 O-RAN.WG7.NES.0-R003-v03.0 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "900",
-    "download_url": "https://specifications.o-ran.org/download?id=900"
+    "download_url": "https://specifications.o-ran.org/download?id=900",
+    "row_text": "O-RAN Hardware Reference Design Specification for Indoor Picocell (FR1) with Split Architecture Option 7-2 4.0 O-RAN.WG7.TS.IPC-HRD-Opt7-2.0-R005-v04.00 June 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "826",
-    "download_url": "https://specifications.o-ran.org/download?id=826"
+    "download_url": "https://specifications.o-ran.org/download?id=826",
+    "row_text": "O-RAN Test Guidelines for Indoor Pico Cell 1.0 O-RAN.WG7.IPC-TEST.0-v01 February 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "757",
-    "download_url": "https://specifications.o-ran.org/download?id=757"
+    "download_url": "https://specifications.o-ran.org/download?id=757",
+    "row_text": "O-RAN Indoor Picocell Hardware Architecture and Requirement (FR1 Only) Specification 3.0 O-RAN.WG7.IPC-HAR.0-v03.00 October 2024 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "759",
-    "download_url": "https://specifications.o-ran.org/download?id=759"
+    "download_url": "https://specifications.o-ran.org/download?id=759",
+    "row_text": "O-RAN Outdoor Macrocell Hardware Architecture and Requirements (FR1) Specification 5.0 O-RAN.WG7.OMAC-HAR.0-v05.00 October 2024 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "415",
-    "download_url": "https://specifications.o-ran.org/download?id=415"
+    "download_url": "https://specifications.o-ran.org/download?id=415",
+    "row_text": "O-RAN Requirements and Reference Design Specification for Enterprise Microcell 1.0 O-RAN.WG7.EMC-HAR-HRD.0-R003-v01.00 March 2023 R003 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "348",
-    "download_url": "https://specifications.o-ran.org/download?id=348"
+    "download_url": "https://specifications.o-ran.org/download?id=348",
+    "row_text": "O-RAN Deployment Scenarios and Base Station Classes 4.0 O-RAN.WG7.DSC.0-v04.00 October 2022 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "187",
-    "download_url": "https://specifications.o-ran.org/download?id=187"
+    "download_url": "https://specifications.o-ran.org/download?id=187",
+    "row_text": "O-RAN Hardware Reference Design Specification for Indoor Picocell (FR1) with Split Architecture Option 8 3.0 O-RAN.WG7.IPC-HRD-Opt8.0-v03.00 October 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "191",
-    "download_url": "https://specifications.o-ran.org/download?id=191"
+    "download_url": "https://specifications.o-ran.org/download?id=191",
+    "row_text": "O-RAN Hardware Reference Design Specification for Fronthaul Gateway 2.0 O-RAN.WG7.FHGW-HRD.0-v02.00 October 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "192",
-    "download_url": "https://specifications.o-ran.org/download?id=192"
+    "download_url": "https://specifications.o-ran.org/download?id=192",
+    "row_text": "O-RAN Hardware Reference Design Specification for Indoor Pico Cell with Fronthaul Split Option 6 2.0 O-RAN.WG7.IPC-HRD-Opt6-v02.00 October 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "90",
-    "download_url": "https://specifications.o-ran.org/download?id=90"
+    "download_url": "https://specifications.o-ran.org/download?id=90",
+    "row_text": "O-RAN Outdoor Micro Cell Hardware Architecture and Requirements (FR1) Specification 1.0 O-RAN.WG7.OMC-HAR.0-v01.00 June 2021 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1053",
-    "download_url": "https://specifications.o-ran.org/download?id=1053"
+    "download_url": "https://specifications.o-ran.org/download?id=1053",
+    "row_text": "O-RAN Base Station O-DU and O-CU Software Architecture and APIs 17.0 O-RAN.WG8.TS.AAD.0-R005-v17.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "973",
-    "download_url": "https://specifications.o-ran.org/download?id=973"
+    "download_url": "https://specifications.o-ran.org/download?id=973",
+    "row_text": "O-RAN Stack Interoperability Test Specification 14.0 O-RAN.WG8.TS.IOT.0-R005-v14.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1054",
-    "download_url": "https://specifications.o-ran.org/download?id=1054"
+    "download_url": "https://specifications.o-ran.org/download?id=1054",
+    "row_text": "O-RAN Xhaul Transport Requirements 2.0 O-RAN.WG9.XTRP-REQ.0-R005-v02.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1055",
-    "download_url": "https://specifications.o-ran.org/download?id=1055"
+    "download_url": "https://specifications.o-ran.org/download?id=1055",
+    "row_text": "O-RAN Xhaul Packet Switched Architectures and Solutions 10.0 O-RAN.WG9.XPSAAS.0-R005-v10.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1056",
-    "download_url": "https://specifications.o-ran.org/download?id=1056"
+    "download_url": "https://specifications.o-ran.org/download?id=1056",
+    "row_text": "O-RAN Architecture and Requirements for RAN Fronthaul over Converged Packet Transport Network 1.0 O-RAN.WG9.TS.ARCH-REQ-RAN-FH-CPTN .X-R005-v01.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "974",
-    "download_url": "https://specifications.o-ran.org/download?id=974"
+    "download_url": "https://specifications.o-ran.org/download?id=974",
+    "row_text": "O-RAN Management interfaces for Transport Network Elements 10.0 O-RAN.WG9.XTRP-MGT.0-R004-v10.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "976",
-    "download_url": "https://specifications.o-ran.org/download?id=976"
+    "download_url": "https://specifications.o-ran.org/download?id=976",
+    "row_text": "O-RAN Synchronization Architecture and Solution Specification 7.0 O-RAN.WG9.XTRP-SYN.0-R004-v07.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "829",
-    "download_url": "https://specifications.o-ran.org/download?id=829"
+    "download_url": "https://specifications.o-ran.org/download?id=829",
+    "row_text": "O-RAN WDM-based Xhaul Networks 5.0 ORAN-WG9.WDM.0-R004-v05.00 February 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "831",
-    "download_url": "https://specifications.o-ran.org/download?id=831"
+    "download_url": "https://specifications.o-ran.org/download?id=831",
+    "row_text": "O-RAN Synchronization Architecture and Solution Specification - YANG Models 6.0 O-RAN.WG9.XTRP-SYN.1-R004-v06.00_YANG February 2025 YANG Models R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "832",
-    "download_url": "https://specifications.o-ran.org/download?id=832"
+    "download_url": "https://specifications.o-ran.org/download?id=832",
+    "row_text": "O-RAN Xhaul Transport Testing 5.0 O-RAN.WG9.XTRP-TST.0-R004-v05.00 February 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1057",
-    "download_url": "https://specifications.o-ran.org/download?id=1057"
+    "download_url": "https://specifications.o-ran.org/download?id=1057",
+    "row_text": "O-RAN O1 Interface Specification 18.0 O-RAN.WG10.TS.O1-Interface.0-R005-v18.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1058",
-    "download_url": "https://specifications.o-ran.org/download?id=1058"
+    "download_url": "https://specifications.o-ran.org/download?id=1058",
+    "row_text": "O-RAN Information Model and Data Models Specification 13.0 O-RAN.WG10.TS.Information Model and Data Models.0-R005-v13.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1059",
-    "download_url": "https://specifications.o-ran.org/download?id=1059"
+    "download_url": "https://specifications.o-ran.org/download?id=1059",
+    "row_text": "O-RAN Information Model and Data Models Specification 13.0 O-RAN.WG10.TS.Information Model and Data Models.1-R005-v13.00 February 2026 YANG Models R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1060",
-    "download_url": "https://specifications.o-ran.org/download?id=1060"
+    "download_url": "https://specifications.o-ran.org/download?id=1060",
+    "row_text": "O-RAN Operations and Maintenance Architecture 17.0 O-RAN.WG10.TS.OAM-Architecture-R005-v17.00 February 2026 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1061",
-    "download_url": "https://specifications.o-ran.org/download?id=1061"
+    "download_url": "https://specifications.o-ran.org/download?id=1061",
+    "row_text": "O-RAN O1 Performance Measurements Specification 5.0 O-RAN.WG10.TS.O1PMeas-R005-v05.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1062",
-    "download_url": "https://specifications.o-ran.org/download?id=1062"
+    "download_url": "https://specifications.o-ran.org/download?id=1062",
+    "row_text": "O-RAN Topology Exposure & Inventory Common Information Models and Interface Specification - Stage 2 6.0 O-RAN.WG10.TS.TE&IV-CIMI.0-R005-v06.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1063",
-    "download_url": "https://specifications.o-ran.org/download?id=1063"
+    "download_url": "https://specifications.o-ran.org/download?id=1063",
+    "row_text": "O-RAN Topology Exposure and Inventory Data Model Specification - Stage 3 4.0 O-RAN.WG10.TS.TE&IV-DM.0-R005-v04.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1064",
-    "download_url": "https://specifications.o-ran.org/download?id=1064"
+    "download_url": "https://specifications.o-ran.org/download?id=1064",
+    "row_text": "O-RAN Topology Exposure and Inventory Application Protocols Specification - Stage 3 4.0 O-RAN.WG10.TS.TE&IV-API.0-R005-v04.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1065",
-    "download_url": "https://specifications.o-ran.org/download?id=1065"
+    "download_url": "https://specifications.o-ran.org/download?id=1065",
+    "row_text": "O-RAN Application Packaging General Aspects & Principles 1.0 O-RAN.WG10.TS.AppPkgGAP-R005-v01.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "985",
-    "download_url": "https://specifications.o-ran.org/download?id=985"
+    "download_url": "https://specifications.o-ran.org/download?id=985",
+    "row_text": "O-RAN Cloud Native OAM Report 1.0 O-RAN.WG10.TR.Cloud-Native-OAM.0-R004-v01.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "989",
-    "download_url": "https://specifications.o-ran.org/download?id=989"
+    "download_url": "https://specifications.o-ran.org/download?id=989",
+    "row_text": "O-RAN Topology Exposure and Inventory Management Services Use Cases and Requirement Specification 3.01 O-RAN.WG10.TE&IV-UCR.0-R004-v03.01 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "990",
-    "download_url": "https://specifications.o-ran.org/download?id=990"
+    "download_url": "https://specifications.o-ran.org/download?id=990",
+    "row_text": "O-RAN Onboarding SMOS General Aspects and Principles 2.0 O-RAN.WG10.TS.OnboardingSMOSGAP.0-R004-v02.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "982",
-    "download_url": "https://specifications.o-ran.org/download?id=982"
+    "download_url": "https://specifications.o-ran.org/download?id=982",
+    "row_text": "O-RAN O1 Network Resource Model 4.0 O-RAN.WG10.TS.O1NRM.0-R004-v04.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "983",
-    "download_url": "https://specifications.o-ran.org/download?id=983"
+    "download_url": "https://specifications.o-ran.org/download?id=983",
+    "row_text": "O-RAN O1 Network Resource Model 4.0 O-RAN.WG10.TS.O1NRM.1-R004-v04.00 October 2025 YANG Models R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1081",
-    "download_url": "https://specifications.o-ran.org/download?id=1081"
+    "download_url": "https://specifications.o-ran.org/download?id=1081",
+    "row_text": "O-RAN Certification and Badging Processes and Procedures 13.0 O-RAN.TIFG.TS.Cert-Badge.6-R005-v13.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1082",
-    "download_url": "https://specifications.o-ran.org/download?id=1082"
+    "download_url": "https://specifications.o-ran.org/download?id=1082",
+    "row_text": "O-RAN End-to-end Test Specification 9.0 O-RAN.TIFG.TS.E2E-Test.0-R005-v09.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "859",
-    "download_url": "https://specifications.o-ran.org/download?id=859"
+    "download_url": "https://specifications.o-ran.org/download?id=859",
+    "row_text": "O-RAN Criteria and Guidelines of Open Testing and Integration Centre 6.0 O-RAN.TIFG.CGofOTIC.0-v06.00 March 2025 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "31",
-    "download_url": "https://specifications.o-ran.org/download?id=31"
+    "download_url": "https://specifications.o-ran.org/download?id=31",
+    "row_text": "O-RAN End-to-End System Testing Framework Specification 1.0 O-RAN.TIFG.E2ETSTFWK.0-v01.00 October 2020 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1066",
-    "download_url": "https://specifications.o-ran.org/download?id=1066"
+    "download_url": "https://specifications.o-ran.org/download?id=1066",
+    "row_text": "O-RAN Security Test Specifications 12.0 O-RAN.WG11.TS.STS-R005-v12.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1067",
-    "download_url": "https://specifications.o-ran.org/download?id=1067"
+    "download_url": "https://specifications.o-ran.org/download?id=1067",
+    "row_text": "O-RAN Security Requirements and Controls Specifications 14.0 O-RAN.WG11.TS.SRCS.0-R005-v14.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1068",
-    "download_url": "https://specifications.o-ran.org/download?id=1068"
+    "download_url": "https://specifications.o-ran.org/download?id=1068",
+    "row_text": "O-RAN Security Protocols Specifications 14.0 O-RAN.WG11.TS.SecProtSpec.0-R005-v14.00 February 2026 Technical Specification R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1069",
-    "download_url": "https://specifications.o-ran.org/download?id=1069"
+    "download_url": "https://specifications.o-ran.org/download?id=1069",
+    "row_text": "O-RAN Security Threat Modeling and Risk Assessment 8.0 O-RAN.WG11.TR.Threat-Modeling-R005-v08.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1070",
-    "download_url": "https://specifications.o-ran.org/download?id=1070"
+    "download_url": "https://specifications.o-ran.org/download?id=1070",
+    "row_text": "O-RAN Study on Security Configuration Management 2.0 O-RAN.WG11.TR.SCM.0-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1071",
-    "download_url": "https://specifications.o-ran.org/download?id=1071"
+    "download_url": "https://specifications.o-ran.org/download?id=1071",
+    "row_text": "O-RAN Study on Post-Quantum Cryptography 2.0 O-RAN.WG11.TR.PQC-Security.0-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1072",
-    "download_url": "https://specifications.o-ran.org/download?id=1072"
+    "download_url": "https://specifications.o-ran.org/download?id=1072",
+    "row_text": "O-RAN Study on Certificate Management Framework 6.0 O-RAN.WG11.TR.Certficate-Management-Framework.0-R005-v06.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1073",
-    "download_url": "https://specifications.o-ran.org/download?id=1073"
+    "download_url": "https://specifications.o-ran.org/download?id=1073",
+    "row_text": "O-RAN Study on Security for Artificial Intelligence and Machine Learning (AI/ML) in O-RAN 5.0 O-RAN.WG11.TR.AIML-Security-Analysis.0-R005-v05.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1074",
-    "download_url": "https://specifications.o-ran.org/download?id=1074"
+    "download_url": "https://specifications.o-ran.org/download?id=1074",
+    "row_text": "O-RAN Study on Zero Trust Architecture for O-RAN 5.0 O-RAN.WG11.TR.ZTA-R005-v05.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1076",
-    "download_url": "https://specifications.o-ran.org/download?id=1076"
+    "download_url": "https://specifications.o-ran.org/download?id=1076",
+    "row_text": "O-RAN Study on Security for Near Real Time RIC and xApps 7.0 O-RAN.WG11.TR.Security-Near-RT-RIC-xApps.0-R005-v07.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1077",
-    "download_url": "https://specifications.o-ran.org/download?id=1077"
+    "download_url": "https://specifications.o-ran.org/download?id=1077",
+    "row_text": "O-RAN OAuth 2.0 Security 7.0 O-RAN.WG11.TR.OAuth2.0-Security.0-R005-v07.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1078",
-    "download_url": "https://specifications.o-ran.org/download?id=1078"
+    "download_url": "https://specifications.o-ran.org/download?id=1078",
+    "row_text": "O-RAN Study on Security for Service Management and Orchestration (SMO) 8.0 O-RAN.WG11.TR.SMO-Security-Analysis.0-R005-v08.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1079",
-    "download_url": "https://specifications.o-ran.org/download?id=1079"
+    "download_url": "https://specifications.o-ran.org/download?id=1079",
+    "row_text": "O-RAN Study on Security for O-Cloud 9.0 O-RAN.WG11.TR.O-CLOUD-Security.0-R005-v09.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1080",
-    "download_url": "https://specifications.o-ran.org/download?id=1080"
+    "download_url": "https://specifications.o-ran.org/download?id=1080",
+    "row_text": "O-RAN Study on Continuous Security Monitoring 2.0 O-RAN.WG11.TR.CSM-Security-R005-v02.00 February 2026 Technical Report R005 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "991",
-    "download_url": "https://specifications.o-ran.org/download?id=991"
+    "download_url": "https://specifications.o-ran.org/download?id=991",
+    "row_text": "O-RAN Security Requirements and Controls Specifications 13.0 O-RAN.WG11.TS.SRCS.0-R004-v13.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "992",
-    "download_url": "https://specifications.o-ran.org/download?id=992"
+    "download_url": "https://specifications.o-ran.org/download?id=992",
+    "row_text": "O-RAN Security Protocols Specifications 13.0 O-RAN.WG11.TS.SecProtSpec.0-R004-v13.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "993",
-    "download_url": "https://specifications.o-ran.org/download?id=993"
+    "download_url": "https://specifications.o-ran.org/download?id=993",
+    "row_text": "O-RAN Security Test Specifications 11.0 O-RAN.WG11.TS.STS-R004-v11.00 October 2025 Technical Specification R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "994",
-    "download_url": "https://specifications.o-ran.org/download?id=994"
+    "download_url": "https://specifications.o-ran.org/download?id=994",
+    "row_text": "O-RAN Security Threat Modeling and Risk Assessment 7.0 O-RAN.WG11.TR.Threat-Modeling.0-R004-v07.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "995",
-    "download_url": "https://specifications.o-ran.org/download?id=995"
+    "download_url": "https://specifications.o-ran.org/download?id=995",
+    "row_text": "O-RAN Study on Security Configuration Management 1.0 O-RAN.WG11.TR.SCM.0-R004-v01.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "996",
-    "download_url": "https://specifications.o-ran.org/download?id=996"
+    "download_url": "https://specifications.o-ran.org/download?id=996",
+    "row_text": "O-RAN Study on Post-Quantum Cryptography 1.0 O-RAN.WG11.TR.PQC-Security.0-R004-v01.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "997",
-    "download_url": "https://specifications.o-ran.org/download?id=997"
+    "download_url": "https://specifications.o-ran.org/download?id=997",
+    "row_text": "O-RAN Study on Zero Trust Architecture for O-RAN 4.0 O-RAN.WG11.TR.ZTA-R004-v04.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "998",
-    "download_url": "https://specifications.o-ran.org/download?id=998"
+    "download_url": "https://specifications.o-ran.org/download?id=998",
+    "row_text": "O-RAN Study on Security for Artificial Intelligence and Machine Learning (AI/ML) in O-RAN 4.0 O-RAN.WG11.TR.AIML-Security-Analysis.0-R004-v04.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "999",
-    "download_url": "https://specifications.o-ran.org/download?id=999"
+    "download_url": "https://specifications.o-ran.org/download?id=999",
+    "row_text": "O-RAN Study on Certificate Management Framework 5.0 O-RAN.WG11.TR.Certficate-Management-Framework.0-R004-v05.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1000",
-    "download_url": "https://specifications.o-ran.org/download?id=1000"
+    "download_url": "https://specifications.o-ran.org/download?id=1000",
+    "row_text": "O-RAN Study on Security for Fronthaul CUS-Plane 5.0 O-RAN.WG11.TR.Open-FH-Security.0-R004-v05.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1001",
-    "download_url": "https://specifications.o-ran.org/download?id=1001"
+    "download_url": "https://specifications.o-ran.org/download?id=1001",
+    "row_text": "O-RAN Study on Security for Near Real Time RIC and xApps 6.0 O-RAN.WG11.TR.Security-Near-RT-RIC-xApps.0-R004-v06.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1002",
-    "download_url": "https://specifications.o-ran.org/download?id=1002"
+    "download_url": "https://specifications.o-ran.org/download?id=1002",
+    "row_text": "O-RAN OAuth 2.0 Security 6.0 O-RAN.WG11.TR.OAuth2.0-Security.0-R004-v06.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1003",
-    "download_url": "https://specifications.o-ran.org/download?id=1003"
+    "download_url": "https://specifications.o-ran.org/download?id=1003",
+    "row_text": "O-RAN Study on Security for O-Cloud 8.0 O-RAN.WG11.TR.O-CLOUD-Security.0-R004-v08.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "1004",
-    "download_url": "https://specifications.o-ran.org/download?id=1004"
+    "download_url": "https://specifications.o-ran.org/download?id=1004",
+    "row_text": "O-RAN Study on Security for Service Management and Orchestration (SMO) 7.0 O-RAN.WG11.TR.SMO-Security-Analysis.0-R004-v07.00 October 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "916",
-    "download_url": "https://specifications.o-ran.org/download?id=916"
+    "download_url": "https://specifications.o-ran.org/download?id=916",
+    "row_text": "O-RAN Study on Security for Application Lifecycle Management 4.0 O-RAN.WG11.TR.AppLCM-Security-R004-v04.00 June 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "919",
-    "download_url": "https://specifications.o-ran.org/download?id=919"
+    "download_url": "https://specifications.o-ran.org/download?id=919",
+    "row_text": "O-RAN Study on Continuous Security Monitoring 1.0 O-RAN.WG11.TR.CSM-Security-R004-v01.00 June 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "848",
-    "download_url": "https://specifications.o-ran.org/download?id=848"
+    "download_url": "https://specifications.o-ran.org/download?id=848",
+    "row_text": "O-RAN Study on O-RU Centralized User Management 4.0 O-RAN.WG11.TR.O-RUCUM-R004-v04.00 February 2025 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "778",
-    "download_url": "https://specifications.o-ran.org/download?id=778"
+    "download_url": "https://specifications.o-ran.org/download?id=778",
+    "row_text": "O-RAN Study on Security for Shared O-RU (SharedORU) 6.0 ORAN-WG11-SharedORU-Security-Analysis-TR.0-R004-v06.00 October 2024 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "780",
-    "download_url": "https://specifications.o-ran.org/download?id=780"
+    "download_url": "https://specifications.o-ran.org/download?id=780",
+    "row_text": "O-RAN Study on Security Log Management 5.0 O-RAN.WG11.Security-Log-Management-TR.O-R004-v05.00 October 2024 Technical Report R004 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "256",
-    "download_url": "https://specifications.o-ran.org/download?id=256"
+    "download_url": "https://specifications.o-ran.org/download?id=256",
+    "row_text": "O-RAN Study on Security for Non-RT-RIC 1.0 O-RAN.SFG.Non-RT-RIC-Security-TR-v01.00 July 2022 DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "860",
-    "download_url": "https://specifications.o-ran.org/download?id=860"
+    "download_url": "https://specifications.o-ran.org/download?id=860",
+    "row_text": "O-RAN Energy Measurements Analysis Report 1.01 O-RAN.SuFG.TR.NES-Analysis-R004-v01.01 April 2025 Technical Report DOWNLOAD",
+    "display_title": "Download"
   },
   {
     "id": "695",
-    "download_url": "https://specifications.o-ran.org/download?id=695"
+    "download_url": "https://specifications.o-ran.org/download?id=695",
+    "row_text": "O-RAN Circular economy guidelines on network equipment 1.0 O-RAN.SuFG.CE-v01.00 June 2024 Technical Report R003 DOWNLOAD",
+    "display_title": "Download"
   }
 ]
