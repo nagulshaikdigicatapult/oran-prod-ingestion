@@ -10,9 +10,7 @@ permissions:
 
 jobs:
   monitor:
-    name: Monitor portal snapshot (no downloads)
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,33 +23,32 @@ jobs:
       - name: Install tools
         run: |
           python -m pip install --upgrade pip
-          pip install ruff bandit pip-audit
-
-      - name: Install Playwright browsers
-        run: |
           pip install -r requirements.txt
+          pip install ruff bandit pip-audit
           python -m playwright install --with-deps chromium
 
       - name: Lint + security
         run: |
-          ruff --version
           ruff check .
           bandit -q -r scripts -ll
 
-      - name: Run portal monitor (CI safe)
+      - name: Fetch live portal manifest
+        run: |
+          python scripts/browser/fetch_manifest_live.py
+
+      - name: Normalize + diff (CI safe)
         env:
           ORAN_SKIP_CATALOG: "1"
         run: |
-          python scripts/browser/fetch_manifest_live.py
-python scripts/01_normalize_manifest.py
-python scripts/update_from_portal.py manifests/raw/manifest.live.json
+          python scripts/01_normalize_manifest.py
+          python scripts/update_from_portal.py manifests/raw/manifest.live.json
 
-      - name: Upload reports
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: portal-monitor-artifacts
           path: |
-            manifests/raw/manifest.latest.json
+            manifests/raw/manifest.live.json
             manifests/processed/normalized_manifest.json
             reports/portal_diff.latest.json
             reports/portal_status.latest.json
