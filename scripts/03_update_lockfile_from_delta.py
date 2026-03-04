@@ -20,7 +20,6 @@ import urllib.request
 from pathlib import Path
 from typing import Dict, Optional, Tuple
 
-
 LOCKFILE_PATH = Path("inventory/id_filename_map.json")
 DELTA_INV_PATH = Path("inventory/download_inventory.delta.json")
 
