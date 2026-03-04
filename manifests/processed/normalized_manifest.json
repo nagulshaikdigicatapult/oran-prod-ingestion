@@ -7,8 +7,7 @@
     "doc_code": "O-RAN.WG1.TR.Use-Cases-Analysis-Report-R005-v19.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1010",
@@ -18,8 +17,7 @@
     "doc_code": "O-RAN.WG1.TS.Use-Cases-Detailed-Specification-R005-v19.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1011",
@@ -29,8 +27,7 @@
     "doc_code": "O-RAN.WG1.TR.CCIN-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1012",
@@ -40,8 +37,7 @@
     "doc_code": "O-RAN.WG1.TR.RIC4NTN-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1013",
@@ -51,8 +47,7 @@
     "doc_code": "O-RAN.WG1.TS.OAD-R005-v16.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1014",
@@ -62,8 +57,7 @@
     "doc_code": "O-RAN.WG1.TS.SMO-ARCH-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "929",
@@ -73,8 +67,7 @@
     "doc_code": "O-RAN.WG1.TR.O-RES.0-R004-v01.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "931",
@@ -84,8 +77,7 @@
     "doc_code": "O-RAN.WG1.TR.FILM.R004-v01.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "934",
@@ -95,8 +87,7 @@
     "doc_code": "O-RAN.WG1.TR.SMO-INT-R004-v06.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "863",
@@ -106,8 +97,7 @@
     "doc_code": "O-RAN.WG1.TS.Slicing-Architecture-R004-v14.01",
     "month_year": "June 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "715",
@@ -117,8 +107,7 @@
     "doc_code": "O-RAN.WG1.TR.SA-MVD-R004-v03.00",
     "month_year": "October 2024",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "716",
@@ -128,8 +117,7 @@
     "doc_code": "O-RAN.WG1.TR.Decoupled-SMO-Architecture-R004-v03.00",
     "month_year": "October 2024",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "442",
@@ -139,8 +127,7 @@
     "doc_code": "O-RAN.WG1.Network-Energy-Savings-Technical-Report-R003-v02.00",
     "month_year": "June 2023",
     "doc_kind": "Technical Report",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "267",
@@ -150,8 +137,7 @@
     "doc_code": "O-RAN.WG1.mMIMO-Use-Cases-TR-v01.00",
     "month_year": "July 2022",
     "doc_kind": "Technical Report",
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "32",
@@ -161,8 +147,7 @@
     "doc_code": "O-RAN.WG1.O1-Interface.0-v04.00",
     "month_year": "February 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "33",
@@ -172,8 +157,7 @@
     "doc_code": "O-RAN.WG1.OAM-Architecture-v04.00",
     "month_year": "February 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "38",
@@ -183,8 +167,7 @@
     "doc_code": null,
     "month_year": "February 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "104",
@@ -194,8 +177,7 @@
     "doc_code": "O-RAN.WG1.Study-on-O-RAN-Slicing-v02.00",
     "month_year": "April 2020",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1015",
@@ -205,8 +187,7 @@
     "doc_code": "O-RAN.WG2.TS.R1GAP-R005-v13.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1016",
@@ -216,8 +197,7 @@
     "doc_code": "O-RAN.WG2.TS.R1UCR-R005-v12.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1017",
@@ -227,8 +207,7 @@
     "doc_code": "O-RAN.WG2.TS.R1AP-R005-v10.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1018",
@@ -238,8 +217,7 @@
     "doc_code": "O-RAN.WG2.TS.R1TD-R005-v04.02",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1019",
@@ -249,8 +227,7 @@
     "doc_code": "O-RAN.WG2.TS.R1TS-R005-v05.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1020",
@@ -260,8 +237,7 @@
     "doc_code": "O-RAN.WG2.TS.A1GAP-R005-v05.03",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1021",
@@ -271,8 +247,7 @@
     "doc_code": "O-RAN.WG2.TS.A1AP-R005-v06.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1022",
@@ -282,8 +257,7 @@
     "doc_code": "O-RAN.WG2.TS.A1TD-R005-v11.01",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1023",
@@ -293,8 +267,7 @@
     "doc_code": "O-RAN.WG2.TS.A1TS-R005-v05.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1024",
@@ -304,8 +277,7 @@
     "doc_code": "O-RAN.WG2.TS.A1UCR-R005-v05.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1025",
@@ -315,8 +287,7 @@
     "doc_code": "O-RAN.WG2.TR.DECSMO-Impact-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1026",
@@ -326,8 +297,7 @@
     "doc_code": "O-RAN.WG2.TS.Use-Case-Requirements-R005-v11.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "943",
@@ -337,8 +307,7 @@
     "doc_code": "O-RAN.WG2.TS.A1TP-R004-v03.05",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "871",
@@ -348,8 +317,7 @@
     "doc_code": "O-RAN.WG2.TS.R1TP-R004-v04.03",
     "month_year": "June 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "875",
@@ -359,8 +327,7 @@
     "doc_code": "O-RAN.WG2.TR.PlcCnfMtgt-R004-v01.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "877",
@@ -370,8 +337,7 @@
     "doc_code": "O-RAN.WG2.TR.A1PENF-R004-v01.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "878",
@@ -381,8 +347,7 @@
     "doc_code": "O-RAN.WG2.TS.Non-RT-RIC-ARCH-R004-v07.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "158",
@@ -392,8 +357,7 @@
     "doc_code": "O-RAN.WG2.AIML-v01.03",
     "month_year": "October 2021",
     "doc_kind": "Technical Report",
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "74",
@@ -403,8 +367,7 @@
     "doc_code": "O-RAN.WG2.Non-RT-RIC-ARCH-TR-v01.01",
     "month_year": "June 2021",
     "doc_kind": "Technical Report",
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1027",
@@ -414,8 +377,7 @@
     "doc_code": "O-RAN.WG3.TS.UCR-R005-v10.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1028",
@@ -425,8 +387,7 @@
     "doc_code": "O-RAN.WG3.TS.Y1GAP-R005-v01.02",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1029",
@@ -436,8 +397,7 @@
     "doc_code": "O-RAN.WG3.TS.Y1AP-R005-v01.02",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1030",
@@ -447,8 +407,7 @@
     "doc_code": "O-RAN.WG3.TS.Y1TD-R005-v03.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1031",
@@ -458,8 +417,7 @@
     "doc_code": "O-RAN.WG3.TS.RICARCH-R005-v08.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1032",
@@ -469,8 +427,7 @@
     "doc_code": "O-RAN.WG3.TS.RICAPI-R005-v03.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "947",
@@ -480,8 +437,7 @@
     "doc_code": "O-RAN.WG3.TS.E2GAP-R004-v08.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "948",
@@ -491,8 +447,7 @@
     "doc_code": "O-RAN.WG3.TS.E2AP-R004-v08.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "949",
@@ -502,8 +457,7 @@
     "doc_code": "O-RAN.WG3.TS.E2SM-KPM-R004-v07.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "950",
@@ -513,8 +467,7 @@
     "doc_code": "O-RAN.WG3.TS.E2SM-RC-R004-v09.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "880",
@@ -524,8 +477,7 @@
     "doc_code": "O-RAN.WG3.TS.E2SM-CCC-R004-v06.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "808",
@@ -535,8 +487,7 @@
     "doc_code": "O-RAN.WG3.TS.E2SM-R004-v07.00",
     "month_year": "February 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "809",
@@ -546,8 +497,7 @@
     "doc_code": "O-RAN.WG3.TS.E2SM-LLC-R004-v01.00",
     "month_year": "February 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "814",
@@ -557,8 +507,7 @@
     "doc_code": "O-RAN.WG3.TS.UCR-R004-v08.00",
     "month_year": "February 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "737",
@@ -568,8 +517,7 @@
     "doc_code": "O-RAN.WG3.TR.ConMit-R004-v01.00",
     "month_year": "October 2024",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "395",
@@ -579,8 +527,7 @@
     "doc_code": "O-RAN.WG3.O1-Interface-for-Near-RT-RIC-R003-v01.00",
     "month_year": "March 2023",
     "doc_kind": null,
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "396",
@@ -590,8 +537,7 @@
     "doc_code": "O-RAN.WG3.E2TS-R003-v02.00",
     "month_year": "March 2023",
     "doc_kind": "Technical Specification",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "123",
@@ -601,8 +547,7 @@
     "doc_code": null,
     "month_year": "February 2020",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1033",
@@ -612,8 +557,7 @@
     "doc_code": "O-RAN.WG4.TS.CUS.0-R005-v20.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1034",
@@ -623,8 +567,7 @@
     "doc_code": "O-RAN.WG4.TS.MP.0-R005-v20.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1035",
@@ -634,8 +577,7 @@
     "doc_code": "O-RAN.WG4.TS.MP-YANGs-R005-v20.00",
     "month_year": "February 2026",
     "doc_kind": null,
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1036",
@@ -645,8 +587,7 @@
     "doc_code": "O-RAN.WG4.TS.IOT.0-R005-v15.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1037",
@@ -656,8 +597,7 @@
     "doc_code": "O-RAN.WG4.TS.CONF.0-R005-v15.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "458",
@@ -667,8 +607,7 @@
     "doc_code": "O-RAN.WG4.CTI-TCP.0-R003-v04.00",
     "month_year": "June 2023",
     "doc_kind": "Technical Specification",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "459",
@@ -678,8 +617,7 @@
     "doc_code": "O-RAN.WG4.CTI-TMP.0-R003-v04.00",
     "month_year": "June 2023",
     "doc_kind": "Technical Specification",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "367",
@@ -689,8 +627,7 @@
     "doc_code": "O-RAN.WG4.CTI-TMP-YANG-v03.00",
     "month_year": "October 2022",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1038",
@@ -700,8 +637,7 @@
     "doc_code": "O-RAN.WG5.TS.C.1-R005-v17.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1039",
@@ -711,8 +647,7 @@
     "doc_code": "O-RAN.WG5.TS.IOT.0-R005-v15.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1040",
@@ -722,8 +657,7 @@
     "doc_code": "O-RAN.WG5.TS.D2GAP.0-R005-v03.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1041",
@@ -733,8 +667,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1042",
@@ -744,8 +677,7 @@
     "doc_code": "O-RAN.WG5.TS.D2AP-0.R005-v01.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1043",
@@ -755,8 +687,7 @@
     "doc_code": "O-RAN.WG5.TS.D2AP-R005-v01.00-ERR01-v01.00",
     "month_year": "February 2026",
     "doc_kind": null,
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "666",
@@ -766,8 +697,7 @@
     "doc_code": "O-RAN.WG5.U.0-R003-v07.00",
     "month_year": "June 2024",
     "doc_kind": "Technical Specification",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "592",
@@ -777,8 +707,7 @@
     "doc_code": "O-RAN.WG5.O-DU-O1.0-R003-v09.00",
     "month_year": "February 2024",
     "doc_kind": "Technical Specification",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "593",
@@ -788,8 +717,7 @@
     "doc_code": "O-RAN.WG5.O-DU-O1.1-R003-v09.00",
     "month_year": "February 2024",
     "doc_kind": null,
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "594",
@@ -799,8 +727,7 @@
     "doc_code": "O-RAN.WG5.O-DU-O1.2-R003-v09.00",
     "month_year": "February 2024",
     "doc_kind": null,
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "595",
@@ -810,8 +737,7 @@
     "doc_code": "O-RAN.WG5.O-CU-O1.0-R003-v07.00",
     "month_year": "February 2024",
     "doc_kind": "Technical Specification",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "596",
@@ -821,8 +747,7 @@
     "doc_code": "O-RAN.WG5.O-CU-O1.1-R003-v07.00",
     "month_year": "February 2024",
     "doc_kind": null,
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "139",
@@ -832,8 +757,7 @@
     "doc_code": "O-RAN.WG5.Transport.0-v01.00",
     "month_year": "April 2020",
     "doc_kind": "Technical Specification",
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1044",
@@ -843,8 +767,7 @@
     "doc_code": "O-RAN.WG6.TS.O2DMS-INTERFACE-ETSI-NFV-PROFILE-R005-v10.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1045",
@@ -854,8 +777,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1046",
@@ -865,8 +787,7 @@
     "doc_code": "O-RAN.WG6.O2DMS-INTERFACE-K8S-PROFILE-R005-v07.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1047",
@@ -876,8 +797,7 @@
     "doc_code": "O-RAN.WG6.TR.FOCOM-NFO-SMOS-NBI-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1048",
@@ -887,8 +807,7 @@
     "doc_code": "O-RAN.WG6.TS.O-Cloud-IM-R005-v06.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1049",
@@ -898,8 +817,7 @@
     "doc_code": "O-RAN.WG6.O-CLOUD-IOT-R005-v02.03",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1050",
@@ -909,8 +827,7 @@
     "doc_code": "O-RAN.WG6.TS.O2IMS-INTERFACE-R005-v11.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1051",
@@ -920,8 +837,7 @@
     "doc_code": "O-RAN.WG6.ORCH-USE-CASES-R005-v15.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "960",
@@ -931,8 +847,7 @@
     "doc_code": "O-RAN.WG6.TS.O-CLOUD-INTF-CONF-R004-v04.03",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "961",
@@ -942,8 +857,7 @@
     "doc_code": "O-RAN.WG6.TR.O-CLOUD-ES-R004-v03.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "968",
@@ -953,8 +867,7 @@
     "doc_code": "O-RAN.WG6.AAL-Common-API-R004-v10.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "969",
@@ -964,8 +877,7 @@
     "doc_code": "O-RAN.WG6.AAL-GAnP-R004-v13.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "889",
@@ -975,8 +887,7 @@
     "doc_code": "O-RAN.WG6.ASD-R004-v02.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "898",
@@ -986,8 +897,7 @@
     "doc_code": null,
     "month_year": "June 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1008",
@@ -997,8 +907,7 @@
     "doc_code": null,
     "month_year": "April 2025",
     "doc_kind": null,
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "817",
@@ -1008,8 +917,7 @@
     "doc_code": "O-RAN.WG6.CADS-v08.01",
     "month_year": "February 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "755",
@@ -1019,8 +927,7 @@
     "doc_code": "O-RAN.WG6.AAL-MUMIMO-BF-Calc-Profile-R004-v01.01",
     "month_year": "October 2024",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "756",
@@ -1030,8 +937,7 @@
     "doc_code": null,
     "month_year": "October 2024",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "670",
@@ -1041,8 +947,7 @@
     "doc_code": null,
     "month_year": "June 2024",
     "doc_kind": "Technical Specification",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "607",
@@ -1052,8 +957,7 @@
     "doc_code": "O-RAN.WG6.O2-IMS-K8s-R003-v01.00",
     "month_year": "February 2024",
     "doc_kind": "Technical Report",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "539",
@@ -1063,8 +967,7 @@
     "doc_code": null,
     "month_year": "October 2023",
     "doc_kind": null,
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "231",
@@ -1074,8 +977,7 @@
     "doc_code": "O-RAN.WG6.O2-GAnP-v01.02",
     "month_year": "March 2022",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "55",
@@ -1085,8 +987,7 @@
     "doc_code": "O-RAN.WG6.CLOUD-REF-v02.00",
     "month_year": "February 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1052",
@@ -1096,8 +997,7 @@
     "doc_code": "O-RAN.WG7.TS.OMC-HRD-Opt7-2-R005-v05.01",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "970",
@@ -1107,8 +1007,7 @@
     "doc_code": "O-RAN.WG7.OMAC-HRD.0-R004-v04.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "971",
@@ -1118,8 +1017,7 @@
     "doc_code": "O-RAN.WG7.NES.0-R003-v03.0",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "900",
@@ -1129,8 +1027,7 @@
     "doc_code": "O-RAN.WG7.TS.IPC-HRD-Opt7-2.0-R005-v04.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "826",
@@ -1140,8 +1037,7 @@
     "doc_code": null,
     "month_year": "February 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "757",
@@ -1151,8 +1047,7 @@
     "doc_code": "O-RAN.WG7.IPC-HAR.0-v03.00",
     "month_year": "October 2024",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "759",
@@ -1162,8 +1057,7 @@
     "doc_code": "O-RAN.WG7.OMAC-HAR.0-v05.00",
     "month_year": "October 2024",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "415",
@@ -1173,8 +1067,7 @@
     "doc_code": "O-RAN.WG7.EMC-HAR-HRD.0-R003-v01.00",
     "month_year": "March 2023",
     "doc_kind": null,
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   },
   {
     "id": "348",
@@ -1184,8 +1077,7 @@
     "doc_code": "O-RAN.WG7.DSC.0-v04.00",
     "month_year": "October 2022",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "187",
@@ -1195,8 +1087,7 @@
     "doc_code": "O-RAN.WG7.IPC-HRD-Opt8.0-v03.00",
     "month_year": "October 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "191",
@@ -1206,8 +1097,7 @@
     "doc_code": "O-RAN.WG7.FHGW-HRD.0-v02.00",
     "month_year": "October 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "192",
@@ -1217,8 +1107,7 @@
     "doc_code": "O-RAN.WG7.IPC-HRD-Opt6-v02.00",
     "month_year": "October 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "90",
@@ -1228,8 +1117,7 @@
     "doc_code": "O-RAN.WG7.OMC-HAR.0-v01.00",
     "month_year": "June 2021",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1053",
@@ -1239,8 +1127,7 @@
     "doc_code": "O-RAN.WG8.TS.AAD.0-R005-v17.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "973",
@@ -1250,8 +1137,7 @@
     "doc_code": "O-RAN.WG8.TS.IOT.0-R005-v14.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1054",
@@ -1261,8 +1147,7 @@
     "doc_code": "O-RAN.WG9.XTRP-REQ.0-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1055",
@@ -1272,8 +1157,7 @@
     "doc_code": "O-RAN.WG9.XPSAAS.0-R005-v10.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1056",
@@ -1283,8 +1167,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "974",
@@ -1294,8 +1177,7 @@
     "doc_code": "O-RAN.WG9.XTRP-MGT.0-R004-v10.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "976",
@@ -1305,8 +1187,7 @@
     "doc_code": "O-RAN.WG9.XTRP-SYN.0-R004-v07.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "829",
@@ -1316,8 +1197,7 @@
     "doc_code": null,
     "month_year": "February 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "831",
@@ -1327,8 +1207,7 @@
     "doc_code": null,
     "month_year": "February 2025",
     "doc_kind": null,
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "832",
@@ -1338,8 +1217,7 @@
     "doc_code": "O-RAN.WG9.XTRP-TST.0-R004-v05.00",
     "month_year": "February 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1057",
@@ -1349,8 +1227,7 @@
     "doc_code": "O-RAN.WG10.TS.O1-Interface.0-R005-v18.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1058",
@@ -1360,8 +1237,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1059",
@@ -1371,8 +1247,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": null,
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1060",
@@ -1382,8 +1257,7 @@
     "doc_code": "O-RAN.WG10.TS.OAM-Architecture-R005-v17.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1061",
@@ -1393,8 +1267,7 @@
     "doc_code": "O-RAN.WG10.TS.O1PMeas-R005-v05.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1062",
@@ -1404,8 +1277,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1063",
@@ -1415,8 +1287,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1064",
@@ -1426,8 +1297,7 @@
     "doc_code": null,
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1065",
@@ -1437,8 +1307,7 @@
     "doc_code": "O-RAN.WG10.TS.AppPkgGAP-R005-v01.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "985",
@@ -1448,8 +1317,7 @@
     "doc_code": "O-RAN.WG10.TR.Cloud-Native-OAM.0-R004-v01.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "989",
@@ -1459,8 +1327,7 @@
     "doc_code": null,
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "990",
@@ -1470,8 +1337,7 @@
     "doc_code": "O-RAN.WG10.TS.OnboardingSMOSGAP.0-R004-v02.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "982",
@@ -1481,8 +1347,7 @@
     "doc_code": "O-RAN.WG10.TS.O1NRM.0-R004-v04.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "983",
@@ -1492,8 +1357,7 @@
     "doc_code": "O-RAN.WG10.TS.O1NRM.1-R004-v04.00",
     "month_year": "October 2025",
     "doc_kind": null,
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1081",
@@ -1503,8 +1367,7 @@
     "doc_code": "O-RAN.TIFG.TS.Cert-Badge.6-R005-v13.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1082",
@@ -1514,8 +1377,7 @@
     "doc_code": "O-RAN.TIFG.TS.E2E-Test.0-R005-v09.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "859",
@@ -1525,8 +1387,7 @@
     "doc_code": "O-RAN.TIFG.CGofOTIC.0-v06.00",
     "month_year": "March 2025",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "31",
@@ -1536,8 +1397,7 @@
     "doc_code": "O-RAN.TIFG.E2ETSTFWK.0-v01.00",
     "month_year": "October 2020",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "1066",
@@ -1547,8 +1407,7 @@
     "doc_code": "O-RAN.WG11.TS.STS-R005-v12.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1067",
@@ -1558,8 +1417,7 @@
     "doc_code": "O-RAN.WG11.TS.SRCS.0-R005-v14.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1068",
@@ -1569,8 +1427,7 @@
     "doc_code": "O-RAN.WG11.TS.SecProtSpec.0-R005-v14.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Specification",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1069",
@@ -1580,8 +1437,7 @@
     "doc_code": "O-RAN.WG11.TR.Threat-Modeling-R005-v08.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1070",
@@ -1591,8 +1447,7 @@
     "doc_code": "O-RAN.WG11.TR.SCM.0-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1071",
@@ -1602,8 +1457,7 @@
     "doc_code": "O-RAN.WG11.TR.PQC-Security.0-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1072",
@@ -1613,8 +1467,7 @@
     "doc_code": "O-RAN.WG11.TR.Certficate-Management-Framework.0-R005-v06.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1073",
@@ -1624,8 +1477,7 @@
     "doc_code": "O-RAN.WG11.TR.AIML-Security-Analysis.0-R005-v05.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1074",
@@ -1635,8 +1487,7 @@
     "doc_code": "O-RAN.WG11.TR.ZTA-R005-v05.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1076",
@@ -1646,8 +1497,7 @@
     "doc_code": "O-RAN.WG11.TR.Security-Near-RT-RIC-xApps.0-R005-v07.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1077",
@@ -1657,8 +1507,7 @@
     "doc_code": "O-RAN.WG11.TR.OAuth2.0-Security.0-R005-v07.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1078",
@@ -1668,8 +1517,7 @@
     "doc_code": "O-RAN.WG11.TR.SMO-Security-Analysis.0-R005-v08.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1079",
@@ -1679,8 +1527,7 @@
     "doc_code": "O-RAN.WG11.TR.O-CLOUD-Security.0-R005-v09.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "1080",
@@ -1690,8 +1537,7 @@
     "doc_code": "O-RAN.WG11.TR.CSM-Security-R005-v02.00",
     "month_year": "February 2026",
     "doc_kind": "Technical Report",
-    "release": "R005",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R005"
   },
   {
     "id": "991",
@@ -1701,8 +1547,7 @@
     "doc_code": "O-RAN.WG11.TS.SRCS.0-R004-v13.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "992",
@@ -1712,8 +1557,7 @@
     "doc_code": "O-RAN.WG11.TS.SecProtSpec.0-R004-v13.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "993",
@@ -1723,8 +1567,7 @@
     "doc_code": "O-RAN.WG11.TS.STS-R004-v11.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Specification",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "994",
@@ -1734,8 +1577,7 @@
     "doc_code": "O-RAN.WG11.TR.Threat-Modeling.0-R004-v07.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "995",
@@ -1745,8 +1587,7 @@
     "doc_code": "O-RAN.WG11.TR.SCM.0-R004-v01.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "996",
@@ -1756,8 +1597,7 @@
     "doc_code": "O-RAN.WG11.TR.PQC-Security.0-R004-v01.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "997",
@@ -1767,8 +1607,7 @@
     "doc_code": "O-RAN.WG11.TR.ZTA-R004-v04.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "998",
@@ -1778,8 +1617,7 @@
     "doc_code": "O-RAN.WG11.TR.AIML-Security-Analysis.0-R004-v04.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "999",
@@ -1789,8 +1627,7 @@
     "doc_code": "O-RAN.WG11.TR.Certficate-Management-Framework.0-R004-v05.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1000",
@@ -1800,8 +1637,7 @@
     "doc_code": "O-RAN.WG11.TR.Open-FH-Security.0-R004-v05.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1001",
@@ -1811,8 +1647,7 @@
     "doc_code": "O-RAN.WG11.TR.Security-Near-RT-RIC-xApps.0-R004-v06.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1002",
@@ -1822,8 +1657,7 @@
     "doc_code": "O-RAN.WG11.TR.OAuth2.0-Security.0-R004-v06.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1003",
@@ -1833,8 +1667,7 @@
     "doc_code": "O-RAN.WG11.TR.O-CLOUD-Security.0-R004-v08.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "1004",
@@ -1844,8 +1677,7 @@
     "doc_code": "O-RAN.WG11.TR.SMO-Security-Analysis.0-R004-v07.00",
     "month_year": "October 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "916",
@@ -1855,8 +1687,7 @@
     "doc_code": "O-RAN.WG11.TR.AppLCM-Security-R004-v04.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "919",
@@ -1866,8 +1697,7 @@
     "doc_code": "O-RAN.WG11.TR.CSM-Security-R004-v01.00",
     "month_year": "June 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "848",
@@ -1877,8 +1707,7 @@
     "doc_code": "O-RAN.WG11.TR.O-RUCUM-R004-v04.00",
     "month_year": "February 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "778",
@@ -1888,8 +1717,7 @@
     "doc_code": null,
     "month_year": "October 2024",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "780",
@@ -1899,8 +1727,7 @@
     "doc_code": "O-RAN.WG11.Security-Log-Management-TR.O-R004-v05.00",
     "month_year": "October 2024",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "256",
@@ -1910,8 +1737,7 @@
     "doc_code": "O-RAN.SFG.Non-RT-RIC-Security-TR-v01.00",
     "month_year": "July 2022",
     "doc_kind": null,
-    "release": null,
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": null
   },
   {
     "id": "860",
@@ -1921,8 +1747,7 @@
     "doc_code": "O-RAN.SuFG.TR.NES-Analysis-R004-v01.01",
     "month_year": "April 2025",
     "doc_kind": "Technical Report",
-    "release": "R004",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R004"
   },
   {
     "id": "695",
@@ -1932,7 +1757,6 @@
     "doc_code": "O-RAN.SuFG.CE-v01.00",
     "month_year": "June 2024",
     "doc_kind": "Technical Report",
-    "release": "R003",
-    "ingested_at": "2026-03-04T12:55:01.482420Z"
+    "release": "R003"
   }
 ]

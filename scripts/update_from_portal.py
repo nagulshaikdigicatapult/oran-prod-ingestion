@@ -63,6 +63,33 @@ def write_json(path: Path, obj) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(obj, indent=2) + "\n")
 
+def _stable_obj(obj):
+    """Return a stable version of report content (ignore generated_at_utc)."""
+    if isinstance(obj, dict):
+        return {k: _stable_obj(v) for k, v in obj.items() if k != "generated_at_utc"}
+    if isinstance(obj, list):
+        return [_stable_obj(x) for x in obj]
+    return obj
+
+
+def write_json_if_changed(path: Path, obj) -> bool:
+    """Write JSON only if meaningful content changed. Returns True if written."""
+    new_stable = _stable_obj(obj)
+
+    if path.exists():
+        try:
+            old = json.loads(path.read_text())
+            old_stable = _stable_obj(old)
+            if old_stable == new_stable:
+                # Do not rewrite file (prevents PR noise)
+                return False
+        except Exception:
+            # If file is corrupted/unreadable, rewrite it
+            pass
+
+    write_json(path, obj)
+    return True
+
 
 def ids_from_full_inventory(full_inv: dict) -> Set[str]:
     return {str(x["id"]) for x in full_inv.get("items", [])}
@@ -216,12 +243,12 @@ def main() -> int:
         "latest_manifest_path": str(LATEST_MANIFEST),
         "policy": "Option A: keep archive; mark present_on_portal per ID; append-only lockfile"
     }
-    write_json(REPORTS_DIR / "portal_diff.latest.json", diff_report)
+    write_json_if_changed(REPORTS_DIR / "portal_diff.latest.json", diff_report)
 
     # 5) Write per-ID portal status for the entire archive
     all_ids = set(inv_ids) | set(new_ids)  # after update, archive will include new_ids
     status = write_portal_status(all_ids, portal_ids)
-    write_json(REPORTS_DIR / "portal_status.latest.json", status)
+    write_json_if_changed(REPORTS_DIR / "portal_status.latest.json", status)
 
     # 6) Build delta inventory
     delta = build_delta_inventory(portal, new_ids)

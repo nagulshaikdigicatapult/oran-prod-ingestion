@@ -85,9 +85,6 @@ def main():
     data = json.loads(RAW.read_text())
     if not isinstance(data, list):
         raise SystemExit("Raw manifest must be a JSON array")
-
-    ingested_at = datetime.utcnow().isoformat() + "Z"
-
     out = []
     for item in data:
         id_ = str(item.get("id", "")).strip()
@@ -102,8 +99,7 @@ def main():
                 "download_url": url,
                 "row_text": row_text,
                 **meta,
-                "ingested_at": ingested_at,
-            }
+}
         )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
