@@ -32,6 +32,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Set
 
+SKIP_CATALOG = (os.getenv('ORAN_SKIP_CATALOG', '0') == '1')
+
+
 SKIP_CATALOG = os.getenv("ORAN_SKIP_CATALOG", "0") == "1"
 
 REPO_ROOT = Path(".")
