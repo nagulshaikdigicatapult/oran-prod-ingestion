@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import json
 import re
-from datetime import datetime
 from pathlib import Path
 
 RAW = Path("manifests/raw/manifest.latest.json")
