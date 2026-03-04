@@ -34,3 +34,5 @@ reports/*.txt
 reports/
 .venv/
 .ruff_cache/
+inventory/download_inventory.delta.json
+manifest_links_all.json
