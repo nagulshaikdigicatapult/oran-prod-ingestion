@@ -32,10 +32,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Set
 
-SKIP_CATALOG = (os.getenv('ORAN_SKIP_CATALOG', '0') == '1')
+SKIP_CATALOG = (os.getenv("ORAN_SKIP_CATALOG", "0") == "1")
 
 
-SKIP_CATALOG = os.getenv("ORAN_SKIP_CATALOG", "0") == "1"
+
 
 REPO_ROOT = Path(".")
 MANIFESTS_DIR = REPO_ROOT / "manifests"
@@ -260,6 +260,11 @@ def main() -> int:
     all_ids = set(inv_ids) | set(new_ids)  # after update, archive will include new_ids
     status = write_portal_status(all_ids, portal_ids)
     write_json_if_changed(REPORTS_DIR / "portal_status.latest.json", status)
+
+    if SKIP_CATALOG:
+        print("Skipping catalog regeneration/injection (ORAN_SKIP_CATALOG=1)")
+        return 0
+
 
     # 6) Build delta inventory
     delta = build_delta_inventory(portal, new_ids)
