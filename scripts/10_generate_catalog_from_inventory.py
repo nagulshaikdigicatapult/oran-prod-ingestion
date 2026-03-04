@@ -77,7 +77,7 @@ def main():
 
     OUT_JSON.write_text(json.dumps(out, indent=2))
 
-    with OUT_CSV.open("w", newline="") as f:
+    with OUT_CSV.open("w", newline="\n", encoding="utf-8") as f:
         w = csv.DictWriter(
             f,
             fieldnames=[
@@ -92,6 +92,7 @@ def main():
                 "sha256",
                 "relpath",
             ],
+            lineterminator="\n",
         )
         w.writeheader()
         w.writerows(out_items)

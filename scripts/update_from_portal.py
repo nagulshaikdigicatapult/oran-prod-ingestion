@@ -136,7 +136,7 @@ def inject_present_on_portal_to_catalog(portal_ids: Set[str]) -> None:
     if CATALOG_CSV.exists():
         # Read CSV and rewrite with present_on_portal column
         rows = []
-        with CATALOG_CSV.open(newline="") as f:
+        with CATALOG_CSV.open(newline="", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             fieldnames = list(reader.fieldnames or [])
             for row in reader:
@@ -157,7 +157,7 @@ def inject_present_on_portal_to_catalog(portal_ids: Set[str]) -> None:
 
         tmp = CATALOG_CSV.with_suffix(".csv.tmp")
         with tmp.open("w", newline="\n") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
             writer.writeheader()
             writer.writerows(rows)
         tmp.replace(CATALOG_CSV)
