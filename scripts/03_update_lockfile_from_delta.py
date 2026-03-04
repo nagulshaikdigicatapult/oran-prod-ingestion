@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 """
-Append-only lockfile updater.
+Append-only lockfile updater (Bandit-safe).
 
 - Reads inventory/download_inventory.delta.json (expects {"items":[{id, download_url, ...}, ...]})
 - For each item, fetches headers (HEAD then fallback to GET with Range) to extract filename
 - Appends mapping[id] = filename into inventory/id_filename_map.json
 - NEVER overwrites existing IDs
 - Updates top-level "count"
+
+Security hardening:
+- Enforces HTTPS-only URLs
+- Enforces hostname allowlist (prevents SSRF + unsafe schemes like file://)
+- Uses urllib.request.urlopen with # nosec B310 AFTER strict URL validation
 """
 
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -28,21 +34,41 @@ TIMEOUT_SECS = 30
 SLEEP_BETWEEN_REQ_SECS = 0.4
 USER_AGENT = "oran-prod-ingestion/lockfile-updater"
 
+# ---- Security policy ----
+ALLOWED_SCHEMES = {"https"}
 
+# Default allowlist (EDIT this to your portal hosts)
+_DEFAULT_ALLOWED_HOSTS = {
+    # Replace these with actual hosts used in your download_url values
+    # Example placeholders:
+    "www.o-ran.org",
+    "o-ran.org",
+}
+
+# Optional: override allowlist from env (comma-separated)
+# e.g. export ORAN_ALLOWED_HOSTS="portal.example.com,downloads.example.com"
+_env_hosts = os.getenv("ORAN_ALLOWED_HOSTS", "").strip()
+if _env_hosts:
+    ALLOWED_HOSTS = {h.strip() for h in _env_hosts.split(",") if h.strip()}
+else:
+    ALLOWED_HOSTS = _DEFAULT_ALLOWED_HOSTS
+
+# Content-Disposition filename parsing
 FILENAME_RE = re.compile(r'filename\*?=(?P<val>[^;]+)', re.IGNORECASE)
 
 
 def _sanitize_filename(name: str) -> str:
-    # Trim quotes/spaces and normalize obvious bad chars
     name = name.strip().strip('"').strip("'")
-    # Remove path parts if any (defense in depth)
+    # Defense in depth: remove path parts if any
     name = name.split("/")[-1].split("\\")[-1]
     return name
 
 
 def _parse_content_disposition(cd: str) -> Optional[str]:
     """
-    Supports filename="x" and filename*=UTF-8''x forms.
+    Supports:
+      - filename="x"
+      - filename*=UTF-8''x
     """
     if not cd:
         return None
@@ -53,7 +79,7 @@ def _parse_content_disposition(cd: str) -> Optional[str]:
 
     val = m.group("val").strip()
 
-    # Handle filename*=UTF-8''...
+    # filename*=UTF-8''...
     if val.lower().startswith("utf-8''"):
         enc = val[7:]
         try:
@@ -64,15 +90,49 @@ def _parse_content_disposition(cd: str) -> Optional[str]:
     return _sanitize_filename(val)
 
 
+def _validate_url(url: str) -> None:
+    """
+    Enforce strict URL policy:
+      - https only
+      - allowlisted hostname only
+      - no empty hostname
+    """
+    parsed = urllib.parse.urlparse(url)
+
+    if parsed.scheme not in ALLOWED_SCHEMES:
+        raise ValueError(f"Blocked non-HTTPS URL: {url}")
+
+    if not parsed.hostname:
+        raise ValueError(f"URL missing hostname: {url}")
+
+    # If allowlist is empty, treat as misconfiguration (fail closed)
+    if not ALLOWED_HOSTS:
+        raise ValueError("ALLOWED_HOSTS is empty - refusing to fetch any URLs")
+
+    if parsed.hostname not in ALLOWED_HOSTS:
+        raise ValueError(f"Blocked host not in allowlist: {parsed.hostname}")
+
+
 def _request_headers(url: str, method: str = "HEAD") -> Dict[str, str]:
+    """
+    Fetch response headers safely.
+    HEAD first. If server rejects, caller may fallback to GET Range.
+
+    Bandit B310:
+      urllib.request.urlopen is flagged because it can open file://, etc.
+      We fully mitigate by enforcing https + allowlisted hostname in _validate_url().
+    """
+    _validate_url(url)
+
     req = urllib.request.Request(url, method=method)
     req.add_header("User-Agent", USER_AGENT)
+
     if method == "GET":
-        # Fetch minimal bytes to avoid large downloads
+        # minimal transfer (avoid large downloads)
         req.add_header("Range", "bytes=0-0")
 
-    with urllib.request.urlopen(req, timeout=TIMEOUT_SECS) as resp:
-        # Convert headers to plain dict (case-preserving enough)
+    # URL is validated (https + allowlisted host). Safe by design.
+    with urllib.request.urlopen(req, timeout=TIMEOUT_SECS) as resp:  # nosec B310
         return {k: v for k, v in resp.headers.items()}
 
 
@@ -162,7 +222,7 @@ def main() -> int:
     lock["mapping"] = mapping
     lock["count"] = len(mapping)
 
-    LOCKFILE_PATH.write_text(json.dumps(lock, indent=2, sort_keys=False) + "\n")
+    LOCKFILE_PATH.write_text(json.dumps(lock, indent=2) + "\n")
 
     print("lockfile_update_summary:")
     print(f"  added={added}")
@@ -171,14 +231,15 @@ def main() -> int:
     print(f"  new_lockfile_count={lock['count']}")
 
     if failures:
+        Path("reports").mkdir(parents=True, exist_ok=True)
         Path("reports/lockfile_update_failures.json").write_text(
             json.dumps(failures, indent=2) + "\n"
         )
         print("  failures_report=reports/lockfile_update_failures.json")
 
-    # If anything failed, return non-zero so CI can catch it
+    # Non-zero for CI if failures exist
     return 1 if failed else 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())
