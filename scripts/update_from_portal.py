@@ -156,7 +156,7 @@ def inject_present_on_portal_to_catalog(portal_ids: Set[str]) -> None:
             row["present_on_portal"] = "true" if sid in portal_ids else "false"
 
         tmp = CATALOG_CSV.with_suffix(".csv.tmp")
-        with tmp.open("w", newline="") as f:
+        with tmp.open("w", newline="\n") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(rows)
@@ -189,7 +189,9 @@ def main() -> int:
     snap_dir = MANIFESTS_DIR / "snapshots" / snap_date
     snap_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy2(portal_path, snap_dir / portal_path.name)
-    shutil.copy2(portal_path, LATEST_MANIFEST)
+    # If user passes manifests/raw/manifest.latest.json itself, avoid SameFileError
+    if portal_path.resolve() != LATEST_MANIFEST.resolve():
+        shutil.copy2(portal_path, LATEST_MANIFEST)
 
     # 3) Read current full inventory
     if not FULL_INV.exists():
