@@ -36,3 +36,6 @@ reports/
 .ruff_cache/
 inventory/download_inventory.delta.json
 manifest_links_all.json
+
+# Portal snapshots (local audit trail; do not commit by default)
+manifests/snapshots/
