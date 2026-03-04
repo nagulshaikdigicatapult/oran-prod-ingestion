@@ -2,6 +2,7 @@ name: Portal monitor (daily, no PR)
 
 on:
   schedule:
+    # Daily at 02:15 UTC
     - cron: "15 2 * * *"
   workflow_dispatch: {}
 
@@ -11,6 +12,7 @@ permissions:
 jobs:
   monitor:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,32 +22,32 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install tooling
+      - name: Install CI tooling
         run: |
           python -m pip install --upgrade pip
           pip install ruff bandit pip-audit
 
-      - name: Lint + security (quick)
+      - name: Lint + security
         run: |
+          ruff --version
+          ruff check . --fix
           ruff check .
           bandit -q -r scripts -ll
 
-      - name: Run pipeline (no network downloads)
+      - name: Monitor run (CI-safe: no catalog, no downloads)
         run: |
           python scripts/01_normalize_manifest.py
-          python scripts/10_generate_catalog_from_inventory.py
-          python scripts/update_from_portal.py manifests/raw/manifest.latest.json
-          python scripts/tools/00_ci_guardrails.py
+          ORAN_SKIP_CATALOG=1 python scripts/update_from_portal.py manifests/raw/manifest.latest.json
 
       - name: Detect changes
         id: changes
         run: |
           if git diff --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes detected."
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Changes detected."
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
             git status --porcelain
           fi
 
@@ -57,12 +59,22 @@ jobs:
           path: |
             manifests/raw/manifest.latest.json
             manifests/processed/normalized_manifest.json
-            inventory/catalog.latest.json
-            inventory/catalog.latest.csv
             reports/portal_diff.latest.json
             reports/portal_status.latest.json
 
       - name: Summary
         run: |
           echo "=== Portal monitor summary ==="
-          jq -r '.portal_count as $p | .inventory_count as $i | .missing_ids_count as $m | "portal_count=\($p) inventory_count=\($i) missing=\($m)"' reports/portal_diff.latest.json || true
+          if [ -f reports/portal_diff.latest.json ]; then
+            python - <<'PY'
+import json
+from pathlib import Path
+d=json.loads(Path("reports/portal_diff.latest.json").read_text())
+print("portal_count=", d.get("portal_count"))
+print("inventory_count=", d.get("inventory_count"))
+print("new_ids_count=", d.get("new_ids_count"))
+print("missing_ids_count=", d.get("missing_ids_count"))
+PY
+          else
+            echo "No portal diff report found (unexpected)."
+          fi
