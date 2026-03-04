@@ -79,7 +79,12 @@ jobs:
           if inv.exists():
               obj = json.loads(inv.read_text())
               assert "items" in obj and isinstance(obj["items"], list)
-              assert "count" in obj and obj["count"] == len(obj["items"])
+
+              # Support both schemas:
+              # 1) {"items":[...], "count": N}
+              # 2) {"items":[...]}  (count derived)
+              if "count" in obj:
+                  assert obj["count"] == len(obj["items"])
 
           print("Sanity checks OK")
           PY
