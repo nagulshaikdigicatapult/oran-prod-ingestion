@@ -39,3 +39,9 @@ manifest_links_all.json
 
 # Portal snapshots (local audit trail; do not commit by default)
 manifests/snapshots/
+
+# --- Keep audit artifacts in repo ---
+!reports/
+!reports/**
+!manifests/snapshots/
+!manifests/snapshots/**

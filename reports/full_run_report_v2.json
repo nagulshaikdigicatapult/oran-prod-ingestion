@@ -1,0 +1,1146 @@
+{
+  "source_inventory": "/home/terraform/oran-prod-ingestion/inventory/download_inventory.full.json",
+  "id_filename_map": "/home/terraform/oran-prod-ingestion/inventory/id_filename_map.json",
+  "total_items": 162,
+  "summary": {
+    "skipped": 162,
+    "type::None": 162
+  },
+  "total_bytes_downloaded": 0,
+  "results": [
+    {
+      "id": "1009",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.Use-Cases-Analysis-Report-R005-v19.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1010",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TS.Use-Cases-Detailed-Specification-R005-v19.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1011",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.CCIN-R005-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1012",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.RIC4NTN-R005-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1013",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TS.OAD-R005-v16.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1014",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TS.SMO-ARCH-R005-v02.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "929",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.O-RES.0-R004-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "931",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.FILM.R004-v01.00.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "934",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.SMO-INT-R004-v06.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "863",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TS.Slicing-Architecture-R004-v14.01.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "715",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.SA-MVD-R004-v03.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "716",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.TR.Decoupled-SMO-Architecture-R004-v03.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "442",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.Network-Energy-Savings-Technical-Report-R003-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "267",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.mMIMO-Use-Cases-TR-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "32",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.O1-Interface.0-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "33",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.OAM-Architecture-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "38",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.Information Model and Data Models-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "104",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG1.Study-on-O-RAN-Slicing-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1015",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.R1GAP-R005-v13.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1016",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.R1UCR-R005-v12.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1017",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.R1AP-R005-v10.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1018",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.R1TD-R005-v04.02.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1019",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.R1TS-R005-v05.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1020",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.A1GAP-R005-v05.03.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1021",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.A1AP-R005-v06.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1022",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.A1TD-R005-v11.01.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1023",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.A1TS-R005-v05.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1024",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.A1UCR-R005-v05.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1025",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TR.DECSMO-Impact-R005-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1026",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.Use-Case-Requirements-R005-v11.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "943",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.A1TP-R004-v03.05.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "871",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.R1TP-R004-v04.03.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "875",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TR.PlcCnfMtgt-R004-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "877",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TR.A1PENF-R004-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "878",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.TS.Non-RT-RIC-ARCH-R004-v07.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "158",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.AIML-v01.03.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "74",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG2.Non-RT-RIC-ARCH-TR-v01.01.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1027",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.UCR-R005-v10.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1028",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.Y1GAP-R005-v01.02.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1029",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.Y1AP-R005-v01.02.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1030",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.Y1TD-R005-v03.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1031",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.RICARCH-R005-v08.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1032",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.RICAPI-R005-v03.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "947",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.E2GAP-R004-v08.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "948",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.E2AP-R004-v08.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "949",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.E2SM-KPM-R004-v07.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "950",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.E2SM-RC-R004-v09.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "880",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.E2SM-CCC-R004-v06.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "808",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.E2SM-R004-v07.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "809",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.E2SM-LLC-R004-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "814",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TS.UCR-R004-v08.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "737",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.TR.ConMit-R004-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "395",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.O1-Interface-for-Near-RT-RIC-R003-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "396",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG3.E2TS-R003-v02.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "123",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/ORAN-WG3.E2SM-NI-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1033",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.TS.CUS.0-R005-v20.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1034",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.TS.MP.0-R005-v20.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1035",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.TS.MP-YANGs-R005-v20.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1036",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.TS.IOT.0-R005-v15.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1037",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.TS.CONF.0-R005-v15.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "458",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.CTI-TCP.0-R003-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "459",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.CTI-TMP.0-R003-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "367",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG4.CTI-TMP-YANG-v03.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1038",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.TS.C.1-R005-v17.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1039",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.TS.IOT.0-R005-v15.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1040",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.TS.D2GAP.0-R005-v03.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1041",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.TS-D2-O&MRequirements-R005_v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1042",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.TS.D2AP-0.R005-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1043",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.TS.D2AP-R005-v01.00-ERR01-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "666",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.U.0-R003-v07.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "592",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.O-DU-O1.0-R003-v09.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "593",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.O-DU-O1.1-R003-v09.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "594",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.O-DU-O1.2-R003-v09.00.xlsx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "595",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.O-CU-O1.0-R003-v07.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "596",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.O-CU-O1.1-R003-v07.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "139",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG5.Transport.0-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1044",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TS.O2DMS-INTERFACE-ETSI-NFV-PROFILE-R005-v10.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1045",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TS.O2-GA&P-R005-v10.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1046",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.O2DMS-INTERFACE-K8S-PROFILE-R005-v07.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1047",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TR.FOCOM-NFO-SMOS-NBI-R005-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1048",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TS.O-Cloud-IM-R005-v06.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1049",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.O-CLOUD-IOT-R005-v02.03.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1050",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TS.O2IMS-INTERFACE-R005-v11.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1051",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.ORCH-USE-CASES-R005-v15.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "960",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TS.O-CLOUD-INTF-CONF-R004-v04.03.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "961",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TR.O-CLOUD-ES-R004-v03.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "968",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.AAL-Common-API-R004-v10.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "969",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.AAL-GAnP-R004-v13.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "889",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.ASD-R004-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "898",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.TS.AAL-HI_PHY-R004-v08.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1008",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/WG6.TS.O2IMS-INTERFACE-R004-v08.00-ERR01-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "817",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.CADS-v08.01.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "755",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.AAL-MUMIMO-BF-Calc-Profile-R004-v01.01.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "756",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.AAL FEC.R004-v04.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "670",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.O-Cloud Notification API-v04.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "607",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.O2-IMS-K8s-R003-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "539",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN-WG6.AppLCM-Deployment-R003-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "231",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.O2-GAnP-v01.02.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "55",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG6.CLOUD-REF-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "970",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.OMAC-HRD.0-R004-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "971",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.NES.0-R003-v03.0.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "900",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.TS.IPC-HRD-Opt7-2.0-R005-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "826",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.IPC-TEST.0-v01.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "757",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.IPC-HAR.0-v03.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "759",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.OMAC-HAR.0-v05.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "476",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.OMC-HRD-Opt7-2-R003-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "415",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.EMC-HAR-HRD.0-R003-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "348",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.DSC.0-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "187",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.IPC-HRD-Opt8.0-v03.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "191",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.FHGW-HRD.0-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "192",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.IPC-HRD-Opt6-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "90",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG7.OMC-HAR.0-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "972",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG8.TS.AAD.0-R005-v16.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "973",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG8.TS.IOT.0-R005-v14.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "974",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG9.XTRP-MGT.0-R004-v10.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "975",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG9.XPSAAS.0-R004-v09.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "976",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG9.XTRP-SYN.0-R004-v07.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "829",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/ORAN-WG9.WDM.0-R004-v05.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "831",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG9.XTRP-SYN.1-R004-v06.00_YANG.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "832",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG9.XTRP-TST.0-R004-v05.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "61",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG9.XTRP-REQ-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "984",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.O1PMeas-R004-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "985",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TR.Cloud-Native-OAM.0-R004-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "986",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.TE&IV-CIMI.0-R004-v05.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "987",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.TE&IV-DM.0-R004-v03.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "988",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.TE&IV-API.0-R004-v03.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "989",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TE&IV-UCR.0-R004-v03.01.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "990",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.OnboardingSMOSGAP.0-R004-v02.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "977",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.O1-Interface.0-R004-v17.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "978",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.O1-Interface.1-R004-v17.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "979",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.OAM-Architecture-R004-v16.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "980",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.Information Model and Data Models.0-R004-v12.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "981",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.Information Model and Data Models.1-R004-v12.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "982",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.O1NRM.0-R004-v04.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "983",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG10.TS.O1NRM.1-R004-v04.00.zip",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1005",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.TIFG.TS.E2E-Test.0-R004-v08.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1006",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.TIFG.TS.Cert-Badge.0-R004-v12.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1007",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.TIFG.TS.Cert-Badge.6-R004-v12.00.ZIP",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "859",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.TIFG.CGofOTIC.0-v06.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "31",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.TIFG.E2ETSTFWK.0-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "991",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TS.SRCS.0-R004-v13.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "992",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TS.SecProtSpec.0-R004-v13.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "993",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TS.STS-R004-v11.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "994",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.Threat-Modeling.0-R004-v07.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "995",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.SCM.0-R004-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "996",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.PQC-Security.0-R004-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "997",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.ZTA-R004-v04.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "998",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.AIML-Security-Analysis.0-R004-v04.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "999",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.Certficate-Management-Framework.0-R004-v05.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1000",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.Open-FH-Security.0-R004-v05.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1001",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.Security-Near-RT-RIC-xApps.0-R004-v06.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1002",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.OAuth2.0-Security.0-R004-v06.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1003",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.O-CLOUD-Security.0-R004-v08.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "1004",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.SMO-Security-Analysis.0-R004-v07.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "916",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.AppLCM-Security-R004-v04.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "919",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.CSM-Security-R004-v01.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "848",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.TR.O-RUCUM-R004-v04.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "778",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/ORAN-WG11-SharedORU-Security-Analysis-TR.0-R004-v06.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "780",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.WG11.Security-Log-Management-TR.O-R004-v05.00.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "256",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.SFG.Non-RT-RIC-Security-TR-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "860",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.SuFG.TR.NES-Analysis-R004-v01.01.docx",
+      "reason": "already_exists",
+      "type": null
+    },
+    {
+      "id": "695",
+      "skipped": true,
+      "path": "/home/terraform/oran-prod-ingestion/downloads/O-RAN.SuFG.CE-v01.00.pdf",
+      "reason": "already_exists",
+      "type": null
+    }
+  ]
+}

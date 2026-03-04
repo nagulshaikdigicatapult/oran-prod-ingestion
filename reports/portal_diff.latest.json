@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-03-04T12:57:49.184214+00:00",
+  "portal_count": 176,
+  "inventory_count": 192,
+  "new_ids_count": 0,
+  "missing_ids_count": 16,
+  "new_ids": [],
+  "missing_ids": [
+    "61",
+    "476",
+    "972",
+    "975",
+    "977",
+    "978",
+    "979",
+    "980",
+    "981",
+    "984",
+    "986",
+    "987",
+    "988",
+    "1005",
+    "1006",
+    "1007"
+  ],
+  "snapshot_path": "manifests/snapshots/2026-03-04/manifest.latest.json",
+  "latest_manifest_path": "manifests/raw/manifest.latest.json",
+  "policy": "Option A: keep archive; mark present_on_portal per ID; append-only lockfile"
+}

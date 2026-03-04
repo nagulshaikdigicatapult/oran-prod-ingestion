@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-RAW = Path("manifests/raw/manifest.json")
+RAW = Path("manifests/raw/manifest.latest.json")
 OUT = Path("manifests/processed/normalized_manifest.json")
 
 MONTHS = r"(January|February|March|April|May|June|July|August|September|October|November|December)"

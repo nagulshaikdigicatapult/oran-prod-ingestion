@@ -1,0 +1,1486 @@
+{
+  "source": "inventory/download_inventory.full.json",
+  "total_items": 162,
+  "summary_by_type": {
+    "application/pdf": {
+      "count": 90,
+      "bytes_known": 234808718,
+      "bytes_unknown": 0
+    },
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document": {
+      "count": 61,
+      "bytes_known": 195839815,
+      "bytes_unknown": 0
+    },
+    "application/x-zip-compressed": {
+      "count": 10,
+      "bytes_known": 2558757,
+      "bytes_unknown": 0
+    },
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": {
+      "count": 1,
+      "bytes_known": 119122,
+      "bytes_unknown": 0
+    }
+  },
+  "items": [
+    {
+      "id": "1009",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 4440182,
+      "final_url": "https://specifications.o-ran.org/download?id=1009",
+      "pdf_magic": true
+    },
+    {
+      "id": "1010",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 13430717,
+      "final_url": "https://specifications.o-ran.org/download?id=1010",
+      "pdf_magic": true
+    },
+    {
+      "id": "1011",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2295399,
+      "final_url": "https://specifications.o-ran.org/download?id=1011",
+      "pdf_magic": true
+    },
+    {
+      "id": "1012",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1810982,
+      "final_url": "https://specifications.o-ran.org/download?id=1012",
+      "pdf_magic": true
+    },
+    {
+      "id": "1013",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1044032,
+      "final_url": "https://specifications.o-ran.org/download?id=1013",
+      "pdf_magic": false
+    },
+    {
+      "id": "1014",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 290677,
+      "final_url": "https://specifications.o-ran.org/download?id=1014",
+      "pdf_magic": false
+    },
+    {
+      "id": "929",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1914707,
+      "final_url": "https://specifications.o-ran.org/download?id=929",
+      "pdf_magic": true
+    },
+    {
+      "id": "931",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 941105,
+      "final_url": "https://specifications.o-ran.org/download?id=931",
+      "pdf_magic": true
+    },
+    {
+      "id": "934",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 284162,
+      "final_url": "https://specifications.o-ran.org/download?id=934",
+      "pdf_magic": false
+    },
+    {
+      "id": "863",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3746833,
+      "final_url": "https://specifications.o-ran.org/download?id=863",
+      "pdf_magic": true
+    },
+    {
+      "id": "715",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1414799,
+      "final_url": "https://specifications.o-ran.org/download?id=715",
+      "pdf_magic": false
+    },
+    {
+      "id": "716",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1187035,
+      "final_url": "https://specifications.o-ran.org/download?id=716",
+      "pdf_magic": false
+    },
+    {
+      "id": "442",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2677945,
+      "final_url": "https://specifications.o-ran.org/download?id=442",
+      "pdf_magic": true
+    },
+    {
+      "id": "267",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3591144,
+      "final_url": "https://specifications.o-ran.org/download?id=267",
+      "pdf_magic": true
+    },
+    {
+      "id": "32",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1585899,
+      "final_url": "https://specifications.o-ran.org/download?id=32",
+      "pdf_magic": true
+    },
+    {
+      "id": "33",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3805951,
+      "final_url": "https://specifications.o-ran.org/download?id=33",
+      "pdf_magic": true
+    },
+    {
+      "id": "38",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 798845,
+      "final_url": "https://specifications.o-ran.org/download?id=38",
+      "pdf_magic": true
+    },
+    {
+      "id": "104",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1292117,
+      "final_url": "https://specifications.o-ran.org/download?id=104",
+      "pdf_magic": true
+    },
+    {
+      "id": "1015",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 469083,
+      "final_url": "https://specifications.o-ran.org/download?id=1015",
+      "pdf_magic": true
+    },
+    {
+      "id": "1016",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3790668,
+      "final_url": "https://specifications.o-ran.org/download?id=1016",
+      "pdf_magic": true
+    },
+    {
+      "id": "1017",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2692088,
+      "final_url": "https://specifications.o-ran.org/download?id=1017",
+      "pdf_magic": true
+    },
+    {
+      "id": "1018",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 444535,
+      "final_url": "https://specifications.o-ran.org/download?id=1018",
+      "pdf_magic": true
+    },
+    {
+      "id": "1019",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1059817,
+      "final_url": "https://specifications.o-ran.org/download?id=1019",
+      "pdf_magic": true
+    },
+    {
+      "id": "1020",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 613909,
+      "final_url": "https://specifications.o-ran.org/download?id=1020",
+      "pdf_magic": true
+    },
+    {
+      "id": "1021",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 975292,
+      "final_url": "https://specifications.o-ran.org/download?id=1021",
+      "pdf_magic": true
+    },
+    {
+      "id": "1022",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1205947,
+      "final_url": "https://specifications.o-ran.org/download?id=1022",
+      "pdf_magic": true
+    },
+    {
+      "id": "1023",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 750249,
+      "final_url": "https://specifications.o-ran.org/download?id=1023",
+      "pdf_magic": true
+    },
+    {
+      "id": "1024",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1060254,
+      "final_url": "https://specifications.o-ran.org/download?id=1024",
+      "pdf_magic": true
+    },
+    {
+      "id": "1025",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 258907,
+      "final_url": "https://specifications.o-ran.org/download?id=1025",
+      "pdf_magic": true
+    },
+    {
+      "id": "1026",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 4187624,
+      "final_url": "https://specifications.o-ran.org/download?id=1026",
+      "pdf_magic": false
+    },
+    {
+      "id": "943",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 100093,
+      "final_url": "https://specifications.o-ran.org/download?id=943",
+      "pdf_magic": true
+    },
+    {
+      "id": "871",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 143128,
+      "final_url": "https://specifications.o-ran.org/download?id=871",
+      "pdf_magic": false
+    },
+    {
+      "id": "875",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 2780936,
+      "final_url": "https://specifications.o-ran.org/download?id=875",
+      "pdf_magic": false
+    },
+    {
+      "id": "877",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1370297,
+      "final_url": "https://specifications.o-ran.org/download?id=877",
+      "pdf_magic": false
+    },
+    {
+      "id": "878",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 3412629,
+      "final_url": "https://specifications.o-ran.org/download?id=878",
+      "pdf_magic": false
+    },
+    {
+      "id": "158",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3692403,
+      "final_url": "https://specifications.o-ran.org/download?id=158",
+      "pdf_magic": true
+    },
+    {
+      "id": "74",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3902882,
+      "final_url": "https://specifications.o-ran.org/download?id=74",
+      "pdf_magic": true
+    },
+    {
+      "id": "1027",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3159638,
+      "final_url": "https://specifications.o-ran.org/download?id=1027",
+      "pdf_magic": true
+    },
+    {
+      "id": "1028",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 124455,
+      "final_url": "https://specifications.o-ran.org/download?id=1028",
+      "pdf_magic": false
+    },
+    {
+      "id": "1029",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 235205,
+      "final_url": "https://specifications.o-ran.org/download?id=1029",
+      "pdf_magic": false
+    },
+    {
+      "id": "1030",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 138496,
+      "final_url": "https://specifications.o-ran.org/download?id=1030",
+      "pdf_magic": false
+    },
+    {
+      "id": "1031",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 3729871,
+      "final_url": "https://specifications.o-ran.org/download?id=1031",
+      "pdf_magic": false
+    },
+    {
+      "id": "1032",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 2005883,
+      "final_url": "https://specifications.o-ran.org/download?id=1032",
+      "pdf_magic": false
+    },
+    {
+      "id": "947",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 4491636,
+      "final_url": "https://specifications.o-ran.org/download?id=947",
+      "pdf_magic": false
+    },
+    {
+      "id": "948",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1359408,
+      "final_url": "https://specifications.o-ran.org/download?id=948",
+      "pdf_magic": false
+    },
+    {
+      "id": "949",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 239900,
+      "final_url": "https://specifications.o-ran.org/download?id=949",
+      "pdf_magic": false
+    },
+    {
+      "id": "950",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 5466834,
+      "final_url": "https://specifications.o-ran.org/download?id=950",
+      "pdf_magic": true
+    },
+    {
+      "id": "880",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1290945,
+      "final_url": "https://specifications.o-ran.org/download?id=880",
+      "pdf_magic": true
+    },
+    {
+      "id": "808",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1258694,
+      "final_url": "https://specifications.o-ran.org/download?id=808",
+      "pdf_magic": true
+    },
+    {
+      "id": "809",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 768821,
+      "final_url": "https://specifications.o-ran.org/download?id=809",
+      "pdf_magic": true
+    },
+    {
+      "id": "814",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2921440,
+      "final_url": "https://specifications.o-ran.org/download?id=814",
+      "pdf_magic": true
+    },
+    {
+      "id": "737",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1207834,
+      "final_url": "https://specifications.o-ran.org/download?id=737",
+      "pdf_magic": false
+    },
+    {
+      "id": "395",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 118822,
+      "final_url": "https://specifications.o-ran.org/download?id=395",
+      "pdf_magic": false
+    },
+    {
+      "id": "396",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 449268,
+      "final_url": "https://specifications.o-ran.org/download?id=396",
+      "pdf_magic": false
+    },
+    {
+      "id": "123",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 771333,
+      "final_url": "https://specifications.o-ran.org/download?id=123",
+      "pdf_magic": true
+    },
+    {
+      "id": "1033",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 36061978,
+      "final_url": "https://specifications.o-ran.org/download?id=1033",
+      "pdf_magic": false
+    },
+    {
+      "id": "1034",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 6922074,
+      "final_url": "https://specifications.o-ran.org/download?id=1034",
+      "pdf_magic": false
+    },
+    {
+      "id": "1035",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 246328,
+      "final_url": "https://specifications.o-ran.org/download?id=1035",
+      "pdf_magic": false
+    },
+    {
+      "id": "1036",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1154501,
+      "final_url": "https://specifications.o-ran.org/download?id=1036",
+      "pdf_magic": false
+    },
+    {
+      "id": "1037",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 9786716,
+      "final_url": "https://specifications.o-ran.org/download?id=1037",
+      "pdf_magic": false
+    },
+    {
+      "id": "458",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3178470,
+      "final_url": "https://specifications.o-ran.org/download?id=458",
+      "pdf_magic": true
+    },
+    {
+      "id": "459",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 4087754,
+      "final_url": "https://specifications.o-ran.org/download?id=459",
+      "pdf_magic": true
+    },
+    {
+      "id": "367",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 16545,
+      "final_url": "https://specifications.o-ran.org/download?id=367",
+      "pdf_magic": false
+    },
+    {
+      "id": "1038",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 71764315,
+      "final_url": "https://specifications.o-ran.org/download?id=1038",
+      "pdf_magic": false
+    },
+    {
+      "id": "1039",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1096885,
+      "final_url": "https://specifications.o-ran.org/download?id=1039",
+      "pdf_magic": false
+    },
+    {
+      "id": "1040",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 423810,
+      "final_url": "https://specifications.o-ran.org/download?id=1040",
+      "pdf_magic": false
+    },
+    {
+      "id": "1041",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 295943,
+      "final_url": "https://specifications.o-ran.org/download?id=1041",
+      "pdf_magic": false
+    },
+    {
+      "id": "1042",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 428864,
+      "final_url": "https://specifications.o-ran.org/download?id=1042",
+      "pdf_magic": false
+    },
+    {
+      "id": "1043",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 68122,
+      "final_url": "https://specifications.o-ran.org/download?id=1043",
+      "pdf_magic": false
+    },
+    {
+      "id": "666",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 170329,
+      "final_url": "https://specifications.o-ran.org/download?id=666",
+      "pdf_magic": false
+    },
+    {
+      "id": "592",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3031709,
+      "final_url": "https://specifications.o-ran.org/download?id=592",
+      "pdf_magic": true
+    },
+    {
+      "id": "593",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 93231,
+      "final_url": "https://specifications.o-ran.org/download?id=593",
+      "pdf_magic": false
+    },
+    {
+      "id": "594",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content_length": 119122,
+      "final_url": "https://specifications.o-ran.org/download?id=594",
+      "pdf_magic": false
+    },
+    {
+      "id": "595",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2039082,
+      "final_url": "https://specifications.o-ran.org/download?id=595",
+      "pdf_magic": true
+    },
+    {
+      "id": "596",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 6157,
+      "final_url": "https://specifications.o-ran.org/download?id=596",
+      "pdf_magic": false
+    },
+    {
+      "id": "139",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 330957,
+      "final_url": "https://specifications.o-ran.org/download?id=139",
+      "pdf_magic": false
+    },
+    {
+      "id": "1044",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2432892,
+      "final_url": "https://specifications.o-ran.org/download?id=1044",
+      "pdf_magic": true
+    },
+    {
+      "id": "1045",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2787187,
+      "final_url": "https://specifications.o-ran.org/download?id=1045",
+      "pdf_magic": true
+    },
+    {
+      "id": "1046",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1103434,
+      "final_url": "https://specifications.o-ran.org/download?id=1046",
+      "pdf_magic": true
+    },
+    {
+      "id": "1047",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2512016,
+      "final_url": "https://specifications.o-ran.org/download?id=1047",
+      "pdf_magic": true
+    },
+    {
+      "id": "1048",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 1940032,
+      "final_url": "https://specifications.o-ran.org/download?id=1048",
+      "pdf_magic": false
+    },
+    {
+      "id": "1049",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1355593,
+      "final_url": "https://specifications.o-ran.org/download?id=1049",
+      "pdf_magic": true
+    },
+    {
+      "id": "1050",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2718523,
+      "final_url": "https://specifications.o-ran.org/download?id=1050",
+      "pdf_magic": true
+    },
+    {
+      "id": "1051",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 12873083,
+      "final_url": "https://specifications.o-ran.org/download?id=1051",
+      "pdf_magic": true
+    },
+    {
+      "id": "960",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1267936,
+      "final_url": "https://specifications.o-ran.org/download?id=960",
+      "pdf_magic": true
+    },
+    {
+      "id": "961",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1519673,
+      "final_url": "https://specifications.o-ran.org/download?id=961",
+      "pdf_magic": true
+    },
+    {
+      "id": "968",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2493128,
+      "final_url": "https://specifications.o-ran.org/download?id=968",
+      "pdf_magic": true
+    },
+    {
+      "id": "969",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1221637,
+      "final_url": "https://specifications.o-ran.org/download?id=969",
+      "pdf_magic": true
+    },
+    {
+      "id": "889",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 534066,
+      "final_url": "https://specifications.o-ran.org/download?id=889",
+      "pdf_magic": true
+    },
+    {
+      "id": "898",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1635631,
+      "final_url": "https://specifications.o-ran.org/download?id=898",
+      "pdf_magic": true
+    },
+    {
+      "id": "1008",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 233766,
+      "final_url": "https://specifications.o-ran.org/download?id=1008",
+      "pdf_magic": true
+    },
+    {
+      "id": "817",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3065640,
+      "final_url": "https://specifications.o-ran.org/download?id=817",
+      "pdf_magic": true
+    },
+    {
+      "id": "755",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 202931,
+      "final_url": "https://specifications.o-ran.org/download?id=755",
+      "pdf_magic": true
+    },
+    {
+      "id": "756",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 180835,
+      "final_url": "https://specifications.o-ran.org/download?id=756",
+      "pdf_magic": false
+    },
+    {
+      "id": "670",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 574336,
+      "final_url": "https://specifications.o-ran.org/download?id=670",
+      "pdf_magic": false
+    },
+    {
+      "id": "607",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 81238,
+      "final_url": "https://specifications.o-ran.org/download?id=607",
+      "pdf_magic": false
+    },
+    {
+      "id": "539",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1221555,
+      "final_url": "https://specifications.o-ran.org/download?id=539",
+      "pdf_magic": true
+    },
+    {
+      "id": "231",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2961036,
+      "final_url": "https://specifications.o-ran.org/download?id=231",
+      "pdf_magic": true
+    },
+    {
+      "id": "55",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3009300,
+      "final_url": "https://specifications.o-ran.org/download?id=55",
+      "pdf_magic": true
+    },
+    {
+      "id": "970",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 4263367,
+      "final_url": "https://specifications.o-ran.org/download?id=970",
+      "pdf_magic": true
+    },
+    {
+      "id": "971",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1596263,
+      "final_url": "https://specifications.o-ran.org/download?id=971",
+      "pdf_magic": true
+    },
+    {
+      "id": "900",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 4486328,
+      "final_url": "https://specifications.o-ran.org/download?id=900",
+      "pdf_magic": true
+    },
+    {
+      "id": "826",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 593174,
+      "final_url": "https://specifications.o-ran.org/download?id=826",
+      "pdf_magic": false
+    },
+    {
+      "id": "757",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2012433,
+      "final_url": "https://specifications.o-ran.org/download?id=757",
+      "pdf_magic": true
+    },
+    {
+      "id": "759",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1282045,
+      "final_url": "https://specifications.o-ran.org/download?id=759",
+      "pdf_magic": true
+    },
+    {
+      "id": "476",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2200328,
+      "final_url": "https://specifications.o-ran.org/download?id=476",
+      "pdf_magic": true
+    },
+    {
+      "id": "415",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1449563,
+      "final_url": "https://specifications.o-ran.org/download?id=415",
+      "pdf_magic": true
+    },
+    {
+      "id": "348",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 556161,
+      "final_url": "https://specifications.o-ran.org/download?id=348",
+      "pdf_magic": true
+    },
+    {
+      "id": "187",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 5104074,
+      "final_url": "https://specifications.o-ran.org/download?id=187",
+      "pdf_magic": true
+    },
+    {
+      "id": "191",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1185914,
+      "final_url": "https://specifications.o-ran.org/download?id=191",
+      "pdf_magic": true
+    },
+    {
+      "id": "192",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1801251,
+      "final_url": "https://specifications.o-ran.org/download?id=192",
+      "pdf_magic": true
+    },
+    {
+      "id": "90",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 807131,
+      "final_url": "https://specifications.o-ran.org/download?id=90",
+      "pdf_magic": true
+    },
+    {
+      "id": "972",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 3750849,
+      "final_url": "https://specifications.o-ran.org/download?id=972",
+      "pdf_magic": false
+    },
+    {
+      "id": "973",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1422241,
+      "final_url": "https://specifications.o-ran.org/download?id=973",
+      "pdf_magic": false
+    },
+    {
+      "id": "974",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 8203508,
+      "final_url": "https://specifications.o-ran.org/download?id=974",
+      "pdf_magic": true
+    },
+    {
+      "id": "975",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 12394810,
+      "final_url": "https://specifications.o-ran.org/download?id=975",
+      "pdf_magic": true
+    },
+    {
+      "id": "976",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 5964548,
+      "final_url": "https://specifications.o-ran.org/download?id=976",
+      "pdf_magic": true
+    },
+    {
+      "id": "829",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2741553,
+      "final_url": "https://specifications.o-ran.org/download?id=829",
+      "pdf_magic": true
+    },
+    {
+      "id": "831",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 3976,
+      "final_url": "https://specifications.o-ran.org/download?id=831",
+      "pdf_magic": false
+    },
+    {
+      "id": "832",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 13479727,
+      "final_url": "https://specifications.o-ran.org/download?id=832",
+      "pdf_magic": true
+    },
+    {
+      "id": "61",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2637971,
+      "final_url": "https://specifications.o-ran.org/download?id=61",
+      "pdf_magic": true
+    },
+    {
+      "id": "984",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 3298435,
+      "final_url": "https://specifications.o-ran.org/download?id=984",
+      "pdf_magic": true
+    },
+    {
+      "id": "985",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 786665,
+      "final_url": "https://specifications.o-ran.org/download?id=985",
+      "pdf_magic": true
+    },
+    {
+      "id": "986",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1260045,
+      "final_url": "https://specifications.o-ran.org/download?id=986",
+      "pdf_magic": true
+    },
+    {
+      "id": "987",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 450205,
+      "final_url": "https://specifications.o-ran.org/download?id=987",
+      "pdf_magic": true
+    },
+    {
+      "id": "988",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1051812,
+      "final_url": "https://specifications.o-ran.org/download?id=988",
+      "pdf_magic": true
+    },
+    {
+      "id": "989",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1513385,
+      "final_url": "https://specifications.o-ran.org/download?id=989",
+      "pdf_magic": true
+    },
+    {
+      "id": "990",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1497263,
+      "final_url": "https://specifications.o-ran.org/download?id=990",
+      "pdf_magic": true
+    },
+    {
+      "id": "977",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1387094,
+      "final_url": "https://specifications.o-ran.org/download?id=977",
+      "pdf_magic": true
+    },
+    {
+      "id": "978",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 2725,
+      "final_url": "https://specifications.o-ran.org/download?id=978",
+      "pdf_magic": false
+    },
+    {
+      "id": "979",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 8881252,
+      "final_url": "https://specifications.o-ran.org/download?id=979",
+      "pdf_magic": true
+    },
+    {
+      "id": "980",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 1572749,
+      "final_url": "https://specifications.o-ran.org/download?id=980",
+      "pdf_magic": true
+    },
+    {
+      "id": "981",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 6409,
+      "final_url": "https://specifications.o-ran.org/download?id=981",
+      "pdf_magic": false
+    },
+    {
+      "id": "982",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 717475,
+      "final_url": "https://specifications.o-ran.org/download?id=982",
+      "pdf_magic": true
+    },
+    {
+      "id": "983",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 22830,
+      "final_url": "https://specifications.o-ran.org/download?id=983",
+      "pdf_magic": false
+    },
+    {
+      "id": "1005",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 2268858,
+      "final_url": "https://specifications.o-ran.org/download?id=1005",
+      "pdf_magic": false
+    },
+    {
+      "id": "1006",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 461923,
+      "final_url": "https://specifications.o-ran.org/download?id=1006",
+      "pdf_magic": false
+    },
+    {
+      "id": "1007",
+      "status_code": 200,
+      "content_type": "application/x-zip-compressed",
+      "inferred_type": "application/x-zip-compressed",
+      "content_length": 220524,
+      "final_url": "https://specifications.o-ran.org/download?id=1007",
+      "pdf_magic": false
+    },
+    {
+      "id": "859",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 485184,
+      "final_url": "https://specifications.o-ran.org/download?id=859",
+      "pdf_magic": true
+    },
+    {
+      "id": "31",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 2058285,
+      "final_url": "https://specifications.o-ran.org/download?id=31",
+      "pdf_magic": true
+    },
+    {
+      "id": "991",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1369189,
+      "final_url": "https://specifications.o-ran.org/download?id=991",
+      "pdf_magic": false
+    },
+    {
+      "id": "992",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 230782,
+      "final_url": "https://specifications.o-ran.org/download?id=992",
+      "pdf_magic": false
+    },
+    {
+      "id": "993",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 3228949,
+      "final_url": "https://specifications.o-ran.org/download?id=993",
+      "pdf_magic": false
+    },
+    {
+      "id": "994",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1420141,
+      "final_url": "https://specifications.o-ran.org/download?id=994",
+      "pdf_magic": false
+    },
+    {
+      "id": "995",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 96962,
+      "final_url": "https://specifications.o-ran.org/download?id=995",
+      "pdf_magic": false
+    },
+    {
+      "id": "996",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 93558,
+      "final_url": "https://specifications.o-ran.org/download?id=996",
+      "pdf_magic": false
+    },
+    {
+      "id": "997",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1199922,
+      "final_url": "https://specifications.o-ran.org/download?id=997",
+      "pdf_magic": false
+    },
+    {
+      "id": "998",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 954088,
+      "final_url": "https://specifications.o-ran.org/download?id=998",
+      "pdf_magic": false
+    },
+    {
+      "id": "999",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1702319,
+      "final_url": "https://specifications.o-ran.org/download?id=999",
+      "pdf_magic": false
+    },
+    {
+      "id": "1000",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 8411408,
+      "final_url": "https://specifications.o-ran.org/download?id=1000",
+      "pdf_magic": false
+    },
+    {
+      "id": "1001",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 959421,
+      "final_url": "https://specifications.o-ran.org/download?id=1001",
+      "pdf_magic": false
+    },
+    {
+      "id": "1002",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 631824,
+      "final_url": "https://specifications.o-ran.org/download?id=1002",
+      "pdf_magic": false
+    },
+    {
+      "id": "1003",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 2413223,
+      "final_url": "https://specifications.o-ran.org/download?id=1003",
+      "pdf_magic": false
+    },
+    {
+      "id": "1004",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 671760,
+      "final_url": "https://specifications.o-ran.org/download?id=1004",
+      "pdf_magic": false
+    },
+    {
+      "id": "916",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 885386,
+      "final_url": "https://specifications.o-ran.org/download?id=916",
+      "pdf_magic": false
+    },
+    {
+      "id": "919",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 488297,
+      "final_url": "https://specifications.o-ran.org/download?id=919",
+      "pdf_magic": false
+    },
+    {
+      "id": "848",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 212396,
+      "final_url": "https://specifications.o-ran.org/download?id=848",
+      "pdf_magic": false
+    },
+    {
+      "id": "778",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 1224193,
+      "final_url": "https://specifications.o-ran.org/download?id=778",
+      "pdf_magic": false
+    },
+    {
+      "id": "780",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 799425,
+      "final_url": "https://specifications.o-ran.org/download?id=780",
+      "pdf_magic": false
+    },
+    {
+      "id": "256",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 864131,
+      "final_url": "https://specifications.o-ran.org/download?id=256",
+      "pdf_magic": true
+    },
+    {
+      "id": "860",
+      "status_code": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "inferred_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "content_length": 792527,
+      "final_url": "https://specifications.o-ran.org/download?id=860",
+      "pdf_magic": false
+    },
+    {
+      "id": "695",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "inferred_type": "application/pdf",
+      "content_length": 346063,
+      "final_url": "https://specifications.o-ran.org/download?id=695",
+      "pdf_magic": true
+    }
+  ]
+}

@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "1009",
+    "filename": "O-RAN.WG1.TR.Use-Cases-Analysis-Report-R005-v19.00__id-1009.pdf",
+    "type": "application/pdf",
+    "bytes": 4440182,
+    "sha256": "81c5c24ef7d0025d..."
+  },
+  {
+    "id": "1010",
+    "filename": "O-RAN.WG1.TS.Use-Cases-Detailed-Specification-R005-v19.00__id-1010.pdf",
+    "type": "application/pdf",
+    "bytes": 13430717,
+    "sha256": "1c6fc7ad015f4a0c..."
+  },
+  {
+    "id": "1011",
+    "filename": "O-RAN.WG1.TR.CCIN-R005-v02.00__id-1011.pdf",
+    "type": "application/pdf",
+    "bytes": 2295399,
+    "sha256": "58f5df4a7c556309..."
+  },
+  {
+    "id": "1012",
+    "filename": "O-RAN.WG1.TR.RIC4NTN-R005-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1810982,
+    "sha256": "7bb90581d0f28794..."
+  },
+  {
+    "id": "1013",
+    "filename": "O-RAN.WG1.TS.OAD-R005-v16.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1044032,
+    "sha256": "5ae679132253208d..."
+  },
+  {
+    "id": "1014",
+    "filename": "O-RAN.WG1.TS.SMO-ARCH-R005-v02.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 290677,
+    "sha256": "16b2c8d19f377323..."
+  },
+  {
+    "id": "929",
+    "filename": "O-RAN.WG1.TR.O-RES.0-R004-v01.00__id-929.pdf",
+    "type": "application/pdf",
+    "bytes": 1914707,
+    "sha256": "e8c96f1f85d11c62..."
+  },
+  {
+    "id": "931",
+    "filename": "O-RAN.WG1.TR.FILM.R004-v01.00.00.pdf",
+    "type": "application/pdf",
+    "bytes": 941105,
+    "sha256": "5e7cd7210a1981c1..."
+  },
+  {
+    "id": "934",
+    "filename": "O-RAN.WG1.TR.SMO-INT-R004-v06.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 284162,
+    "sha256": "e865cf7d0b7eb55b..."
+  },
+  {
+    "id": "863",
+    "filename": "O-RAN.WG1.TS.Slicing-Architecture-R004-v14.01.pdf",
+    "type": "application/pdf",
+    "bytes": 3746833,
+    "sha256": "b5f426550e395223..."
+  },
+  {
+    "id": "715",
+    "filename": "O-RAN.WG1.TR.SA-MVD-R004-v03.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1414799,
+    "sha256": "b0285e65fad88e43..."
+  },
+  {
+    "id": "716",
+    "filename": "O-RAN.WG1.TR.Decoupled-SMO-Architecture-R004-v03.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1187035,
+    "sha256": "bdfaffe1d62d639b..."
+  },
+  {
+    "id": "442",
+    "filename": "O-RAN.WG1.Network-Energy-Savings-Technical-Report-R003-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2677945,
+    "sha256": "821cf468aa81aa0a..."
+  },
+  {
+    "id": "267",
+    "filename": "O-RAN.WG1.mMIMO-Use-Cases-TR-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 3591144,
+    "sha256": "042ac1000d6031ab..."
+  },
+  {
+    "id": "32",
+    "filename": "O-RAN.WG1.O1-Interface.0-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1585899,
+    "sha256": "e56216c86b396d4c..."
+  },
+  {
+    "id": "33",
+    "filename": "O-RAN.WG1.OAM-Architecture-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 3805951,
+    "sha256": "355d24fa8c105ad1..."
+  },
+  {
+    "id": "38",
+    "filename": "O-RAN.WG1.Information Model and Data Models-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 798845,
+    "sha256": "eca6a3ecf1f34501..."
+  },
+  {
+    "id": "104",
+    "filename": "O-RAN.WG1.Study-on-O-RAN-Slicing-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1292117,
+    "sha256": "c5ba3f9b6b6714e1..."
+  },
+  {
+    "id": "1015",
+    "filename": "O-RAN.WG2.TS.R1GAP-R005-v13.00.pdf",
+    "type": "application/pdf",
+    "bytes": 469083,
+    "sha256": "4a6406d4ca54a00d..."
+  },
+  {
+    "id": "1016",
+    "filename": "O-RAN.WG2.TS.R1UCR-R005-v12.00.pdf",
+    "type": "application/pdf",
+    "bytes": 3790668,
+    "sha256": "37097f8c2626bea1..."
+  },
+  {
+    "id": "1017",
+    "filename": "O-RAN.WG2.TS.R1AP-R005-v10.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2692088,
+    "sha256": "6915364c320450d2..."
+  },
+  {
+    "id": "1018",
+    "filename": "O-RAN.WG2.TS.R1TD-R005-v04.02.pdf",
+    "type": "application/pdf",
+    "bytes": 444535,
+    "sha256": "aa6b28a64b5a6f85..."
+  },
+  {
+    "id": "1019",
+    "filename": "O-RAN.WG2.TS.R1TS-R005-v05.00__id-1019.pdf",
+    "type": "application/pdf",
+    "bytes": 1059817,
+    "sha256": "53264b2ca1f3ee27..."
+  },
+  {
+    "id": "1020",
+    "filename": "O-RAN.WG2.TS.A1GAP-R005-v05.03.pdf",
+    "type": "application/pdf",
+    "bytes": 613909,
+    "sha256": "7fc3757d8a94ca0e..."
+  },
+  {
+    "id": "1021",
+    "filename": "O-RAN.WG2.TS.A1AP-R005-v06.00.pdf",
+    "type": "application/pdf",
+    "bytes": 975292,
+    "sha256": "b10afbda30b87a86..."
+  },
+  {
+    "id": "1022",
+    "filename": "O-RAN.WG2.TS.A1TD-R005-v11.01.pdf",
+    "type": "application/pdf",
+    "bytes": 1205947,
+    "sha256": "e8e3f86e8df2d2d3..."
+  },
+  {
+    "id": "1023",
+    "filename": "O-RAN.WG2.TS.A1TS-R005-v05.00__id-1023.pdf",
+    "type": "application/pdf",
+    "bytes": 750249,
+    "sha256": "5229d718929c0095..."
+  },
+  {
+    "id": "1024",
+    "filename": "O-RAN.WG2.TS.A1UCR-R005-v05.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1060254,
+    "sha256": "56d2a5cd67edd31b..."
+  },
+  {
+    "id": "1025",
+    "filename": "O-RAN.WG2.TR.DECSMO-Impact-R005-v02.00__id-1025.pdf",
+    "type": "application/pdf",
+    "bytes": 258907,
+    "sha256": "12eae0143aca7fe7..."
+  },
+  {
+    "id": "1026",
+    "filename": "O-RAN.WG2.TS.Use-Case-Requirements-R005-v11.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 4187624,
+    "sha256": "7253001ffaa53155..."
+  },
+  {
+    "id": "943",
+    "filename": "O-RAN.WG2.TS.A1TP-R004-v03.05.pdf",
+    "type": "application/pdf",
+    "bytes": 100093,
+    "sha256": "bf274bd916a99c81..."
+  },
+  {
+    "id": "871",
+    "filename": "O-RAN.WG2.TS.R1TP-R004-v04.03.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 143128,
+    "sha256": "b53dc6e517adca2b..."
+  },
+  {
+    "id": "875",
+    "filename": "O-RAN.WG2.TR.PlcCnfMtgt-R004-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 2780936,
+    "sha256": "fd81f5d6b0f3605a..."
+  },
+  {
+    "id": "877",
+    "filename": "O-RAN.WG2.TR.A1PENF-R004-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1370297,
+    "sha256": "fb9f92023fce76cf..."
+  },
+  {
+    "id": "878",
+    "filename": "O-RAN.WG2.TS.Non-RT-RIC-ARCH-R004-v07.00__id-878.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 3412629,
+    "sha256": "05096f081a0c8ebb..."
+  },
+  {
+    "id": "158",
+    "filename": "O-RAN.WG2.AIML-v01.03__id-158.pdf",
+    "type": "application/pdf",
+    "bytes": 3692403,
+    "sha256": "afd260f0360d91e6..."
+  },
+  {
+    "id": "74",
+    "filename": "O-RAN.WG2.Non-RT-RIC-ARCH-TR-v01.01.pdf",
+    "type": "application/pdf",
+    "bytes": 3902882,
+    "sha256": "366cb05674d31041..."
+  },
+  {
+    "id": "1027",
+    "filename": "O-RAN.WG3.TS.UCR-R005-v10.00.pdf",
+    "type": "application/pdf",
+    "bytes": 3159638,
+    "sha256": "969b80badb066f80..."
+  },
+  {
+    "id": "1028",
+    "filename": "O-RAN.WG3.TS.Y1GAP-R005-v01.02.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 124455,
+    "sha256": "ceff24815b3aa43f..."
+  },
+  {
+    "id": "1029",
+    "filename": "O-RAN.WG3.TS.Y1AP-R005-v01.02.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 235205,
+    "sha256": "1b5f8d365e5727f8..."
+  },
+  {
+    "id": "1030",
+    "filename": "O-RAN.WG3.TS.Y1TD-R005-v03.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 138496,
+    "sha256": "8c388945666ebf1f..."
+  },
+  {
+    "id": "1031",
+    "filename": "O-RAN.WG3.TS.RICARCH-R005-v08.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 3729871,
+    "sha256": "3ba909b3decd1442..."
+  },
+  {
+    "id": "1032",
+    "filename": "O-RAN.WG3.TS.RICAPI-R005-v03.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 2005883,
+    "sha256": "d398e5d8febd02ef..."
+  },
+  {
+    "id": "947",
+    "filename": "O-RAN.WG3.TS.E2GAP-R004-v08.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 4491636,
+    "sha256": "259518c4326b0d58..."
+  },
+  {
+    "id": "948",
+    "filename": "O-RAN.WG3.TS.E2AP-R004-v08.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1359408,
+    "sha256": "e0bfb91a969b92dc..."
+  },
+  {
+    "id": "949",
+    "filename": "O-RAN.WG3.TS.E2SM-KPM-R004-v07.00__id-949.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 239900,
+    "sha256": "cca469fbe01a8b18..."
+  },
+  {
+    "id": "950",
+    "filename": "O-RAN.WG3.TS.E2SM-RC-R004-v09.00.pdf",
+    "type": "application/pdf",
+    "bytes": 5466834,
+    "sha256": "14588dc60f5e71a8..."
+  },
+  {
+    "id": "880",
+    "filename": "O-RAN.WG3.TS.E2SM-CCC-R004-v06.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1290945,
+    "sha256": "cee6d40da8690451..."
+  },
+  {
+    "id": "808",
+    "filename": "O-RAN.WG3.TS.E2SM-R004-v07.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1258694,
+    "sha256": "356eb9c84a4b1103..."
+  },
+  {
+    "id": "809",
+    "filename": "O-RAN.WG3.TS.E2SM-LLC-R004-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 768821,
+    "sha256": "b917d19e4dfbf6d5..."
+  },
+  {
+    "id": "814",
+    "filename": "O-RAN.WG3.TS.UCR-R004-v08.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2921440,
+    "sha256": "b6e66c86438c89cf..."
+  },
+  {
+    "id": "737",
+    "filename": "O-RAN.WG3.TR.ConMit-R004-v01.00__id-737.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1207834,
+    "sha256": "bade55c3789c24f1..."
+  },
+  {
+    "id": "395",
+    "filename": "O-RAN.WG3.O1-Interface-for-Near-RT-RIC-R003-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 118822,
+    "sha256": "a8d98799bcff1b92..."
+  },
+  {
+    "id": "396",
+    "filename": "O-RAN.WG3.E2TS-R003-v02.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 449268,
+    "sha256": "c7b25fb7d7f0269f..."
+  },
+  {
+    "id": "123",
+    "filename": "ORAN-WG3.E2SM-NI-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 771333,
+    "sha256": "1f5e1012fb2d434e..."
+  },
+  {
+    "id": "1033",
+    "filename": "O-RAN.WG4.TS.CUS.0-R005-v20.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 36061978,
+    "sha256": "7b2140e76ab03e49..."
+  },
+  {
+    "id": "1034",
+    "filename": "O-RAN.WG4.TS.MP.0-R005-v20.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 6922074,
+    "sha256": "719c11b5b8e7d95b..."
+  },
+  {
+    "id": "1035",
+    "filename": "O-RAN.WG4.TS.MP-YANGs-R005-v20.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 246328,
+    "sha256": "33799dcf18c46e81..."
+  },
+  {
+    "id": "1036",
+    "filename": "O-RAN.WG4.TS.IOT.0-R005-v15.00__id-1036.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1154501,
+    "sha256": "c3b1dcf9dcac445c..."
+  },
+  {
+    "id": "1037",
+    "filename": "O-RAN.WG4.TS.CONF.0-R005-v15.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 9786716,
+    "sha256": "6b4a4d3af8acc220..."
+  },
+  {
+    "id": "458",
+    "filename": "O-RAN.WG4.CTI-TCP.0-R003-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 3178470,
+    "sha256": "9c108c795dc44888..."
+  },
+  {
+    "id": "459",
+    "filename": "O-RAN.WG4.CTI-TMP.0-R003-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 4087754,
+    "sha256": "802f2868e5a515ec..."
+  },
+  {
+    "id": "367",
+    "filename": "O-RAN.WG4.CTI-TMP-YANG-v03.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 16545,
+    "sha256": "86fe1d528ba455d9..."
+  },
+  {
+    "id": "1038",
+    "filename": "O-RAN.WG5.TS.C.1-R005-v17.00__id-1038.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 71764315,
+    "sha256": "9ca81aeb3323e51d..."
+  },
+  {
+    "id": "1039",
+    "filename": "O-RAN.WG5.TS.IOT.0-R005-v15.00__id-1039.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1096885,
+    "sha256": "b6b490bebba6c217..."
+  },
+  {
+    "id": "1040",
+    "filename": "O-RAN.WG5.TS.D2GAP.0-R005-v03.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 423810,
+    "sha256": "0fac30a2173e809b..."
+  },
+  {
+    "id": "1041",
+    "filename": "O-RAN.WG5.TS-D2-O_MRequirements-R005_v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 295943,
+    "sha256": "899c837226b450eb..."
+  },
+  {
+    "id": "1042",
+    "filename": "O-RAN.WG5.TS.D2AP-0.R005-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 428864,
+    "sha256": "ec83270e0b7d076a..."
+  },
+  {
+    "id": "1043",
+    "filename": "O-RAN.WG5.TS.D2AP-R005-v01.00-ERR01-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 68122,
+    "sha256": "12075031ca994147..."
+  },
+  {
+    "id": "666",
+    "filename": "O-RAN.WG5.U.0-R003-v07.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 170329,
+    "sha256": "2211fac297e198af..."
+  },
+  {
+    "id": "592",
+    "filename": "O-RAN.WG5.O-DU-O1.0-R003-v09.00__id-592.pdf",
+    "type": "application/pdf",
+    "bytes": 3031709,
+    "sha256": "ab8fffc95cc87832..."
+  },
+  {
+    "id": "593",
+    "filename": "O-RAN.WG5.O-DU-O1.1-R003-v09.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 93231,
+    "sha256": "d83bbcdcd4d836b5..."
+  },
+  {
+    "id": "594",
+    "filename": "O-RAN.WG5.O-DU-O1.2-R003-v09.00.xlsx",
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 119122,
+    "sha256": "2feeb558a72547be..."
+  },
+  {
+    "id": "595",
+    "filename": "O-RAN.WG5.O-CU-O1.0-R003-v07.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2039082,
+    "sha256": "b760bcdfb863171c..."
+  },
+  {
+    "id": "596",
+    "filename": "O-RAN.WG5.O-CU-O1.1-R003-v07.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 6157,
+    "sha256": "13e1c6977bd50efc..."
+  },
+  {
+    "id": "139",
+    "filename": "O-RAN.WG5.Transport.0-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 330957,
+    "sha256": "9a87fa76d6536fe7..."
+  },
+  {
+    "id": "1044",
+    "filename": "O-RAN.WG6.TS.O2DMS-INTERFACE-ETSI-NFV-PROFILE-R005-v10.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2432892,
+    "sha256": "45797a3e0538c4ce..."
+  },
+  {
+    "id": "1045",
+    "filename": "O-RAN.WG6.TS.O2-GA_P-R005-v10.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2787187,
+    "sha256": "11859207e26293ec..."
+  },
+  {
+    "id": "1046",
+    "filename": "O-RAN.WG6.O2DMS-INTERFACE-K8S-PROFILE-R005-v07.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1103434,
+    "sha256": "c004887bb1688393..."
+  },
+  {
+    "id": "1047",
+    "filename": "O-RAN.WG6.TR.FOCOM-NFO-SMOS-NBI-R005-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2512016,
+    "sha256": "9f488d3fcf30f70c..."
+  },
+  {
+    "id": "1048",
+    "filename": "O-RAN.WG6.TS.O-Cloud-IM-R005-v06.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 1940032,
+    "sha256": "ecdf56ac5683f5fe..."
+  },
+  {
+    "id": "1049",
+    "filename": "O-RAN.WG6.O-CLOUD-IOT-R005-v02.03.pdf",
+    "type": "application/pdf",
+    "bytes": 1355593,
+    "sha256": "66051302e23a2c24..."
+  },
+  {
+    "id": "1050",
+    "filename": "O-RAN.WG6.TS.O2IMS-INTERFACE-R005-v11.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2718523,
+    "sha256": "60c96afe9c6eef23..."
+  },
+  {
+    "id": "1051",
+    "filename": "O-RAN.WG6.ORCH-USE-CASES-R005-v15.00.pdf",
+    "type": "application/pdf",
+    "bytes": 12873083,
+    "sha256": "bfd2aa5f86803dc6..."
+  },
+  {
+    "id": "960",
+    "filename": "O-RAN.WG6.TS.O-CLOUD-INTF-CONF-R004-v04.03.pdf",
+    "type": "application/pdf",
+    "bytes": 1267936,
+    "sha256": "027b9011ec7997c9..."
+  },
+  {
+    "id": "961",
+    "filename": "O-RAN.WG6.TR.O-CLOUD-ES-R004-v03.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1519673,
+    "sha256": "d2149c2935d05012..."
+  },
+  {
+    "id": "968",
+    "filename": "O-RAN.WG6.AAL-Common-API-R004-v10.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2493128,
+    "sha256": "bd1eb791dda4bd57..."
+  },
+  {
+    "id": "969",
+    "filename": "O-RAN.WG6.AAL-GAnP-R004-v13.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1221637,
+    "sha256": "d34b9f0a92b85a56..."
+  },
+  {
+    "id": "889",
+    "filename": "O-RAN.WG6.ASD-R004-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 534066,
+    "sha256": "8c543f9d58fc2617..."
+  },
+  {
+    "id": "898",
+    "filename": "O-RAN.WG6.TS.AAL-HI_PHY-R004-v08.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1635631,
+    "sha256": "5a0ae7bf6971b9d9..."
+  },
+  {
+    "id": "1008",
+    "filename": "WG6.TS.O2IMS-INTERFACE-R004-v08.00-ERR01-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 233766,
+    "sha256": "5600f09b8e49c903..."
+  },
+  {
+    "id": "817",
+    "filename": "O-RAN.WG6.CADS-v08.01.pdf",
+    "type": "application/pdf",
+    "bytes": 3065640,
+    "sha256": "e94cd5bf1cb98420..."
+  },
+  {
+    "id": "755",
+    "filename": "O-RAN.WG6.AAL-MUMIMO-BF-Calc-Profile-R004-v01.01.pdf",
+    "type": "application/pdf",
+    "bytes": 202931,
+    "sha256": "54235c70ad3969df..."
+  },
+  {
+    "id": "756",
+    "filename": "O-RAN.WG6.AAL FEC.R004-v04.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 180835,
+    "sha256": "ff7ab08dcfbb2bbf..."
+  },
+  {
+    "id": "670",
+    "filename": "O-RAN.WG6.O-Cloud Notification API-v04.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 574336,
+    "sha256": "ba8b2c0c78ca4ff6..."
+  },
+  {
+    "id": "607",
+    "filename": "O-RAN.WG6.O2-IMS-K8s-R003-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 81238,
+    "sha256": "2a64c20b78844434..."
+  },
+  {
+    "id": "539",
+    "filename": "O-RAN-WG6.AppLCM-Deployment-R003-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1221555,
+    "sha256": "dd74c19a3a8c9eea..."
+  },
+  {
+    "id": "231",
+    "filename": "O-RAN.WG6.O2-GAnP-v01.02__id-231.pdf",
+    "type": "application/pdf",
+    "bytes": 2961036,
+    "sha256": "713f3370a2b05ec2..."
+  },
+  {
+    "id": "55",
+    "filename": "O-RAN.WG6.CLOUD-REF-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 3009300,
+    "sha256": "2d866f86e5e3a5f6..."
+  },
+  {
+    "id": "970",
+    "filename": "O-RAN.WG7.OMAC-HRD.0-R004-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 4263367,
+    "sha256": "bcf58ea0b4931159..."
+  },
+  {
+    "id": "971",
+    "filename": "O-RAN.WG7.NES.0-R003-v03.0.pdf",
+    "type": "application/pdf",
+    "bytes": 1596263,
+    "sha256": "b15d30c209eef974..."
+  },
+  {
+    "id": "900",
+    "filename": "O-RAN.WG7.TS.IPC-HRD-Opt7-2.0-R005-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 4486328,
+    "sha256": "3ea6d43ede01f87e..."
+  },
+  {
+    "id": "826",
+    "filename": "O-RAN.WG7.IPC-TEST.0-v01.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 593174,
+    "sha256": "d25fb773649cf3b2..."
+  },
+  {
+    "id": "757",
+    "filename": "O-RAN.WG7.IPC-HAR.0-v03.00__id-757.pdf",
+    "type": "application/pdf",
+    "bytes": 2012433,
+    "sha256": "841ea58c835dc1a2..."
+  },
+  {
+    "id": "759",
+    "filename": "O-RAN.WG7.OMAC-HAR.0-v05.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1282045,
+    "sha256": "78ffc4476839dd0e..."
+  },
+  {
+    "id": "476",
+    "filename": "O-RAN.WG7.OMC-HRD-Opt7-2-R003-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2200328,
+    "sha256": "e114e42dcc641b4a..."
+  },
+  {
+    "id": "415",
+    "filename": "O-RAN.WG7.EMC-HAR-HRD.0-R003-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1449563,
+    "sha256": "d9eeced166f401db..."
+  },
+  {
+    "id": "348",
+    "filename": "O-RAN.WG7.DSC.0-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 556161,
+    "sha256": "9fe1cd2120c05b3f..."
+  },
+  {
+    "id": "187",
+    "filename": "O-RAN.WG7.IPC-HRD-Opt8.0-v03.00.pdf",
+    "type": "application/pdf",
+    "bytes": 5104074,
+    "sha256": "081806fa7e36a58d..."
+  },
+  {
+    "id": "191",
+    "filename": "O-RAN.WG7.FHGW-HRD.0-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1185914,
+    "sha256": "76f4e742bf4d832c..."
+  },
+  {
+    "id": "192",
+    "filename": "O-RAN.WG7.IPC-HRD-Opt6-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1801251,
+    "sha256": "62c6c9f515c3764f..."
+  },
+  {
+    "id": "90",
+    "filename": "O-RAN.WG7.OMC-HAR.0-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 807131,
+    "sha256": "2e8e9c983e097db9..."
+  },
+  {
+    "id": "972",
+    "filename": "O-RAN.WG8.TS.AAD.0-R005-v16.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 3750849,
+    "sha256": "755cc0ba2c522af7..."
+  },
+  {
+    "id": "973",
+    "filename": "O-RAN.WG8.TS.IOT.0-R005-v14.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1422241,
+    "sha256": "758198830fd46530..."
+  },
+  {
+    "id": "974",
+    "filename": "O-RAN.WG9.XTRP-MGT.0-R004-v10.00.pdf",
+    "type": "application/pdf",
+    "bytes": 8203508,
+    "sha256": "a427b00d628979cc..."
+  },
+  {
+    "id": "975",
+    "filename": "O-RAN.WG9.XPSAAS.0-R004-v09.00.pdf",
+    "type": "application/pdf",
+    "bytes": 12394810,
+    "sha256": "0cdea7e8d4a83d1f..."
+  },
+  {
+    "id": "976",
+    "filename": "O-RAN.WG9.XTRP-SYN.0-R004-v07.00.pdf",
+    "type": "application/pdf",
+    "bytes": 5964548,
+    "sha256": "8f345b262cc180e7..."
+  },
+  {
+    "id": "829",
+    "filename": "ORAN-WG9.WDM.0-R004-v05.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2741553,
+    "sha256": "61ea3061689f7a39..."
+  },
+  {
+    "id": "831",
+    "filename": "O-RAN.WG9.XTRP-SYN.1-R004-v06.00_YANG.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 3976,
+    "sha256": "a0a2a4907faf0cf1..."
+  },
+  {
+    "id": "832",
+    "filename": "O-RAN.WG9.XTRP-TST.0-R004-v05.00.pdf",
+    "type": "application/pdf",
+    "bytes": 13479727,
+    "sha256": "5867d6330eadc4c9..."
+  },
+  {
+    "id": "61",
+    "filename": "O-RAN.WG9.XTRP-REQ-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 2637971,
+    "sha256": "5fb7291d88b92c1f..."
+  },
+  {
+    "id": "984",
+    "filename": "O-RAN.WG10.TS.O1PMeas-R004-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 3298435,
+    "sha256": "079013c6abb96c7a..."
+  },
+  {
+    "id": "985",
+    "filename": "O-RAN.WG10.TR.Cloud-Native-OAM.0-R004-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 786665,
+    "sha256": "e9a74c0cd2a1b3d2..."
+  },
+  {
+    "id": "986",
+    "filename": "O-RAN.WG10.TS.TE_IV-CIMI.0-R004-v05.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1260045,
+    "sha256": "20d83ec62e80fafa..."
+  },
+  {
+    "id": "987",
+    "filename": "O-RAN.WG10.TS.TE_IV-DM.0-R004-v03.00.pdf",
+    "type": "application/pdf",
+    "bytes": 450205,
+    "sha256": "23c87781e31c35da..."
+  },
+  {
+    "id": "988",
+    "filename": "O-RAN.WG10.TS.TE_IV-API.0-R004-v03.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1051812,
+    "sha256": "b79b8a0b6aa8caa0..."
+  },
+  {
+    "id": "989",
+    "filename": "O-RAN.WG10.TE_IV-UCR.0-R004-v03.01.pdf",
+    "type": "application/pdf",
+    "bytes": 1513385,
+    "sha256": "f4ae3fb8bfccd3f8..."
+  },
+  {
+    "id": "990",
+    "filename": "O-RAN.WG10.TS.OnboardingSMOSGAP.0-R004-v02.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1497263,
+    "sha256": "94d382ff09257c62..."
+  },
+  {
+    "id": "977",
+    "filename": "O-RAN.WG10.TS.O1-Interface.0-R004-v17.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1387094,
+    "sha256": "afde3032026381a1..."
+  },
+  {
+    "id": "978",
+    "filename": "O-RAN.WG10.TS.O1-Interface.1-R004-v17.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 2725,
+    "sha256": "e9642fbdf65b8df5..."
+  },
+  {
+    "id": "979",
+    "filename": "O-RAN.WG10.TS.OAM-Architecture-R004-v16.00.pdf",
+    "type": "application/pdf",
+    "bytes": 8881252,
+    "sha256": "effc8b390b811e88..."
+  },
+  {
+    "id": "980",
+    "filename": "O-RAN.WG10.TS.Information Model and Data Models.0-R004-v12.00.pdf",
+    "type": "application/pdf",
+    "bytes": 1572749,
+    "sha256": "4a734327200cdc70..."
+  },
+  {
+    "id": "981",
+    "filename": "O-RAN.WG10.TS.Information Model and Data Models.1-R004-v12.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 6409,
+    "sha256": "6f0df5d18c7d4303..."
+  },
+  {
+    "id": "982",
+    "filename": "O-RAN.WG10.TS.O1NRM.0-R004-v04.00.pdf",
+    "type": "application/pdf",
+    "bytes": 717475,
+    "sha256": "e60c5088ffb92a19..."
+  },
+  {
+    "id": "983",
+    "filename": "O-RAN.WG10.TS.O1NRM.1-R004-v04.00.zip",
+    "type": "application/x-zip-compressed",
+    "bytes": 22830,
+    "sha256": "6ce000d38a5293d8..."
+  },
+  {
+    "id": "1005",
+    "filename": "O-RAN.TIFG.TS.E2E-Test.0-R004-v08.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 2268858,
+    "sha256": "be696a210d0ded02..."
+  },
+  {
+    "id": "1006",
+    "filename": "O-RAN.TIFG.TS.Cert-Badge.0-R004-v12.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 461923,
+    "sha256": "4f961d2206b939f2..."
+  },
+  {
+    "id": "1007",
+    "filename": "O-RAN.TIFG.TS.Cert-Badge.6-R004-v12.00.ZIP",
+    "type": "application/x-zip-compressed",
+    "bytes": 220524,
+    "sha256": "fcb03f3400012a6d..."
+  },
+  {
+    "id": "859",
+    "filename": "O-RAN.TIFG.CGofOTIC.0-v06.00.pdf",
+    "type": "application/pdf",
+    "bytes": 485184,
+    "sha256": "d605211c8ee1f345..."
+  },
+  {
+    "id": "31",
+    "filename": "O-RAN.TIFG.E2ETSTFWK.0-v01.00__id-31.pdf",
+    "type": "application/pdf",
+    "bytes": 2058285,
+    "sha256": "bffc70106a976b4a..."
+  },
+  {
+    "id": "991",
+    "filename": "O-RAN.WG11.TS.SRCS.0-R004-v13.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1369189,
+    "sha256": "5c7d52ba56eb7fd2..."
+  },
+  {
+    "id": "992",
+    "filename": "O-RAN.WG11.TS.SecProtSpec.0-R004-v13.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 230782,
+    "sha256": "2d4e6f0215cac69b..."
+  },
+  {
+    "id": "993",
+    "filename": "O-RAN.WG11.TS.STS-R004-v11.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 3228949,
+    "sha256": "7a12837178228de6..."
+  },
+  {
+    "id": "994",
+    "filename": "O-RAN.WG11.TR.Threat-Modeling.0-R004-v07.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1420141,
+    "sha256": "dccf98fa5f924a52..."
+  },
+  {
+    "id": "995",
+    "filename": "O-RAN.WG11.TR.SCM.0-R004-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 96962,
+    "sha256": "6fa4cb37002e480b..."
+  },
+  {
+    "id": "996",
+    "filename": "O-RAN.WG11.TR.PQC-Security.0-R004-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 93558,
+    "sha256": "bcf01113347c77ea..."
+  },
+  {
+    "id": "997",
+    "filename": "O-RAN.WG11.TR.ZTA-R004-v04.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1199922,
+    "sha256": "2e6693586ed08bd7..."
+  },
+  {
+    "id": "998",
+    "filename": "O-RAN.WG11.TR.AIML-Security-Analysis.0-R004-v04.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 954088,
+    "sha256": "2fe7689396b17bcc..."
+  },
+  {
+    "id": "999",
+    "filename": "O-RAN.WG11.TR.Certficate-Management-Framework.0-R004-v05.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1702319,
+    "sha256": "addc7d530061bd23..."
+  },
+  {
+    "id": "1000",
+    "filename": "O-RAN.WG11.TR.Open-FH-Security.0-R004-v05.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 8411408,
+    "sha256": "1f57313a387fa458..."
+  },
+  {
+    "id": "1001",
+    "filename": "O-RAN.WG11.TR.Security-Near-RT-RIC-xApps.0-R004-v06.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 959421,
+    "sha256": "7faf07f404274cb7..."
+  },
+  {
+    "id": "1002",
+    "filename": "O-RAN.WG11.TR.OAuth2.0-Security.0-R004-v06.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 631824,
+    "sha256": "772d8779e173b962..."
+  },
+  {
+    "id": "1003",
+    "filename": "O-RAN.WG11.TR.O-CLOUD-Security.0-R004-v08.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 2413223,
+    "sha256": "281c03e59ec3058a..."
+  },
+  {
+    "id": "1004",
+    "filename": "O-RAN.WG11.TR.SMO-Security-Analysis.0-R004-v07.00__id-1004.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 671760,
+    "sha256": "494ad63b4937d589..."
+  },
+  {
+    "id": "916",
+    "filename": "O-RAN.WG11.TR.AppLCM-Security-R004-v04.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 885386,
+    "sha256": "a804e7fbda6cbe73..."
+  },
+  {
+    "id": "919",
+    "filename": "O-RAN.WG11.TR.CSM-Security-R004-v01.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 488297,
+    "sha256": "4d6a2233eb94b966..."
+  },
+  {
+    "id": "848",
+    "filename": "O-RAN.WG11.TR.O-RUCUM-R004-v04.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 212396,
+    "sha256": "0031175d6eed1efd..."
+  },
+  {
+    "id": "778",
+    "filename": "ORAN-WG11-SharedORU-Security-Analysis-TR.0-R004-v06.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 1224193,
+    "sha256": "7bece6f5f7b092cb..."
+  },
+  {
+    "id": "780",
+    "filename": "O-RAN.WG11.Security-Log-Management-TR.O-R004-v05.00.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 799425,
+    "sha256": "b527e25202264851..."
+  },
+  {
+    "id": "256",
+    "filename": "O-RAN.SFG.Non-RT-RIC-Security-TR-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 864131,
+    "sha256": "41b4e4d600c88bb2..."
+  },
+  {
+    "id": "860",
+    "filename": "O-RAN.SuFG.TR.NES-Analysis-R004-v01.01.docx",
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "bytes": 792527,
+    "sha256": "ae0390b152e0504b..."
+  },
+  {
+    "id": "695",
+    "filename": "O-RAN.SuFG.CE-v01.00.pdf",
+    "type": "application/pdf",
+    "bytes": 346063,
+    "sha256": "b7528ac4539bd4be..."
+  }
+]

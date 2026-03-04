@@ -1,0 +1,8 @@
+{
+  "pdf_ok": 90,
+  "pdf_fail": 0,
+  "zip_ok": 72,
+  "zip_fail": 0,
+  "other": 0,
+  "failures_sample": []
+}
