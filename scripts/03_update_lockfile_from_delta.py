@@ -39,10 +39,7 @@ ALLOWED_SCHEMES = {"https"}
 
 # Default allowlist (EDIT this to your portal hosts)
 _DEFAULT_ALLOWED_HOSTS = {
-    # Replace these with actual hosts used in your download_url values
-    # Example placeholders:
-    "www.o-ran.org",
-    "o-ran.org",
+    "specifications.o-ran.org",
 }
 
 # Optional: override allowlist from env (comma-separated)
