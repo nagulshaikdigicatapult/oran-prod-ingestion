@@ -35,12 +35,8 @@ jobs:
       - name: Fetch live portal manifest
         run: |
           python scripts/browser/fetch_manifest_live.py
-      
-      - name: Make live manifest the latest manifest
-        run: |
-          cp manifests/raw/manifest.live.json manifests/raw/manifest.latest.json
 
-     - name: Normalize + diff (CI safe)
+      - name: Normalize + diff (CI safe)
         env:
           ORAN_SKIP_CATALOG: "1"
         run: |
