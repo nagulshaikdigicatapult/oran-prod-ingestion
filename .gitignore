@@ -45,3 +45,5 @@ manifests/snapshots/
 !reports/**
 !manifests/snapshots/
 !manifests/snapshots/**
+manifests/raw/manifest.live.json
+manifests/snapshots/
