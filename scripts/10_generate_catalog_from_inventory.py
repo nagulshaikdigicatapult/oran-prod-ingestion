@@ -136,6 +136,7 @@ def main() -> None:
                 "bytes",
                 "sha256",
                 "relpath",
+                "present_on_portal",
             ],
             lineterminator="\n",
         )
