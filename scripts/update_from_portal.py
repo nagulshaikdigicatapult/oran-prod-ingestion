@@ -250,7 +250,9 @@ def main() -> int:
         "policy": "Option A: keep archive; mark present_on_portal per ID; append-only lockfile",
     }
     write_json_if_changed(REPORTS_DIR / "portal_diff.latest.json", diff_report)
-
+    if SKIP_CATALOG:
+        print("Skipping catalog/download steps (ORAN_SKIP_CATALOG=1)")
+        return 0
     all_ids = set(inv_ids) | set(new_ids)
     status = write_portal_status(all_ids, portal_ids)
     write_json_if_changed(REPORTS_DIR / "portal_status.latest.json", status)
@@ -266,9 +268,6 @@ def main() -> int:
     print(f"  missing_ids_count={len(missing_ids)}")
     print(f"  delta_inventory_items={len(delta.get('items', []))}")
 
-    if SKIP_CATALOG:
-        print("Skipping catalog regeneration/injection (ORAN_SKIP_CATALOG=1)")
-        return 0
 
     if len(new_ids) == 0:
         print("No new IDs to ingest.")

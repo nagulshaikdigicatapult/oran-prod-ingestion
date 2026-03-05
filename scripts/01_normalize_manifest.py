@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
+"""
+Normalize a raw portal manifest into a structured manifest.
+
+Default behavior (local):
+  IN  = manifests/raw/manifest.latest.json
+  OUT = manifests/processed/normalized_manifest.json
+
+Monitor behavior:
+  python scripts/01_normalize_manifest.py --in manifests/raw/manifest.live.json
+"""
+
+from __future__ import annotations
+
+import argparse
 import json
 import re
 from pathlib import Path
-
-RAW_LIVE = Path("manifests/raw/manifest.live.json")
-RAW_LATEST = Path("manifests/raw/manifest.latest.json")
-RAW = RAW_LIVE if RAW_LIVE.exists() else RAW_LATEST
-OUT = Path("manifests/processed/normalized_manifest.json")
 
 MONTHS = r"(January|February|March|April|May|June|July|August|September|October|November|December)"
 
@@ -82,11 +91,33 @@ def parse_row_text(row_text: str) -> dict:
     }
 
 
-def main():
-    data = json.loads(RAW.read_text())
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--in",
+        dest="in_path",
+        default="manifests/raw/manifest.latest.json",
+        help="Input raw manifest JSON (list). Default: manifests/raw/manifest.latest.json",
+    )
+    ap.add_argument(
+        "--out",
+        dest="out_path",
+        default="manifests/processed/normalized_manifest.json",
+        help="Output normalized manifest JSON. Default: manifests/processed/normalized_manifest.json",
+    )
+    args = ap.parse_args()
+
+    raw = Path(args.in_path)
+    out = Path(args.out_path)
+
+    if not raw.exists():
+        raise SystemExit(f"Input manifest not found: {raw}")
+
+    data = json.loads(raw.read_text())
     if not isinstance(data, list):
         raise SystemExit("Raw manifest must be a JSON array")
-    out = []
+
+    normalized = []
     for item in data:
         id_ = str(item.get("id", "")).strip()
         url = str(item.get("download_url", "")).strip()
@@ -94,21 +125,23 @@ def main():
 
         meta = parse_row_text(row_text)
 
-        out.append(
+        normalized.append(
             {
                 "id": id_,
                 "download_url": url,
                 "row_text": row_text,
                 **meta,
-}
+            }
         )
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(out, indent=2))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(normalized, indent=2) + "\n")
 
-    print(f"Normalized manifest written to {OUT}")
-    print(f"Total entries: {len(out)}")
+    print(f"Normalized manifest written to {out}")
+    print(f"Input: {raw}")
+    print(f"Total entries: {len(normalized)}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

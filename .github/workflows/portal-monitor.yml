@@ -40,7 +40,7 @@ jobs:
         env:
           ORAN_SKIP_CATALOG: "1"
         run: |
-          python scripts/01_normalize_manifest.py
+          python scripts/01_normalize_manifest.py --in manifests/raw/manifest.live.json
           python scripts/update_from_portal.py manifests/raw/manifest.live.json
 
       - name: Upload artifacts
